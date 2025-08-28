@@ -7,10 +7,10 @@
 #     https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 
-BOT_NAME = "meu_projeto"
+BOT_NAME = "pokescraper"
 
-SPIDER_MODULES = ["meu_projeto.spiders"]
-NEWSPIDER_MODULE = "meu_projeto.spiders"
+SPIDER_MODULES = ["spiders"]
+NEWSPIDER_MODULE = "spiders"
 
 ADDONS = {}
 
