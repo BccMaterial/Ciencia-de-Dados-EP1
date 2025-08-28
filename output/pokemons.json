@@ -1,0 +1,710 @@
+[
+    {
+        "id": 1,
+        "name": "Bulbasaur",
+        "height_cm": 70.0,
+        "weight_kg": 6.9
+    },
+    {
+        "id": 59,
+        "name": "Arcanine",
+        "height_cm": 190.0,
+        "weight_kg": 155.0
+    },
+    {
+        "id": 58,
+        "name": "Growlithe",
+        "height_cm": 70.0,
+        "weight_kg": 19.0
+    },
+    {
+        "id": 57,
+        "name": "Primeape",
+        "height_cm": 100.0,
+        "weight_kg": 32.0
+    },
+    {
+        "id": 56,
+        "name": "Mankey",
+        "height_cm": 50.0,
+        "weight_kg": 28.0
+    },
+    {
+        "id": 55,
+        "name": "Golduck",
+        "height_cm": 170.0,
+        "weight_kg": 76.6
+    },
+    {
+        "id": 54,
+        "name": "Psyduck",
+        "height_cm": 80.0,
+        "weight_kg": 19.6
+    },
+    {
+        "id": 53,
+        "name": "Persian",
+        "height_cm": 100.0,
+        "weight_kg": 32.0
+    },
+    {
+        "id": 52,
+        "name": "Meowth",
+        "height_cm": 40.0,
+        "weight_kg": 4.2
+    },
+    {
+        "id": 51,
+        "name": "Dugtrio",
+        "height_cm": 70.0,
+        "weight_kg": 33.3
+    },
+    {
+        "id": 50,
+        "name": "Diglett",
+        "height_cm": 20.0,
+        "weight_kg": 0.8
+    },
+    {
+        "id": 49,
+        "name": "Venomoth",
+        "height_cm": 150.0,
+        "weight_kg": 12.5
+    },
+    {
+        "id": 48,
+        "name": "Venonat",
+        "height_cm": 100.0,
+        "weight_kg": 30.0
+    },
+    {
+        "id": 47,
+        "name": "Parasect",
+        "height_cm": 100.0,
+        "weight_kg": 29.5
+    },
+    {
+        "id": 46,
+        "name": "Paras",
+        "height_cm": 30.0,
+        "weight_kg": 5.4
+    },
+    {
+        "id": 45,
+        "name": "Vileplume",
+        "height_cm": 120.0,
+        "weight_kg": 18.6
+    },
+    {
+        "id": 1025,
+        "name": "Pecharunt",
+        "height_cm": 30.0,
+        "weight_kg": 0.3
+    },
+    {
+        "id": 1024,
+        "name": "Terapagos",
+        "height_cm": 20.0,
+        "weight_kg": 6.5
+    },
+    {
+        "id": 1023,
+        "name": "Iron Crown",
+        "height_cm": 160.0,
+        "weight_kg": 156.0
+    },
+    {
+        "id": 1022,
+        "name": "Iron Boulder",
+        "height_cm": 150.0,
+        "weight_kg": 162.5
+    },
+    {
+        "id": 1021,
+        "name": "Raging Bolt",
+        "height_cm": 520.0,
+        "weight_kg": 480.0
+    },
+    {
+        "id": 1020,
+        "name": "Gouging Fire",
+        "height_cm": 350.0,
+        "weight_kg": 590.0
+    },
+    {
+        "id": 1019,
+        "name": "Hydrapple",
+        "height_cm": 180.0,
+        "weight_kg": 93.0
+    },
+    {
+        "id": 1018,
+        "name": "Archaludon",
+        "height_cm": 200.0,
+        "weight_kg": 60.0
+    },
+    {
+        "id": 1017,
+        "name": "Ogerpon",
+        "height_cm": 120.0,
+        "weight_kg": 39.8
+    },
+    {
+        "id": 1016,
+        "name": "Fezandipiti",
+        "height_cm": 140.0,
+        "weight_kg": 30.1
+    },
+    {
+        "id": 1015,
+        "name": "Munkidori",
+        "height_cm": 100.0,
+        "weight_kg": 12.2
+    },
+    {
+        "id": 1014,
+        "name": "Okidogi",
+        "height_cm": 180.0,
+        "weight_kg": 92.0
+    },
+    {
+        "id": 1013,
+        "name": "Sinistcha",
+        "height_cm": 20.0,
+        "weight_kg": 2.2
+    },
+    {
+        "id": 1012,
+        "name": "Poltchageist",
+        "height_cm": 10.0,
+        "weight_kg": 1.1
+    },
+    {
+        "id": 1011,
+        "name": "Dipplin",
+        "height_cm": 40.0,
+        "weight_kg": 4.4
+    },
+    {
+        "id": 1010,
+        "name": "Iron Leaves",
+        "height_cm": 150.0,
+        "weight_kg": 125.0
+    },
+    {
+        "id": 1009,
+        "name": "Walking Wake",
+        "height_cm": 350.0,
+        "weight_kg": 280.0
+    },
+    {
+        "id": 1008,
+        "name": "Miraidon",
+        "height_cm": 350.0,
+        "weight_kg": 240.0
+    },
+    {
+        "id": 1007,
+        "name": "Koraidon",
+        "height_cm": 250.0,
+        "weight_kg": 303.0
+    },
+    {
+        "id": 1006,
+        "name": "Iron Valiant",
+        "height_cm": 140.0,
+        "weight_kg": 35.0
+    },
+    {
+        "id": 1005,
+        "name": "Roaring Moon",
+        "height_cm": 200.0,
+        "weight_kg": 380.0
+    },
+    {
+        "id": 1004,
+        "name": "Chi-Yu",
+        "height_cm": 40.0,
+        "weight_kg": 4.9
+    },
+    {
+        "id": 1003,
+        "name": "Ting-Lu",
+        "height_cm": 270.0,
+        "weight_kg": 699.7
+    },
+    {
+        "id": 1002,
+        "name": "Chien-Pao",
+        "height_cm": 190.0,
+        "weight_kg": 152.2
+    },
+    {
+        "id": 1001,
+        "name": "Wo-Chien",
+        "height_cm": 150.0,
+        "weight_kg": 74.2
+    },
+    {
+        "id": 1000,
+        "name": "Gholdengo",
+        "height_cm": 120.0,
+        "weight_kg": 30.0
+    },
+    {
+        "id": 999,
+        "name": "Gimmighoul",
+        "height_cm": 30.0,
+        "weight_kg": 5.0
+    },
+    {
+        "id": 998,
+        "name": "Baxcalibur",
+        "height_cm": 210.0,
+        "weight_kg": 210.0
+    },
+    {
+        "id": 997,
+        "name": "Arctibax",
+        "height_cm": 80.0,
+        "weight_kg": 30.0
+    },
+    {
+        "id": 996,
+        "name": "Frigibax",
+        "height_cm": 50.0,
+        "weight_kg": 17.0
+    },
+    {
+        "id": 995,
+        "name": "Iron Thorns",
+        "height_cm": 160.0,
+        "weight_kg": 303.0
+    },
+    {
+        "id": 994,
+        "name": "Iron Moth",
+        "height_cm": 120.0,
+        "weight_kg": 36.0
+    },
+    {
+        "id": 993,
+        "name": "Iron Jugulis",
+        "height_cm": 130.0,
+        "weight_kg": 111.0
+    },
+    {
+        "id": 992,
+        "name": "Iron Hands",
+        "height_cm": 180.0,
+        "weight_kg": 380.7
+    },
+    {
+        "id": 991,
+        "name": "Iron Bundle",
+        "height_cm": 60.0,
+        "weight_kg": 11.0
+    },
+    {
+        "id": 990,
+        "name": "Iron Treads",
+        "height_cm": 90.0,
+        "weight_kg": 240.0
+    },
+    {
+        "id": 989,
+        "name": "Sandy Shocks",
+        "height_cm": 230.0,
+        "weight_kg": 60.0
+    },
+    {
+        "id": 988,
+        "name": "Slither Wing",
+        "height_cm": 320.0,
+        "weight_kg": 92.0
+    },
+    {
+        "id": 987,
+        "name": "Flutter Mane",
+        "height_cm": 140.0,
+        "weight_kg": 4.0
+    },
+    {
+        "id": 986,
+        "name": "Brute Bonnet",
+        "height_cm": 120.0,
+        "weight_kg": 21.0
+    },
+    {
+        "id": 985,
+        "name": "Scream Tail",
+        "height_cm": 120.0,
+        "weight_kg": 8.0
+    },
+    {
+        "id": 984,
+        "name": "Great Tusk",
+        "height_cm": 220.0,
+        "weight_kg": 320.0
+    },
+    {
+        "id": 983,
+        "name": "Kingambit",
+        "height_cm": 200.0,
+        "weight_kg": 120.0
+    },
+    {
+        "id": 982,
+        "name": "Dudunsparce",
+        "height_cm": 360.0,
+        "weight_kg": 39.2
+    },
+    {
+        "id": 981,
+        "name": "Farigiraf",
+        "height_cm": 320.0,
+        "weight_kg": 160.0
+    },
+    {
+        "id": 980,
+        "name": "Clodsire",
+        "height_cm": 180.0,
+        "weight_kg": 223.0
+    },
+    {
+        "id": 979,
+        "name": "Annihilape",
+        "height_cm": 120.0,
+        "weight_kg": 56.0
+    },
+    {
+        "id": 978,
+        "name": "Tatsugiri",
+        "height_cm": 30.0,
+        "weight_kg": 8.0
+    },
+    {
+        "id": 977,
+        "name": "Dondozo",
+        "height_cm": 1200.0,
+        "weight_kg": 220.0
+    },
+    {
+        "id": 976,
+        "name": "Veluza",
+        "height_cm": 250.0,
+        "weight_kg": 90.0
+    },
+    {
+        "id": 975,
+        "name": "Cetitan",
+        "height_cm": 450.0,
+        "weight_kg": 700.0
+    },
+    {
+        "id": 974,
+        "name": "Cetoddle",
+        "height_cm": 120.0,
+        "weight_kg": 45.0
+    },
+    {
+        "id": 973,
+        "name": "Flamigo",
+        "height_cm": 160.0,
+        "weight_kg": 37.0
+    },
+    {
+        "id": 972,
+        "name": "Houndstone",
+        "height_cm": 200.0,
+        "weight_kg": 15.0
+    },
+    {
+        "id": 971,
+        "name": "Greavard",
+        "height_cm": 60.0,
+        "weight_kg": 35.0
+    },
+    {
+        "id": 970,
+        "name": "Glimmora",
+        "height_cm": 150.0,
+        "weight_kg": 45.0
+    },
+    {
+        "id": 969,
+        "name": "Glimmet",
+        "height_cm": 70.0,
+        "weight_kg": 8.0
+    },
+    {
+        "id": 968,
+        "name": "Orthworm",
+        "height_cm": 250.0,
+        "weight_kg": 310.0
+    },
+    {
+        "id": 967,
+        "name": "Cyclizar",
+        "height_cm": 160.0,
+        "weight_kg": 63.0
+    },
+    {
+        "id": 966,
+        "name": "Revavroom",
+        "height_cm": 180.0,
+        "weight_kg": 120.0
+    },
+    {
+        "id": 965,
+        "name": "Varoom",
+        "height_cm": 100.0,
+        "weight_kg": 35.0
+    },
+    {
+        "id": 964,
+        "name": "Palafin",
+        "height_cm": 130.0,
+        "weight_kg": 60.2
+    },
+    {
+        "id": 963,
+        "name": "Finizen",
+        "height_cm": 130.0,
+        "weight_kg": 60.2
+    },
+    {
+        "id": 962,
+        "name": "Bombirdier",
+        "height_cm": 150.0,
+        "weight_kg": 42.9
+    },
+    {
+        "id": 961,
+        "name": "Wugtrio",
+        "height_cm": 120.0,
+        "weight_kg": 5.4
+    },
+    {
+        "id": 960,
+        "name": "Wiglett",
+        "height_cm": 120.0,
+        "weight_kg": 1.8
+    },
+    {
+        "id": 959,
+        "name": "Tinkaton",
+        "height_cm": 70.0,
+        "weight_kg": 112.8
+    },
+    {
+        "id": 958,
+        "name": "Tinkatuff",
+        "height_cm": 70.0,
+        "weight_kg": 59.1
+    },
+    {
+        "id": 957,
+        "name": "Tinkatink",
+        "height_cm": 40.0,
+        "weight_kg": 8.9
+    },
+    {
+        "id": 956,
+        "name": "Espathra",
+        "height_cm": 190.0,
+        "weight_kg": 90.0
+    },
+    {
+        "id": 955,
+        "name": "Flittle",
+        "height_cm": 20.0,
+        "weight_kg": 1.5
+    },
+    {
+        "id": 954,
+        "name": "Rabsca",
+        "height_cm": 30.0,
+        "weight_kg": 3.5
+    },
+    {
+        "id": 953,
+        "name": "Rellor",
+        "height_cm": 20.0,
+        "weight_kg": 1.0
+    },
+    {
+        "id": 952,
+        "name": "Scovillain",
+        "height_cm": 90.0,
+        "weight_kg": 15.0
+    },
+    {
+        "id": 951,
+        "name": "Capsakid",
+        "height_cm": 30.0,
+        "weight_kg": 3.0
+    },
+    {
+        "id": 950,
+        "name": "Klawf",
+        "height_cm": 130.0,
+        "weight_kg": 79.0
+    },
+    {
+        "id": 949,
+        "name": "Toedscruel",
+        "height_cm": 190.0,
+        "weight_kg": 58.0
+    },
+    {
+        "id": 948,
+        "name": "Toedscool",
+        "height_cm": 90.0,
+        "weight_kg": 33.0
+    },
+    {
+        "id": 947,
+        "name": "Brambleghast",
+        "height_cm": 120.0,
+        "weight_kg": 6.0
+    },
+    {
+        "id": 946,
+        "name": "Bramblin",
+        "height_cm": 60.0,
+        "weight_kg": 0.6
+    },
+    {
+        "id": 945,
+        "name": "Grafaiai",
+        "height_cm": 70.0,
+        "weight_kg": 27.2
+    },
+    {
+        "id": 944,
+        "name": "Shroodle",
+        "height_cm": 20.0,
+        "weight_kg": 0.7
+    },
+    {
+        "id": 943,
+        "name": "Mabosstiff",
+        "height_cm": 110.0,
+        "weight_kg": 61.0
+    },
+    {
+        "id": 942,
+        "name": "Maschiff",
+        "height_cm": 50.0,
+        "weight_kg": 16.0
+    },
+    {
+        "id": 941,
+        "name": "Kilowattrel",
+        "height_cm": 140.0,
+        "weight_kg": 38.6
+    },
+    {
+        "id": 940,
+        "name": "Wattrel",
+        "height_cm": 40.0,
+        "weight_kg": 3.6
+    },
+    {
+        "id": 939,
+        "name": "Bellibolt",
+        "height_cm": 120.0,
+        "weight_kg": 113.0
+    },
+    {
+        "id": 938,
+        "name": "Tadbulb",
+        "height_cm": 30.0,
+        "weight_kg": 0.4
+    },
+    {
+        "id": 937,
+        "name": "Ceruledge",
+        "height_cm": 160.0,
+        "weight_kg": 62.0
+    },
+    {
+        "id": 936,
+        "name": "Armarouge",
+        "height_cm": 150.0,
+        "weight_kg": 85.0
+    },
+    {
+        "id": 935,
+        "name": "Charcadet",
+        "height_cm": 60.0,
+        "weight_kg": 10.5
+    },
+    {
+        "id": 934,
+        "name": "Garganacl",
+        "height_cm": 230.0,
+        "weight_kg": 240.0
+    },
+    {
+        "id": 933,
+        "name": "Naclstack",
+        "height_cm": 60.0,
+        "weight_kg": 105.0
+    },
+    {
+        "id": 932,
+        "name": "Nacli",
+        "height_cm": 40.0,
+        "weight_kg": 16.0
+    },
+    {
+        "id": 931,
+        "name": "Squawkabilly",
+        "height_cm": 60.0,
+        "weight_kg": 2.4
+    },
+    {
+        "id": 930,
+        "name": "Arboliva",
+        "height_cm": 140.0,
+        "weight_kg": 48.2
+    },
+    {
+        "id": 929,
+        "name": "Dolliv",
+        "height_cm": 60.0,
+        "weight_kg": 11.9
+    },
+    {
+        "id": 928,
+        "name": "Smoliv",
+        "height_cm": 30.0,
+        "weight_kg": 6.5
+    },
+    {
+        "id": 927,
+        "name": "Dachsbun",
+        "height_cm": 50.0,
+        "weight_kg": 14.9
+    },
+    {
+        "id": 926,
+        "name": "Fidough",
+        "height_cm": 30.0,
+        "weight_kg": 10.9
+    },
+    {
+        "id": 925,
+        "name": "Maushold",
+        "height_cm": 30.0,
+        "weight_kg": 2.8
+    },
+    {
+        "id": 924,
+        "name": "Tandemaus",
+        "height_cm": 30.0,
+        "weight_kg": 1.8
+    }
+]

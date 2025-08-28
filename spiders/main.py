@@ -1,4 +1,16 @@
 import scrapy
+import re
+
+# Data to get:
+# ID x
+# URL
+# Name x
+# Evolutions
+# Size in cm x
+# Weight in kg x
+# Types
+# Abilities
+# Effectivity
 
 class PokeSpider(scrapy.Spider):
     name = 'pokespider'
@@ -14,11 +26,18 @@ class PokeSpider(scrapy.Spider):
     def parser_pokemon(self, response):
         pokemon_name = response.css("#main > h1::text").get()
 
-        abilities = response.css("table.vitals-table tr:contains('Abilities') td a::text").getall()
-        abilities_description = response.css("div.grid-row > div:nth-child(1) > p::text").getall()
+        pokemon_id = response.css("table:nth-child(2) tr:nth-child(1) td strong::text").get()
+
+        pokemon_height = response.css("table:nth-child(2) tr:nth-child(4) td::text").get()
+        pokemon_height = float(re.search(r'\d+\.\d+', pokemon_height).group(0)) * 100
+
+        pokemon_weight = response.css("table:nth-child(2) tr:nth-child(5) td::text").get()
+        pokemon_weight = float(re.search(r'\d+\.\d+', pokemon_weight).group(0))
+
 
         yield {
-            "pokemon": pokemon_name,
-            "habilidades": abilities,
-            "desc_habilidades": abilities_description
+            "id": int(pokemon_id),
+            "name": pokemon_name,
+            "height_cm": round(pokemon_height, 2),
+            "weight_kg": round(pokemon_weight, 2),
         }
