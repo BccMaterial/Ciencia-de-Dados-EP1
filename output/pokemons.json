@@ -1,710 +1,5213 @@
 [
     {
         "id": 1,
+        "variant": 0,
         "name": "Bulbasaur",
+        "types": [
+            "/egg-group/grass",
+            "/egg-group/monster"
+        ],
         "height_cm": 70.0,
-        "weight_kg": 6.9
+        "weight_kg": 6.9,
+        "effectiveness": {
+            "/type/normal": 1.0,
+            "/type/fire": 2.0,
+            "/type/water": 0.5,
+            "/type/electric": 0.5,
+            "/type/grass": 0.25,
+            "/type/ice": 2.0,
+            "/type/fighting": 0.5,
+            "/type/poison": 1.0,
+            "/type/ground": 1.0,
+            "/type/flying": 2.0,
+            "/type/psychic": 2.0,
+            "/type/bug": 1.0,
+            "/type/rock": 1.0,
+            "/type/ghost": 1.0,
+            "/type/dragon": 1.0,
+            "/type/dark": 1.0,
+            "/type/steel": 1.0,
+            "/type/fairy": 0.5
+        },
+        "url": "https://pokemondb.net/pokedex/bulbasaur",
+        "abilities": [
+            "/ability/overgrow",
+            "/ability/chlorophyll"
+        ]
+    },
+    {
+        "id": 62,
+        "variant": 0,
+        "name": "Poliwrath",
+        "types": [
+            "/egg-group/water-1"
+        ],
+        "height_cm": 130.0,
+        "weight_kg": 54.0,
+        "effectiveness": {
+            "/type/normal": 1.0,
+            "/type/fire": 0.5,
+            "/type/water": 0.5,
+            "/type/electric": 2.0,
+            "/type/grass": 2.0,
+            "/type/ice": 0.5,
+            "/type/fighting": 1.0,
+            "/type/poison": 1.0,
+            "/type/ground": 1.0,
+            "/type/flying": 2.0,
+            "/type/psychic": 2.0,
+            "/type/bug": 0.5,
+            "/type/rock": 0.5,
+            "/type/ghost": 1.0,
+            "/type/dragon": 1.0,
+            "/type/dark": 0.5,
+            "/type/steel": 0.5,
+            "/type/fairy": 2.0
+        },
+        "url": "https://pokemondb.net/pokedex/poliwrath",
+        "abilities": [
+            "/ability/water-absorb",
+            "/ability/damp",
+            "/ability/swift-swim"
+        ]
+    },
+    {
+        "id": 61,
+        "variant": 0,
+        "name": "Poliwhirl",
+        "types": [
+            "/egg-group/water-1"
+        ],
+        "height_cm": 100.0,
+        "weight_kg": 20.0,
+        "effectiveness": {
+            "/type/normal": 1.0,
+            "/type/fire": 0.5,
+            "/type/water": 0.5,
+            "/type/electric": 2.0,
+            "/type/grass": 2.0,
+            "/type/ice": 0.5,
+            "/type/fighting": 1.0,
+            "/type/poison": 1.0,
+            "/type/ground": 1.0,
+            "/type/flying": 1.0,
+            "/type/psychic": 1.0,
+            "/type/bug": 1.0,
+            "/type/rock": 1.0,
+            "/type/ghost": 1.0,
+            "/type/dragon": 1.0,
+            "/type/dark": 1.0,
+            "/type/steel": 0.5,
+            "/type/fairy": 1.0
+        },
+        "url": "https://pokemondb.net/pokedex/poliwhirl",
+        "abilities": [
+            "/ability/water-absorb",
+            "/ability/damp",
+            "/ability/swift-swim"
+        ]
+    },
+    {
+        "id": 60,
+        "variant": 0,
+        "name": "Poliwag",
+        "types": [
+            "/egg-group/water-1"
+        ],
+        "height_cm": 60.0,
+        "weight_kg": 12.4,
+        "effectiveness": {
+            "/type/normal": 1.0,
+            "/type/fire": 0.5,
+            "/type/water": 0.5,
+            "/type/electric": 2.0,
+            "/type/grass": 2.0,
+            "/type/ice": 0.5,
+            "/type/fighting": 1.0,
+            "/type/poison": 1.0,
+            "/type/ground": 1.0,
+            "/type/flying": 1.0,
+            "/type/psychic": 1.0,
+            "/type/bug": 1.0,
+            "/type/rock": 1.0,
+            "/type/ghost": 1.0,
+            "/type/dragon": 1.0,
+            "/type/dark": 1.0,
+            "/type/steel": 0.5,
+            "/type/fairy": 1.0
+        },
+        "url": "https://pokemondb.net/pokedex/poliwag",
+        "abilities": [
+            "/ability/water-absorb",
+            "/ability/damp",
+            "/ability/swift-swim"
+        ]
     },
     {
         "id": 59,
+        "variant": 0,
         "name": "Arcanine",
+        "types": [
+            "/egg-group/field",
+            "/egg-group/field"
+        ],
         "height_cm": 190.0,
-        "weight_kg": 155.0
+        "weight_kg": 155.0,
+        "effectiveness": {
+            "/type/normal": 0.5,
+            "/type/fire": 0.25,
+            "/type/water": 4.0,
+            "/type/electric": 1.0,
+            "/type/grass": 1.0,
+            "/type/ice": 0.5,
+            "/type/fighting": 2.0,
+            "/type/poison": 0.5,
+            "/type/ground": 4.0,
+            "/type/flying": 0.5,
+            "/type/psychic": 1.0,
+            "/type/bug": 0.5,
+            "/type/rock": 2.0,
+            "/type/ghost": 1.0,
+            "/type/dragon": 1.0,
+            "/type/dark": 1.0,
+            "/type/steel": 1.0,
+            "/type/fairy": 0.5
+        },
+        "url": "https://pokemondb.net/pokedex/arcanine",
+        "abilities": [
+            "/ability/intimidate",
+            "/ability/flash-fire",
+            "/ability/justified",
+            "/ability/intimidate",
+            "/ability/flash-fire",
+            "/ability/rock-head"
+        ]
     },
     {
         "id": 58,
+        "variant": 0,
         "name": "Growlithe",
+        "types": [
+            "/egg-group/field",
+            "/egg-group/field"
+        ],
         "height_cm": 70.0,
-        "weight_kg": 19.0
+        "weight_kg": 19.0,
+        "effectiveness": {
+            "/type/normal": 0.5,
+            "/type/fire": 0.25,
+            "/type/water": 4.0,
+            "/type/electric": 1.0,
+            "/type/grass": 1.0,
+            "/type/ice": 0.5,
+            "/type/fighting": 2.0,
+            "/type/poison": 0.5,
+            "/type/ground": 4.0,
+            "/type/flying": 0.5,
+            "/type/psychic": 1.0,
+            "/type/bug": 0.5,
+            "/type/rock": 2.0,
+            "/type/ghost": 1.0,
+            "/type/dragon": 1.0,
+            "/type/dark": 1.0,
+            "/type/steel": 1.0,
+            "/type/fairy": 0.5
+        },
+        "url": "https://pokemondb.net/pokedex/growlithe",
+        "abilities": [
+            "/ability/intimidate",
+            "/ability/flash-fire",
+            "/ability/justified",
+            "/ability/intimidate",
+            "/ability/flash-fire",
+            "/ability/rock-head"
+        ]
     },
     {
         "id": 57,
+        "variant": 0,
         "name": "Primeape",
+        "types": [
+            "/egg-group/field"
+        ],
         "height_cm": 100.0,
-        "weight_kg": 32.0
+        "weight_kg": 32.0,
+        "effectiveness": {
+            "/type/normal": 1.0,
+            "/type/fire": 1.0,
+            "/type/water": 1.0,
+            "/type/electric": 1.0,
+            "/type/grass": 1.0,
+            "/type/ice": 1.0,
+            "/type/fighting": 1.0,
+            "/type/poison": 1.0,
+            "/type/ground": 1.0,
+            "/type/flying": 2.0,
+            "/type/psychic": 2.0,
+            "/type/bug": 0.5,
+            "/type/rock": 0.5,
+            "/type/ghost": 1.0,
+            "/type/dragon": 1.0,
+            "/type/dark": 0.5,
+            "/type/steel": 1.0,
+            "/type/fairy": 2.0
+        },
+        "url": "https://pokemondb.net/pokedex/primeape",
+        "abilities": [
+            "/ability/vital-spirit",
+            "/ability/anger-point",
+            "/ability/defiant"
+        ]
     },
     {
         "id": 56,
+        "variant": 0,
         "name": "Mankey",
+        "types": [
+            "/egg-group/field"
+        ],
         "height_cm": 50.0,
-        "weight_kg": 28.0
+        "weight_kg": 28.0,
+        "effectiveness": {
+            "/type/normal": 1.0,
+            "/type/fire": 1.0,
+            "/type/water": 1.0,
+            "/type/electric": 1.0,
+            "/type/grass": 1.0,
+            "/type/ice": 1.0,
+            "/type/fighting": 1.0,
+            "/type/poison": 1.0,
+            "/type/ground": 1.0,
+            "/type/flying": 2.0,
+            "/type/psychic": 2.0,
+            "/type/bug": 0.5,
+            "/type/rock": 0.5,
+            "/type/ghost": 1.0,
+            "/type/dragon": 1.0,
+            "/type/dark": 0.5,
+            "/type/steel": 1.0,
+            "/type/fairy": 2.0
+        },
+        "url": "https://pokemondb.net/pokedex/mankey",
+        "abilities": [
+            "/ability/vital-spirit",
+            "/ability/anger-point",
+            "/ability/defiant"
+        ]
     },
     {
         "id": 55,
+        "variant": 0,
         "name": "Golduck",
+        "types": [
+            "/egg-group/field",
+            "/egg-group/water-1"
+        ],
         "height_cm": 170.0,
-        "weight_kg": 76.6
+        "weight_kg": 76.6,
+        "effectiveness": {
+            "/type/normal": 1.0,
+            "/type/fire": 0.5,
+            "/type/water": 0.5,
+            "/type/electric": 2.0,
+            "/type/grass": 2.0,
+            "/type/ice": 0.5,
+            "/type/fighting": 1.0,
+            "/type/poison": 1.0,
+            "/type/ground": 1.0,
+            "/type/flying": 1.0,
+            "/type/psychic": 1.0,
+            "/type/bug": 1.0,
+            "/type/rock": 1.0,
+            "/type/ghost": 1.0,
+            "/type/dragon": 1.0,
+            "/type/dark": 1.0,
+            "/type/steel": 0.5,
+            "/type/fairy": 1.0
+        },
+        "url": "https://pokemondb.net/pokedex/golduck",
+        "abilities": [
+            "/ability/damp",
+            "/ability/cloud-nine",
+            "/ability/swift-swim"
+        ]
     },
     {
         "id": 54,
+        "variant": 0,
         "name": "Psyduck",
+        "types": [
+            "/egg-group/field",
+            "/egg-group/water-1"
+        ],
         "height_cm": 80.0,
-        "weight_kg": 19.6
+        "weight_kg": 19.6,
+        "effectiveness": {
+            "/type/normal": 1.0,
+            "/type/fire": 0.5,
+            "/type/water": 0.5,
+            "/type/electric": 2.0,
+            "/type/grass": 2.0,
+            "/type/ice": 0.5,
+            "/type/fighting": 1.0,
+            "/type/poison": 1.0,
+            "/type/ground": 1.0,
+            "/type/flying": 1.0,
+            "/type/psychic": 1.0,
+            "/type/bug": 1.0,
+            "/type/rock": 1.0,
+            "/type/ghost": 1.0,
+            "/type/dragon": 1.0,
+            "/type/dark": 1.0,
+            "/type/steel": 0.5,
+            "/type/fairy": 1.0
+        },
+        "url": "https://pokemondb.net/pokedex/psyduck",
+        "abilities": [
+            "/ability/damp",
+            "/ability/cloud-nine",
+            "/ability/swift-swim"
+        ]
     },
     {
         "id": 53,
+        "variant": 0,
         "name": "Persian",
+        "types": [
+            "/egg-group/field",
+            "/egg-group/field"
+        ],
         "height_cm": 100.0,
-        "weight_kg": 32.0
+        "weight_kg": 32.0,
+        "effectiveness": {
+            "/type/normal": 1.0,
+            "/type/fire": 1.0,
+            "/type/water": 1.0,
+            "/type/electric": 1.0,
+            "/type/grass": 1.0,
+            "/type/ice": 1.0,
+            "/type/fighting": 2.0,
+            "/type/poison": 1.0,
+            "/type/ground": 1.0,
+            "/type/flying": 1.0,
+            "/type/psychic": 0.0,
+            "/type/bug": 2.0,
+            "/type/rock": 1.0,
+            "/type/ghost": 0.5,
+            "/type/dragon": 1.0,
+            "/type/dark": 0.5,
+            "/type/steel": 1.0,
+            "/type/fairy": 2.0
+        },
+        "url": "https://pokemondb.net/pokedex/persian",
+        "abilities": [
+            "/ability/limber",
+            "/ability/technician",
+            "/ability/unnerve",
+            "/ability/fur-coat",
+            "/ability/technician",
+            "/ability/rattled"
+        ]
     },
     {
         "id": 52,
+        "variant": 0,
         "name": "Meowth",
+        "types": [
+            "/egg-group/field",
+            "/egg-group/field",
+            "/egg-group/field"
+        ],
         "height_cm": 40.0,
-        "weight_kg": 4.2
+        "weight_kg": 4.2,
+        "effectiveness": {
+            "/type/normal": 0.5,
+            "/type/fire": 2.0,
+            "/type/water": 1.0,
+            "/type/electric": 1.0,
+            "/type/grass": 0.5,
+            "/type/ice": 0.5,
+            "/type/fighting": 2.0,
+            "/type/poison": 0.0,
+            "/type/ground": 2.0,
+            "/type/flying": 0.5,
+            "/type/psychic": 0.5,
+            "/type/bug": 0.5,
+            "/type/rock": 0.5,
+            "/type/ghost": 1.0,
+            "/type/dragon": 0.5,
+            "/type/dark": 1.0,
+            "/type/steel": 0.5,
+            "/type/fairy": 0.5
+        },
+        "url": "https://pokemondb.net/pokedex/meowth",
+        "abilities": [
+            "/ability/pickup",
+            "/ability/technician",
+            "/ability/unnerve",
+            "/ability/pickup",
+            "/ability/technician",
+            "/ability/rattled",
+            "/ability/pickup",
+            "/ability/tough-claws",
+            "/ability/unnerve"
+        ]
     },
     {
         "id": 51,
+        "variant": 0,
         "name": "Dugtrio",
+        "types": [
+            "/egg-group/field",
+            "/egg-group/field"
+        ],
         "height_cm": 70.0,
-        "weight_kg": 33.3
+        "weight_kg": 33.3,
+        "effectiveness": {
+            "/type/normal": 0.5,
+            "/type/fire": 2.0,
+            "/type/water": 2.0,
+            "/type/electric": 0.0,
+            "/type/grass": 1.0,
+            "/type/ice": 1.0,
+            "/type/fighting": 2.0,
+            "/type/poison": 0.0,
+            "/type/ground": 2.0,
+            "/type/flying": 0.5,
+            "/type/psychic": 0.5,
+            "/type/bug": 0.5,
+            "/type/rock": 0.25,
+            "/type/ghost": 1.0,
+            "/type/dragon": 0.5,
+            "/type/dark": 1.0,
+            "/type/steel": 0.5,
+            "/type/fairy": 0.5
+        },
+        "url": "https://pokemondb.net/pokedex/dugtrio",
+        "abilities": [
+            "/ability/sand-veil",
+            "/ability/arena-trap",
+            "/ability/sand-force",
+            "/ability/sand-veil",
+            "/ability/tangling-hair",
+            "/ability/sand-force"
+        ]
     },
     {
         "id": 50,
+        "variant": 0,
         "name": "Diglett",
+        "types": [
+            "/egg-group/field",
+            "/egg-group/field"
+        ],
         "height_cm": 20.0,
-        "weight_kg": 0.8
+        "weight_kg": 0.8,
+        "effectiveness": {
+            "/type/normal": 0.5,
+            "/type/fire": 2.0,
+            "/type/water": 2.0,
+            "/type/electric": 0.0,
+            "/type/grass": 1.0,
+            "/type/ice": 1.0,
+            "/type/fighting": 2.0,
+            "/type/poison": 0.0,
+            "/type/ground": 2.0,
+            "/type/flying": 0.5,
+            "/type/psychic": 0.5,
+            "/type/bug": 0.5,
+            "/type/rock": 0.25,
+            "/type/ghost": 1.0,
+            "/type/dragon": 0.5,
+            "/type/dark": 1.0,
+            "/type/steel": 0.5,
+            "/type/fairy": 0.5
+        },
+        "url": "https://pokemondb.net/pokedex/diglett",
+        "abilities": [
+            "/ability/sand-veil",
+            "/ability/arena-trap",
+            "/ability/sand-force",
+            "/ability/sand-veil",
+            "/ability/tangling-hair",
+            "/ability/sand-force"
+        ]
     },
     {
         "id": 49,
+        "variant": 0,
         "name": "Venomoth",
+        "types": [
+            "/egg-group/bug"
+        ],
         "height_cm": 150.0,
-        "weight_kg": 12.5
+        "weight_kg": 12.5,
+        "effectiveness": {
+            "/type/normal": 1.0,
+            "/type/fire": 2.0,
+            "/type/water": 1.0,
+            "/type/electric": 1.0,
+            "/type/grass": 0.25,
+            "/type/ice": 1.0,
+            "/type/fighting": 0.25,
+            "/type/poison": 0.5,
+            "/type/ground": 1.0,
+            "/type/flying": 2.0,
+            "/type/psychic": 2.0,
+            "/type/bug": 0.5,
+            "/type/rock": 2.0,
+            "/type/ghost": 1.0,
+            "/type/dragon": 1.0,
+            "/type/dark": 1.0,
+            "/type/steel": 1.0,
+            "/type/fairy": 0.5
+        },
+        "url": "https://pokemondb.net/pokedex/venomoth",
+        "abilities": [
+            "/ability/shield-dust",
+            "/ability/tinted-lens",
+            "/ability/wonder-skin"
+        ]
     },
     {
         "id": 48,
+        "variant": 0,
         "name": "Venonat",
+        "types": [
+            "/egg-group/bug"
+        ],
         "height_cm": 100.0,
-        "weight_kg": 30.0
-    },
-    {
-        "id": 47,
-        "name": "Parasect",
-        "height_cm": 100.0,
-        "weight_kg": 29.5
-    },
-    {
-        "id": 46,
-        "name": "Paras",
-        "height_cm": 30.0,
-        "weight_kg": 5.4
-    },
-    {
-        "id": 45,
-        "name": "Vileplume",
-        "height_cm": 120.0,
-        "weight_kg": 18.6
+        "weight_kg": 30.0,
+        "effectiveness": {
+            "/type/normal": 1.0,
+            "/type/fire": 2.0,
+            "/type/water": 1.0,
+            "/type/electric": 1.0,
+            "/type/grass": 0.25,
+            "/type/ice": 1.0,
+            "/type/fighting": 0.25,
+            "/type/poison": 0.5,
+            "/type/ground": 1.0,
+            "/type/flying": 2.0,
+            "/type/psychic": 2.0,
+            "/type/bug": 0.5,
+            "/type/rock": 2.0,
+            "/type/ghost": 1.0,
+            "/type/dragon": 1.0,
+            "/type/dark": 1.0,
+            "/type/steel": 1.0,
+            "/type/fairy": 0.5
+        },
+        "url": "https://pokemondb.net/pokedex/venonat",
+        "abilities": [
+            "/ability/compound-eyes",
+            "/ability/tinted-lens",
+            "/ability/run-away"
+        ]
     },
     {
         "id": 1025,
+        "variant": 0,
         "name": "Pecharunt",
+        "types": [
+            "/egg-group/undiscovered"
+        ],
         "height_cm": 30.0,
-        "weight_kg": 0.3
+        "weight_kg": 0.3,
+        "effectiveness": {
+            "/type/normal": 0.0,
+            "/type/fire": 1.0,
+            "/type/water": 1.0,
+            "/type/electric": 1.0,
+            "/type/grass": 0.5,
+            "/type/ice": 1.0,
+            "/type/fighting": 0.0,
+            "/type/poison": 0.25,
+            "/type/ground": 2.0,
+            "/type/flying": 1.0,
+            "/type/psychic": 2.0,
+            "/type/bug": 0.25,
+            "/type/rock": 1.0,
+            "/type/ghost": 2.0,
+            "/type/dragon": 1.0,
+            "/type/dark": 2.0,
+            "/type/steel": 1.0,
+            "/type/fairy": 0.5
+        },
+        "url": "https://pokemondb.net/pokedex/pecharunt",
+        "abilities": [
+            "/ability/poison-puppeteer"
+        ]
     },
     {
         "id": 1024,
+        "variant": 0,
         "name": "Terapagos",
+        "types": [
+            "/egg-group/undiscovered",
+            "/egg-group/undiscovered",
+            "/egg-group/undiscovered"
+        ],
         "height_cm": 20.0,
-        "weight_kg": 6.5
+        "weight_kg": 6.5,
+        "effectiveness": {
+            "/type/normal": 1.0,
+            "/type/fire": 1.0,
+            "/type/water": 1.0,
+            "/type/electric": 1.0,
+            "/type/grass": 1.0,
+            "/type/ice": 1.0,
+            "/type/fighting": 2.0,
+            "/type/poison": 1.0,
+            "/type/ground": 1.0,
+            "/type/flying": 1.0,
+            "/type/psychic": 1.0,
+            "/type/bug": 1.0,
+            "/type/rock": 1.0,
+            "/type/ghost": 0.0,
+            "/type/dragon": 1.0,
+            "/type/dark": 1.0,
+            "/type/steel": 1.0,
+            "/type/fairy": 1.0
+        },
+        "url": "https://pokemondb.net/pokedex/terapagos",
+        "abilities": [
+            "/ability/tera-shift",
+            "/ability/tera-shell",
+            "/ability/teraform-zero"
+        ]
     },
     {
         "id": 1023,
+        "variant": 0,
         "name": "Iron Crown",
+        "types": [
+            "/egg-group/undiscovered"
+        ],
         "height_cm": 160.0,
-        "weight_kg": 156.0
+        "weight_kg": 156.0,
+        "effectiveness": {
+            "/type/normal": 0.5,
+            "/type/fire": 2.0,
+            "/type/water": 1.0,
+            "/type/electric": 1.0,
+            "/type/grass": 0.5,
+            "/type/ice": 0.5,
+            "/type/fighting": 1.0,
+            "/type/poison": 0.0,
+            "/type/ground": 2.0,
+            "/type/flying": 0.5,
+            "/type/psychic": 0.25,
+            "/type/bug": 1.0,
+            "/type/rock": 0.5,
+            "/type/ghost": 2.0,
+            "/type/dragon": 0.5,
+            "/type/dark": 2.0,
+            "/type/steel": 0.5,
+            "/type/fairy": 0.5
+        },
+        "url": "https://pokemondb.net/pokedex/iron-crown",
+        "abilities": [
+            "/ability/quark-drive"
+        ]
     },
     {
         "id": 1022,
+        "variant": 0,
         "name": "Iron Boulder",
+        "types": [
+            "/egg-group/undiscovered"
+        ],
         "height_cm": 150.0,
-        "weight_kg": 162.5
+        "weight_kg": 162.5,
+        "effectiveness": {
+            "/type/normal": 0.5,
+            "/type/fire": 0.5,
+            "/type/water": 2.0,
+            "/type/electric": 1.0,
+            "/type/grass": 2.0,
+            "/type/ice": 1.0,
+            "/type/fighting": 1.0,
+            "/type/poison": 0.5,
+            "/type/ground": 2.0,
+            "/type/flying": 0.5,
+            "/type/psychic": 0.5,
+            "/type/bug": 2.0,
+            "/type/rock": 1.0,
+            "/type/ghost": 2.0,
+            "/type/dragon": 1.0,
+            "/type/dark": 2.0,
+            "/type/steel": 2.0,
+            "/type/fairy": 1.0
+        },
+        "url": "https://pokemondb.net/pokedex/iron-boulder",
+        "abilities": [
+            "/ability/quark-drive"
+        ]
     },
     {
         "id": 1021,
+        "variant": 0,
         "name": "Raging Bolt",
+        "types": [
+            "/egg-group/undiscovered"
+        ],
         "height_cm": 520.0,
-        "weight_kg": 480.0
+        "weight_kg": 480.0,
+        "effectiveness": {
+            "/type/normal": 1.0,
+            "/type/fire": 0.5,
+            "/type/water": 0.5,
+            "/type/electric": 0.25,
+            "/type/grass": 0.5,
+            "/type/ice": 2.0,
+            "/type/fighting": 1.0,
+            "/type/poison": 1.0,
+            "/type/ground": 2.0,
+            "/type/flying": 0.5,
+            "/type/psychic": 1.0,
+            "/type/bug": 1.0,
+            "/type/rock": 1.0,
+            "/type/ghost": 1.0,
+            "/type/dragon": 2.0,
+            "/type/dark": 1.0,
+            "/type/steel": 0.5,
+            "/type/fairy": 2.0
+        },
+        "url": "https://pokemondb.net/pokedex/raging-bolt",
+        "abilities": [
+            "/ability/protosynthesis"
+        ]
     },
     {
         "id": 1020,
+        "variant": 0,
         "name": "Gouging Fire",
+        "types": [
+            "/egg-group/undiscovered"
+        ],
         "height_cm": 350.0,
-        "weight_kg": 590.0
+        "weight_kg": 590.0,
+        "effectiveness": {
+            "/type/normal": 1.0,
+            "/type/fire": 0.25,
+            "/type/water": 1.0,
+            "/type/electric": 0.5,
+            "/type/grass": 0.25,
+            "/type/ice": 1.0,
+            "/type/fighting": 1.0,
+            "/type/poison": 1.0,
+            "/type/ground": 2.0,
+            "/type/flying": 1.0,
+            "/type/psychic": 1.0,
+            "/type/bug": 0.5,
+            "/type/rock": 2.0,
+            "/type/ghost": 1.0,
+            "/type/dragon": 2.0,
+            "/type/dark": 1.0,
+            "/type/steel": 0.5,
+            "/type/fairy": 1.0
+        },
+        "url": "https://pokemondb.net/pokedex/gouging-fire",
+        "abilities": [
+            "/ability/protosynthesis"
+        ]
     },
     {
         "id": 1019,
+        "variant": 0,
         "name": "Hydrapple",
+        "types": [
+            "/egg-group/dragon",
+            "/egg-group/grass"
+        ],
         "height_cm": 180.0,
-        "weight_kg": 93.0
+        "weight_kg": 93.0,
+        "effectiveness": {
+            "/type/normal": 1.0,
+            "/type/fire": 1.0,
+            "/type/water": 0.25,
+            "/type/electric": 0.25,
+            "/type/grass": 0.25,
+            "/type/ice": 4.0,
+            "/type/fighting": 1.0,
+            "/type/poison": 2.0,
+            "/type/ground": 0.5,
+            "/type/flying": 2.0,
+            "/type/psychic": 1.0,
+            "/type/bug": 2.0,
+            "/type/rock": 1.0,
+            "/type/ghost": 1.0,
+            "/type/dragon": 2.0,
+            "/type/dark": 1.0,
+            "/type/steel": 1.0,
+            "/type/fairy": 2.0
+        },
+        "url": "https://pokemondb.net/pokedex/hydrapple",
+        "abilities": [
+            "/ability/supersweet-syrup",
+            "/ability/regenerator",
+            "/ability/sticky-hold"
+        ]
     },
     {
         "id": 1018,
+        "variant": 0,
         "name": "Archaludon",
+        "types": [
+            "/egg-group/dragon",
+            "/egg-group/mineral"
+        ],
         "height_cm": 200.0,
-        "weight_kg": 60.0
+        "weight_kg": 60.0,
+        "effectiveness": {
+            "/type/normal": 0.5,
+            "/type/fire": 1.0,
+            "/type/water": 0.5,
+            "/type/electric": 0.5,
+            "/type/grass": 0.25,
+            "/type/ice": 1.0,
+            "/type/fighting": 2.0,
+            "/type/poison": 0.0,
+            "/type/ground": 2.0,
+            "/type/flying": 0.5,
+            "/type/psychic": 0.5,
+            "/type/bug": 0.5,
+            "/type/rock": 0.5,
+            "/type/ghost": 1.0,
+            "/type/dragon": 1.0,
+            "/type/dark": 1.0,
+            "/type/steel": 0.5,
+            "/type/fairy": 1.0
+        },
+        "url": "https://pokemondb.net/pokedex/archaludon",
+        "abilities": [
+            "/ability/stamina",
+            "/ability/sturdy",
+            "/ability/stalwart"
+        ]
     },
     {
         "id": 1017,
+        "variant": 0,
         "name": "Ogerpon",
+        "types": [
+            "/egg-group/undiscovered",
+            "/egg-group/undiscovered",
+            "/egg-group/undiscovered",
+            "/egg-group/undiscovered"
+        ],
         "height_cm": 120.0,
-        "weight_kg": 39.8
+        "weight_kg": 39.8,
+        "effectiveness": {
+            "/type/normal": 0.5,
+            "/type/fire": 1.0,
+            "/type/water": 1.0,
+            "/type/electric": 0.5,
+            "/type/grass": 1.0,
+            "/type/ice": 2.0,
+            "/type/fighting": 2.0,
+            "/type/poison": 1.0,
+            "/type/ground": 1.0,
+            "/type/flying": 1.0,
+            "/type/psychic": 1.0,
+            "/type/bug": 2.0,
+            "/type/rock": 1.0,
+            "/type/ghost": 1.0,
+            "/type/dragon": 1.0,
+            "/type/dark": 1.0,
+            "/type/steel": 2.0,
+            "/type/fairy": 1.0
+        },
+        "url": "https://pokemondb.net/pokedex/ogerpon",
+        "abilities": [
+            "/ability/defiant",
+            "/ability/embody-aspect",
+            "/ability/water-absorb",
+            "/ability/embody-aspect",
+            "/ability/mold-breaker",
+            "/ability/embody-aspect",
+            "/ability/sturdy",
+            "/ability/embody-aspect"
+        ]
     },
     {
         "id": 1016,
+        "variant": 0,
         "name": "Fezandipiti",
+        "types": [
+            "/egg-group/undiscovered"
+        ],
         "height_cm": 140.0,
-        "weight_kg": 30.1
+        "weight_kg": 30.1,
+        "effectiveness": {
+            "/type/normal": 1.0,
+            "/type/fire": 1.0,
+            "/type/water": 1.0,
+            "/type/electric": 1.0,
+            "/type/grass": 0.5,
+            "/type/ice": 1.0,
+            "/type/fighting": 0.25,
+            "/type/poison": 1.0,
+            "/type/ground": 2.0,
+            "/type/flying": 1.0,
+            "/type/psychic": 2.0,
+            "/type/bug": 0.25,
+            "/type/rock": 1.0,
+            "/type/ghost": 1.0,
+            "/type/dragon": 0.0,
+            "/type/dark": 0.5,
+            "/type/steel": 2.0,
+            "/type/fairy": 0.5
+        },
+        "url": "https://pokemondb.net/pokedex/fezandipiti",
+        "abilities": [
+            "/ability/toxic-chain",
+            "/ability/technician"
+        ]
     },
     {
         "id": 1015,
+        "variant": 0,
         "name": "Munkidori",
+        "types": [
+            "/egg-group/undiscovered"
+        ],
         "height_cm": 100.0,
-        "weight_kg": 12.2
+        "weight_kg": 12.2,
+        "effectiveness": {
+            "/type/normal": 1.0,
+            "/type/fire": 1.0,
+            "/type/water": 1.0,
+            "/type/electric": 1.0,
+            "/type/grass": 0.5,
+            "/type/ice": 1.0,
+            "/type/fighting": 0.25,
+            "/type/poison": 0.5,
+            "/type/ground": 2.0,
+            "/type/flying": 1.0,
+            "/type/psychic": 1.0,
+            "/type/bug": 1.0,
+            "/type/rock": 1.0,
+            "/type/ghost": 2.0,
+            "/type/dragon": 1.0,
+            "/type/dark": 2.0,
+            "/type/steel": 1.0,
+            "/type/fairy": 0.5
+        },
+        "url": "https://pokemondb.net/pokedex/munkidori",
+        "abilities": [
+            "/ability/toxic-chain",
+            "/ability/frisk"
+        ]
     },
     {
         "id": 1014,
+        "variant": 0,
         "name": "Okidogi",
+        "types": [
+            "/egg-group/undiscovered"
+        ],
         "height_cm": 180.0,
-        "weight_kg": 92.0
+        "weight_kg": 92.0,
+        "effectiveness": {
+            "/type/normal": 1.0,
+            "/type/fire": 1.0,
+            "/type/water": 1.0,
+            "/type/electric": 1.0,
+            "/type/grass": 0.5,
+            "/type/ice": 1.0,
+            "/type/fighting": 0.5,
+            "/type/poison": 0.5,
+            "/type/ground": 2.0,
+            "/type/flying": 2.0,
+            "/type/psychic": 4.0,
+            "/type/bug": 0.25,
+            "/type/rock": 0.5,
+            "/type/ghost": 1.0,
+            "/type/dragon": 1.0,
+            "/type/dark": 0.5,
+            "/type/steel": 1.0,
+            "/type/fairy": 1.0
+        },
+        "url": "https://pokemondb.net/pokedex/okidogi",
+        "abilities": [
+            "/ability/toxic-chain",
+            "/ability/guard-dog"
+        ]
     },
     {
         "id": 1013,
+        "variant": 0,
         "name": "Sinistcha",
+        "types": [
+            "/egg-group/amorphous",
+            "/egg-group/mineral"
+        ],
         "height_cm": 20.0,
-        "weight_kg": 2.2
+        "weight_kg": 2.2,
+        "effectiveness": {
+            "/type/normal": 0.0,
+            "/type/fire": 1.0,
+            "/type/water": 0.5,
+            "/type/electric": 0.5,
+            "/type/grass": 0.5,
+            "/type/ice": 2.0,
+            "/type/fighting": 0.0,
+            "/type/poison": 1.0,
+            "/type/ground": 0.5,
+            "/type/flying": 2.0,
+            "/type/psychic": 1.0,
+            "/type/bug": 1.0,
+            "/type/rock": 1.0,
+            "/type/ghost": 2.0,
+            "/type/dragon": 1.0,
+            "/type/dark": 2.0,
+            "/type/steel": 1.0,
+            "/type/fairy": 1.0
+        },
+        "url": "https://pokemondb.net/pokedex/sinistcha",
+        "abilities": [
+            "/ability/hospitality",
+            "/ability/heatproof"
+        ]
     },
     {
         "id": 1012,
+        "variant": 0,
         "name": "Poltchageist",
+        "types": [
+            "/egg-group/amorphous",
+            "/egg-group/mineral"
+        ],
         "height_cm": 10.0,
-        "weight_kg": 1.1
+        "weight_kg": 1.1,
+        "effectiveness": {
+            "/type/normal": 0.0,
+            "/type/fire": 1.0,
+            "/type/water": 0.5,
+            "/type/electric": 0.5,
+            "/type/grass": 0.5,
+            "/type/ice": 2.0,
+            "/type/fighting": 0.0,
+            "/type/poison": 1.0,
+            "/type/ground": 0.5,
+            "/type/flying": 2.0,
+            "/type/psychic": 1.0,
+            "/type/bug": 1.0,
+            "/type/rock": 1.0,
+            "/type/ghost": 2.0,
+            "/type/dragon": 1.0,
+            "/type/dark": 2.0,
+            "/type/steel": 1.0,
+            "/type/fairy": 1.0
+        },
+        "url": "https://pokemondb.net/pokedex/poltchageist",
+        "abilities": [
+            "/ability/hospitality",
+            "/ability/heatproof"
+        ]
     },
     {
         "id": 1011,
+        "variant": 0,
         "name": "Dipplin",
+        "types": [
+            "/egg-group/dragon",
+            "/egg-group/grass"
+        ],
         "height_cm": 40.0,
-        "weight_kg": 4.4
+        "weight_kg": 4.4,
+        "effectiveness": {
+            "/type/normal": 1.0,
+            "/type/fire": 1.0,
+            "/type/water": 0.25,
+            "/type/electric": 0.25,
+            "/type/grass": 0.25,
+            "/type/ice": 4.0,
+            "/type/fighting": 1.0,
+            "/type/poison": 2.0,
+            "/type/ground": 0.5,
+            "/type/flying": 2.0,
+            "/type/psychic": 1.0,
+            "/type/bug": 2.0,
+            "/type/rock": 1.0,
+            "/type/ghost": 1.0,
+            "/type/dragon": 2.0,
+            "/type/dark": 1.0,
+            "/type/steel": 1.0,
+            "/type/fairy": 2.0
+        },
+        "url": "https://pokemondb.net/pokedex/dipplin",
+        "abilities": [
+            "/ability/supersweet-syrup",
+            "/ability/gluttony",
+            "/ability/sticky-hold"
+        ]
     },
     {
         "id": 1010,
+        "variant": 0,
         "name": "Iron Leaves",
+        "types": [
+            "/egg-group/undiscovered"
+        ],
         "height_cm": 150.0,
-        "weight_kg": 125.0
+        "weight_kg": 125.0,
+        "effectiveness": {
+            "/type/normal": 1.0,
+            "/type/fire": 2.0,
+            "/type/water": 0.5,
+            "/type/electric": 0.5,
+            "/type/grass": 0.5,
+            "/type/ice": 2.0,
+            "/type/fighting": 0.5,
+            "/type/poison": 2.0,
+            "/type/ground": 0.5,
+            "/type/flying": 2.0,
+            "/type/psychic": 0.5,
+            "/type/bug": 4.0,
+            "/type/rock": 1.0,
+            "/type/ghost": 2.0,
+            "/type/dragon": 1.0,
+            "/type/dark": 2.0,
+            "/type/steel": 1.0,
+            "/type/fairy": 1.0
+        },
+        "url": "https://pokemondb.net/pokedex/iron-leaves",
+        "abilities": [
+            "/ability/quark-drive"
+        ]
     },
     {
         "id": 1009,
+        "variant": 0,
         "name": "Walking Wake",
+        "types": [
+            "/egg-group/undiscovered"
+        ],
         "height_cm": 350.0,
-        "weight_kg": 280.0
+        "weight_kg": 280.0,
+        "effectiveness": {
+            "/type/normal": 1.0,
+            "/type/fire": 0.25,
+            "/type/water": 0.25,
+            "/type/electric": 1.0,
+            "/type/grass": 1.0,
+            "/type/ice": 1.0,
+            "/type/fighting": 1.0,
+            "/type/poison": 1.0,
+            "/type/ground": 1.0,
+            "/type/flying": 1.0,
+            "/type/psychic": 1.0,
+            "/type/bug": 1.0,
+            "/type/rock": 1.0,
+            "/type/ghost": 1.0,
+            "/type/dragon": 2.0,
+            "/type/dark": 1.0,
+            "/type/steel": 0.5,
+            "/type/fairy": 2.0
+        },
+        "url": "https://pokemondb.net/pokedex/walking-wake",
+        "abilities": [
+            "/ability/protosynthesis"
+        ]
     },
     {
         "id": 1008,
+        "variant": 0,
         "name": "Miraidon",
+        "types": [
+            "/egg-group/undiscovered"
+        ],
         "height_cm": 350.0,
-        "weight_kg": 240.0
+        "weight_kg": 240.0,
+        "effectiveness": {
+            "/type/normal": 1.0,
+            "/type/fire": 0.5,
+            "/type/water": 0.5,
+            "/type/electric": 0.25,
+            "/type/grass": 0.5,
+            "/type/ice": 2.0,
+            "/type/fighting": 1.0,
+            "/type/poison": 1.0,
+            "/type/ground": 2.0,
+            "/type/flying": 0.5,
+            "/type/psychic": 1.0,
+            "/type/bug": 1.0,
+            "/type/rock": 1.0,
+            "/type/ghost": 1.0,
+            "/type/dragon": 2.0,
+            "/type/dark": 1.0,
+            "/type/steel": 0.5,
+            "/type/fairy": 2.0
+        },
+        "url": "https://pokemondb.net/pokedex/miraidon",
+        "abilities": [
+            "/ability/hadron-engine"
+        ]
     },
     {
         "id": 1007,
+        "variant": 0,
         "name": "Koraidon",
+        "types": [
+            "/egg-group/undiscovered"
+        ],
         "height_cm": 250.0,
-        "weight_kg": 303.0
+        "weight_kg": 303.0,
+        "effectiveness": {
+            "/type/normal": 1.0,
+            "/type/fire": 0.5,
+            "/type/water": 0.5,
+            "/type/electric": 0.5,
+            "/type/grass": 0.5,
+            "/type/ice": 2.0,
+            "/type/fighting": 1.0,
+            "/type/poison": 1.0,
+            "/type/ground": 1.0,
+            "/type/flying": 2.0,
+            "/type/psychic": 2.0,
+            "/type/bug": 0.5,
+            "/type/rock": 0.5,
+            "/type/ghost": 1.0,
+            "/type/dragon": 2.0,
+            "/type/dark": 0.5,
+            "/type/steel": 1.0,
+            "/type/fairy": 4.0
+        },
+        "url": "https://pokemondb.net/pokedex/koraidon",
+        "abilities": [
+            "/ability/orichalcum-pulse"
+        ]
     },
     {
         "id": 1006,
+        "variant": 0,
         "name": "Iron Valiant",
+        "types": [
+            "/egg-group/undiscovered"
+        ],
         "height_cm": 140.0,
-        "weight_kg": 35.0
+        "weight_kg": 35.0,
+        "effectiveness": {
+            "/type/normal": 1.0,
+            "/type/fire": 1.0,
+            "/type/water": 1.0,
+            "/type/electric": 1.0,
+            "/type/grass": 1.0,
+            "/type/ice": 1.0,
+            "/type/fighting": 0.5,
+            "/type/poison": 2.0,
+            "/type/ground": 1.0,
+            "/type/flying": 2.0,
+            "/type/psychic": 2.0,
+            "/type/bug": 0.25,
+            "/type/rock": 0.5,
+            "/type/ghost": 1.0,
+            "/type/dragon": 0.0,
+            "/type/dark": 0.25,
+            "/type/steel": 2.0,
+            "/type/fairy": 2.0
+        },
+        "url": "https://pokemondb.net/pokedex/iron-valiant",
+        "abilities": [
+            "/ability/quark-drive"
+        ]
     },
     {
         "id": 1005,
+        "variant": 0,
         "name": "Roaring Moon",
+        "types": [
+            "/egg-group/undiscovered"
+        ],
         "height_cm": 200.0,
-        "weight_kg": 380.0
+        "weight_kg": 380.0,
+        "effectiveness": {
+            "/type/normal": 1.0,
+            "/type/fire": 0.5,
+            "/type/water": 0.5,
+            "/type/electric": 0.5,
+            "/type/grass": 0.5,
+            "/type/ice": 2.0,
+            "/type/fighting": 2.0,
+            "/type/poison": 1.0,
+            "/type/ground": 1.0,
+            "/type/flying": 1.0,
+            "/type/psychic": 0.0,
+            "/type/bug": 2.0,
+            "/type/rock": 1.0,
+            "/type/ghost": 0.5,
+            "/type/dragon": 2.0,
+            "/type/dark": 0.5,
+            "/type/steel": 1.0,
+            "/type/fairy": 4.0
+        },
+        "url": "https://pokemondb.net/pokedex/roaring-moon",
+        "abilities": [
+            "/ability/protosynthesis"
+        ]
     },
     {
         "id": 1004,
+        "variant": 0,
         "name": "Chi-Yu",
+        "types": [
+            "/egg-group/undiscovered"
+        ],
         "height_cm": 40.0,
-        "weight_kg": 4.9
+        "weight_kg": 4.9,
+        "effectiveness": {
+            "/type/normal": 1.0,
+            "/type/fire": 0.5,
+            "/type/water": 2.0,
+            "/type/electric": 1.0,
+            "/type/grass": 0.5,
+            "/type/ice": 0.5,
+            "/type/fighting": 2.0,
+            "/type/poison": 1.0,
+            "/type/ground": 2.0,
+            "/type/flying": 1.0,
+            "/type/psychic": 0.0,
+            "/type/bug": 1.0,
+            "/type/rock": 2.0,
+            "/type/ghost": 0.5,
+            "/type/dragon": 1.0,
+            "/type/dark": 0.5,
+            "/type/steel": 0.5,
+            "/type/fairy": 1.0
+        },
+        "url": "https://pokemondb.net/pokedex/chi-yu",
+        "abilities": [
+            "/ability/beads-of-ruin"
+        ]
     },
     {
         "id": 1003,
+        "variant": 0,
         "name": "Ting-Lu",
+        "types": [
+            "/egg-group/undiscovered"
+        ],
         "height_cm": 270.0,
-        "weight_kg": 699.7
+        "weight_kg": 699.7,
+        "effectiveness": {
+            "/type/normal": 1.0,
+            "/type/fire": 1.0,
+            "/type/water": 2.0,
+            "/type/electric": 0.0,
+            "/type/grass": 2.0,
+            "/type/ice": 2.0,
+            "/type/fighting": 2.0,
+            "/type/poison": 0.5,
+            "/type/ground": 1.0,
+            "/type/flying": 1.0,
+            "/type/psychic": 0.0,
+            "/type/bug": 2.0,
+            "/type/rock": 0.5,
+            "/type/ghost": 0.5,
+            "/type/dragon": 1.0,
+            "/type/dark": 0.5,
+            "/type/steel": 1.0,
+            "/type/fairy": 2.0
+        },
+        "url": "https://pokemondb.net/pokedex/ting-lu",
+        "abilities": [
+            "/ability/vessel-of-ruin"
+        ]
     },
     {
         "id": 1002,
+        "variant": 0,
         "name": "Chien-Pao",
+        "types": [
+            "/egg-group/undiscovered"
+        ],
         "height_cm": 190.0,
-        "weight_kg": 152.2
+        "weight_kg": 152.2,
+        "effectiveness": {
+            "/type/normal": 1.0,
+            "/type/fire": 2.0,
+            "/type/water": 1.0,
+            "/type/electric": 1.0,
+            "/type/grass": 1.0,
+            "/type/ice": 0.5,
+            "/type/fighting": 4.0,
+            "/type/poison": 1.0,
+            "/type/ground": 1.0,
+            "/type/flying": 1.0,
+            "/type/psychic": 0.0,
+            "/type/bug": 2.0,
+            "/type/rock": 2.0,
+            "/type/ghost": 0.5,
+            "/type/dragon": 1.0,
+            "/type/dark": 0.5,
+            "/type/steel": 2.0,
+            "/type/fairy": 2.0
+        },
+        "url": "https://pokemondb.net/pokedex/chien-pao",
+        "abilities": [
+            "/ability/sword-of-ruin"
+        ]
     },
     {
         "id": 1001,
+        "variant": 0,
         "name": "Wo-Chien",
+        "types": [
+            "/egg-group/undiscovered"
+        ],
         "height_cm": 150.0,
-        "weight_kg": 74.2
+        "weight_kg": 74.2,
+        "effectiveness": {
+            "/type/normal": 1.0,
+            "/type/fire": 2.0,
+            "/type/water": 0.5,
+            "/type/electric": 0.5,
+            "/type/grass": 0.5,
+            "/type/ice": 2.0,
+            "/type/fighting": 2.0,
+            "/type/poison": 2.0,
+            "/type/ground": 0.5,
+            "/type/flying": 2.0,
+            "/type/psychic": 0.0,
+            "/type/bug": 4.0,
+            "/type/rock": 1.0,
+            "/type/ghost": 0.5,
+            "/type/dragon": 1.0,
+            "/type/dark": 0.5,
+            "/type/steel": 1.0,
+            "/type/fairy": 2.0
+        },
+        "url": "https://pokemondb.net/pokedex/wo-chien",
+        "abilities": [
+            "/ability/tablets-of-ruin"
+        ]
     },
     {
         "id": 1000,
+        "variant": 0,
         "name": "Gholdengo",
+        "types": [
+            "/egg-group/undiscovered"
+        ],
         "height_cm": 120.0,
-        "weight_kg": 30.0
+        "weight_kg": 30.0,
+        "effectiveness": {
+            "/type/normal": 0.0,
+            "/type/fire": 2.0,
+            "/type/water": 1.0,
+            "/type/electric": 1.0,
+            "/type/grass": 0.5,
+            "/type/ice": 0.5,
+            "/type/fighting": 0.0,
+            "/type/poison": 0.0,
+            "/type/ground": 2.0,
+            "/type/flying": 0.5,
+            "/type/psychic": 0.5,
+            "/type/bug": 0.25,
+            "/type/rock": 0.5,
+            "/type/ghost": 2.0,
+            "/type/dragon": 0.5,
+            "/type/dark": 2.0,
+            "/type/steel": 0.5,
+            "/type/fairy": 0.5
+        },
+        "url": "https://pokemondb.net/pokedex/gholdengo",
+        "abilities": [
+            "/ability/good-as-gold"
+        ]
     },
     {
         "id": 999,
+        "variant": 0,
         "name": "Gimmighoul",
+        "types": [
+            "/egg-group/undiscovered",
+            "/egg-group/undiscovered"
+        ],
         "height_cm": 30.0,
-        "weight_kg": 5.0
+        "weight_kg": 5.0,
+        "effectiveness": {
+            "/type/normal": 0.0,
+            "/type/fire": 1.0,
+            "/type/water": 1.0,
+            "/type/electric": 1.0,
+            "/type/grass": 1.0,
+            "/type/ice": 1.0,
+            "/type/fighting": 0.0,
+            "/type/poison": 0.5,
+            "/type/ground": 1.0,
+            "/type/flying": 1.0,
+            "/type/psychic": 1.0,
+            "/type/bug": 0.5,
+            "/type/rock": 1.0,
+            "/type/ghost": 2.0,
+            "/type/dragon": 1.0,
+            "/type/dark": 2.0,
+            "/type/steel": 1.0,
+            "/type/fairy": 1.0
+        },
+        "url": "https://pokemondb.net/pokedex/gimmighoul",
+        "abilities": [
+            "/ability/rattled",
+            "/ability/run-away"
+        ]
     },
     {
         "id": 998,
+        "variant": 0,
         "name": "Baxcalibur",
+        "types": [
+            "/egg-group/dragon",
+            "/egg-group/mineral"
+        ],
         "height_cm": 210.0,
-        "weight_kg": 210.0
+        "weight_kg": 210.0,
+        "effectiveness": {
+            "/type/normal": 1.0,
+            "/type/fire": 1.0,
+            "/type/water": 0.5,
+            "/type/electric": 0.5,
+            "/type/grass": 0.5,
+            "/type/ice": 1.0,
+            "/type/fighting": 2.0,
+            "/type/poison": 1.0,
+            "/type/ground": 1.0,
+            "/type/flying": 1.0,
+            "/type/psychic": 1.0,
+            "/type/bug": 1.0,
+            "/type/rock": 2.0,
+            "/type/ghost": 1.0,
+            "/type/dragon": 2.0,
+            "/type/dark": 1.0,
+            "/type/steel": 2.0,
+            "/type/fairy": 2.0
+        },
+        "url": "https://pokemondb.net/pokedex/baxcalibur",
+        "abilities": [
+            "/ability/thermal-exchange",
+            "/ability/ice-body"
+        ]
     },
     {
         "id": 997,
+        "variant": 0,
         "name": "Arctibax",
+        "types": [
+            "/egg-group/dragon",
+            "/egg-group/mineral"
+        ],
         "height_cm": 80.0,
-        "weight_kg": 30.0
+        "weight_kg": 30.0,
+        "effectiveness": {
+            "/type/normal": 1.0,
+            "/type/fire": 1.0,
+            "/type/water": 0.5,
+            "/type/electric": 0.5,
+            "/type/grass": 0.5,
+            "/type/ice": 1.0,
+            "/type/fighting": 2.0,
+            "/type/poison": 1.0,
+            "/type/ground": 1.0,
+            "/type/flying": 1.0,
+            "/type/psychic": 1.0,
+            "/type/bug": 1.0,
+            "/type/rock": 2.0,
+            "/type/ghost": 1.0,
+            "/type/dragon": 2.0,
+            "/type/dark": 1.0,
+            "/type/steel": 2.0,
+            "/type/fairy": 2.0
+        },
+        "url": "https://pokemondb.net/pokedex/arctibax",
+        "abilities": [
+            "/ability/thermal-exchange",
+            "/ability/ice-body"
+        ]
     },
     {
         "id": 996,
+        "variant": 0,
         "name": "Frigibax",
+        "types": [
+            "/egg-group/dragon",
+            "/egg-group/mineral"
+        ],
         "height_cm": 50.0,
-        "weight_kg": 17.0
+        "weight_kg": 17.0,
+        "effectiveness": {
+            "/type/normal": 1.0,
+            "/type/fire": 1.0,
+            "/type/water": 0.5,
+            "/type/electric": 0.5,
+            "/type/grass": 0.5,
+            "/type/ice": 1.0,
+            "/type/fighting": 2.0,
+            "/type/poison": 1.0,
+            "/type/ground": 1.0,
+            "/type/flying": 1.0,
+            "/type/psychic": 1.0,
+            "/type/bug": 1.0,
+            "/type/rock": 2.0,
+            "/type/ghost": 1.0,
+            "/type/dragon": 2.0,
+            "/type/dark": 1.0,
+            "/type/steel": 2.0,
+            "/type/fairy": 2.0
+        },
+        "url": "https://pokemondb.net/pokedex/frigibax",
+        "abilities": [
+            "/ability/thermal-exchange",
+            "/ability/ice-body"
+        ]
     },
     {
         "id": 995,
+        "variant": 0,
         "name": "Iron Thorns",
+        "types": [
+            "/egg-group/undiscovered"
+        ],
         "height_cm": 160.0,
-        "weight_kg": 303.0
+        "weight_kg": 303.0,
+        "effectiveness": {
+            "/type/normal": 0.5,
+            "/type/fire": 0.5,
+            "/type/water": 2.0,
+            "/type/electric": 0.5,
+            "/type/grass": 2.0,
+            "/type/ice": 1.0,
+            "/type/fighting": 2.0,
+            "/type/poison": 0.5,
+            "/type/ground": 4.0,
+            "/type/flying": 0.25,
+            "/type/psychic": 1.0,
+            "/type/bug": 1.0,
+            "/type/rock": 1.0,
+            "/type/ghost": 1.0,
+            "/type/dragon": 1.0,
+            "/type/dark": 1.0,
+            "/type/steel": 1.0,
+            "/type/fairy": 1.0
+        },
+        "url": "https://pokemondb.net/pokedex/iron-thorns",
+        "abilities": [
+            "/ability/quark-drive"
+        ]
     },
     {
         "id": 994,
+        "variant": 0,
         "name": "Iron Moth",
+        "types": [
+            "/egg-group/undiscovered"
+        ],
         "height_cm": 120.0,
-        "weight_kg": 36.0
+        "weight_kg": 36.0,
+        "effectiveness": {
+            "/type/normal": 1.0,
+            "/type/fire": 0.5,
+            "/type/water": 2.0,
+            "/type/electric": 1.0,
+            "/type/grass": 0.25,
+            "/type/ice": 0.5,
+            "/type/fighting": 0.5,
+            "/type/poison": 0.5,
+            "/type/ground": 4.0,
+            "/type/flying": 1.0,
+            "/type/psychic": 2.0,
+            "/type/bug": 0.25,
+            "/type/rock": 2.0,
+            "/type/ghost": 1.0,
+            "/type/dragon": 1.0,
+            "/type/dark": 1.0,
+            "/type/steel": 0.5,
+            "/type/fairy": 0.25
+        },
+        "url": "https://pokemondb.net/pokedex/iron-moth",
+        "abilities": [
+            "/ability/quark-drive"
+        ]
     },
     {
         "id": 993,
+        "variant": 0,
         "name": "Iron Jugulis",
+        "types": [
+            "/egg-group/undiscovered"
+        ],
         "height_cm": 130.0,
-        "weight_kg": 111.0
+        "weight_kg": 111.0,
+        "effectiveness": {
+            "/type/normal": 1.0,
+            "/type/fire": 1.0,
+            "/type/water": 1.0,
+            "/type/electric": 2.0,
+            "/type/grass": 0.5,
+            "/type/ice": 2.0,
+            "/type/fighting": 1.0,
+            "/type/poison": 1.0,
+            "/type/ground": 0.0,
+            "/type/flying": 1.0,
+            "/type/psychic": 0.0,
+            "/type/bug": 1.0,
+            "/type/rock": 2.0,
+            "/type/ghost": 0.5,
+            "/type/dragon": 1.0,
+            "/type/dark": 0.5,
+            "/type/steel": 1.0,
+            "/type/fairy": 2.0
+        },
+        "url": "https://pokemondb.net/pokedex/iron-jugulis",
+        "abilities": [
+            "/ability/quark-drive"
+        ]
     },
     {
         "id": 992,
+        "variant": 0,
         "name": "Iron Hands",
+        "types": [
+            "/egg-group/undiscovered"
+        ],
         "height_cm": 180.0,
-        "weight_kg": 380.7
+        "weight_kg": 380.7,
+        "effectiveness": {
+            "/type/normal": 1.0,
+            "/type/fire": 1.0,
+            "/type/water": 1.0,
+            "/type/electric": 0.5,
+            "/type/grass": 1.0,
+            "/type/ice": 1.0,
+            "/type/fighting": 1.0,
+            "/type/poison": 1.0,
+            "/type/ground": 2.0,
+            "/type/flying": 1.0,
+            "/type/psychic": 2.0,
+            "/type/bug": 0.5,
+            "/type/rock": 0.5,
+            "/type/ghost": 1.0,
+            "/type/dragon": 1.0,
+            "/type/dark": 0.5,
+            "/type/steel": 0.5,
+            "/type/fairy": 2.0
+        },
+        "url": "https://pokemondb.net/pokedex/iron-hands",
+        "abilities": [
+            "/ability/quark-drive"
+        ]
     },
     {
         "id": 991,
+        "variant": 0,
         "name": "Iron Bundle",
+        "types": [
+            "/egg-group/undiscovered"
+        ],
         "height_cm": 60.0,
-        "weight_kg": 11.0
+        "weight_kg": 11.0,
+        "effectiveness": {
+            "/type/normal": 1.0,
+            "/type/fire": 1.0,
+            "/type/water": 0.5,
+            "/type/electric": 2.0,
+            "/type/grass": 2.0,
+            "/type/ice": 0.25,
+            "/type/fighting": 2.0,
+            "/type/poison": 1.0,
+            "/type/ground": 1.0,
+            "/type/flying": 1.0,
+            "/type/psychic": 1.0,
+            "/type/bug": 1.0,
+            "/type/rock": 2.0,
+            "/type/ghost": 1.0,
+            "/type/dragon": 1.0,
+            "/type/dark": 1.0,
+            "/type/steel": 1.0,
+            "/type/fairy": 1.0
+        },
+        "url": "https://pokemondb.net/pokedex/iron-bundle",
+        "abilities": [
+            "/ability/quark-drive"
+        ]
     },
     {
         "id": 990,
+        "variant": 0,
         "name": "Iron Treads",
+        "types": [
+            "/egg-group/undiscovered"
+        ],
         "height_cm": 90.0,
-        "weight_kg": 240.0
+        "weight_kg": 240.0,
+        "effectiveness": {
+            "/type/normal": 0.5,
+            "/type/fire": 2.0,
+            "/type/water": 2.0,
+            "/type/electric": 0.0,
+            "/type/grass": 1.0,
+            "/type/ice": 1.0,
+            "/type/fighting": 2.0,
+            "/type/poison": 0.0,
+            "/type/ground": 2.0,
+            "/type/flying": 0.5,
+            "/type/psychic": 0.5,
+            "/type/bug": 0.5,
+            "/type/rock": 0.25,
+            "/type/ghost": 1.0,
+            "/type/dragon": 0.5,
+            "/type/dark": 1.0,
+            "/type/steel": 0.5,
+            "/type/fairy": 0.5
+        },
+        "url": "https://pokemondb.net/pokedex/iron-treads",
+        "abilities": [
+            "/ability/quark-drive"
+        ]
     },
     {
         "id": 989,
+        "variant": 0,
         "name": "Sandy Shocks",
+        "types": [
+            "/egg-group/undiscovered"
+        ],
         "height_cm": 230.0,
-        "weight_kg": 60.0
+        "weight_kg": 60.0,
+        "effectiveness": {
+            "/type/normal": 1.0,
+            "/type/fire": 1.0,
+            "/type/water": 2.0,
+            "/type/electric": 0.0,
+            "/type/grass": 2.0,
+            "/type/ice": 2.0,
+            "/type/fighting": 1.0,
+            "/type/poison": 0.5,
+            "/type/ground": 2.0,
+            "/type/flying": 0.5,
+            "/type/psychic": 1.0,
+            "/type/bug": 1.0,
+            "/type/rock": 0.5,
+            "/type/ghost": 1.0,
+            "/type/dragon": 1.0,
+            "/type/dark": 1.0,
+            "/type/steel": 0.5,
+            "/type/fairy": 1.0
+        },
+        "url": "https://pokemondb.net/pokedex/sandy-shocks",
+        "abilities": [
+            "/ability/protosynthesis"
+        ]
     },
     {
         "id": 988,
+        "variant": 0,
         "name": "Slither Wing",
+        "types": [
+            "/egg-group/undiscovered"
+        ],
         "height_cm": 320.0,
-        "weight_kg": 92.0
+        "weight_kg": 92.0,
+        "effectiveness": {
+            "/type/normal": 1.0,
+            "/type/fire": 2.0,
+            "/type/water": 1.0,
+            "/type/electric": 1.0,
+            "/type/grass": 0.5,
+            "/type/ice": 1.0,
+            "/type/fighting": 0.5,
+            "/type/poison": 1.0,
+            "/type/ground": 0.5,
+            "/type/flying": 4.0,
+            "/type/psychic": 2.0,
+            "/type/bug": 0.5,
+            "/type/rock": 1.0,
+            "/type/ghost": 1.0,
+            "/type/dragon": 1.0,
+            "/type/dark": 0.5,
+            "/type/steel": 1.0,
+            "/type/fairy": 2.0
+        },
+        "url": "https://pokemondb.net/pokedex/slither-wing",
+        "abilities": [
+            "/ability/protosynthesis"
+        ]
     },
     {
         "id": 987,
+        "variant": 0,
         "name": "Flutter Mane",
+        "types": [
+            "/egg-group/undiscovered"
+        ],
         "height_cm": 140.0,
-        "weight_kg": 4.0
+        "weight_kg": 4.0,
+        "effectiveness": {
+            "/type/normal": 0.0,
+            "/type/fire": 1.0,
+            "/type/water": 1.0,
+            "/type/electric": 1.0,
+            "/type/grass": 1.0,
+            "/type/ice": 1.0,
+            "/type/fighting": 0.0,
+            "/type/poison": 1.0,
+            "/type/ground": 1.0,
+            "/type/flying": 1.0,
+            "/type/psychic": 1.0,
+            "/type/bug": 0.25,
+            "/type/rock": 1.0,
+            "/type/ghost": 2.0,
+            "/type/dragon": 0.0,
+            "/type/dark": 1.0,
+            "/type/steel": 2.0,
+            "/type/fairy": 1.0
+        },
+        "url": "https://pokemondb.net/pokedex/flutter-mane",
+        "abilities": [
+            "/ability/protosynthesis"
+        ]
     },
     {
         "id": 986,
+        "variant": 0,
         "name": "Brute Bonnet",
+        "types": [
+            "/egg-group/undiscovered"
+        ],
         "height_cm": 120.0,
-        "weight_kg": 21.0
+        "weight_kg": 21.0,
+        "effectiveness": {
+            "/type/normal": 1.0,
+            "/type/fire": 2.0,
+            "/type/water": 0.5,
+            "/type/electric": 0.5,
+            "/type/grass": 0.5,
+            "/type/ice": 2.0,
+            "/type/fighting": 2.0,
+            "/type/poison": 2.0,
+            "/type/ground": 0.5,
+            "/type/flying": 2.0,
+            "/type/psychic": 0.0,
+            "/type/bug": 4.0,
+            "/type/rock": 1.0,
+            "/type/ghost": 0.5,
+            "/type/dragon": 1.0,
+            "/type/dark": 0.5,
+            "/type/steel": 1.0,
+            "/type/fairy": 2.0
+        },
+        "url": "https://pokemondb.net/pokedex/brute-bonnet",
+        "abilities": [
+            "/ability/protosynthesis"
+        ]
     },
     {
         "id": 985,
+        "variant": 0,
         "name": "Scream Tail",
+        "types": [
+            "/egg-group/undiscovered"
+        ],
         "height_cm": 120.0,
-        "weight_kg": 8.0
+        "weight_kg": 8.0,
+        "effectiveness": {
+            "/type/normal": 1.0,
+            "/type/fire": 1.0,
+            "/type/water": 1.0,
+            "/type/electric": 1.0,
+            "/type/grass": 1.0,
+            "/type/ice": 1.0,
+            "/type/fighting": 0.25,
+            "/type/poison": 2.0,
+            "/type/ground": 1.0,
+            "/type/flying": 1.0,
+            "/type/psychic": 0.5,
+            "/type/bug": 1.0,
+            "/type/rock": 1.0,
+            "/type/ghost": 2.0,
+            "/type/dragon": 0.0,
+            "/type/dark": 1.0,
+            "/type/steel": 2.0,
+            "/type/fairy": 1.0
+        },
+        "url": "https://pokemondb.net/pokedex/scream-tail",
+        "abilities": [
+            "/ability/protosynthesis"
+        ]
     },
     {
         "id": 984,
+        "variant": 0,
         "name": "Great Tusk",
+        "types": [
+            "/egg-group/undiscovered"
+        ],
         "height_cm": 220.0,
-        "weight_kg": 320.0
+        "weight_kg": 320.0,
+        "effectiveness": {
+            "/type/normal": 1.0,
+            "/type/fire": 1.0,
+            "/type/water": 2.0,
+            "/type/electric": 0.0,
+            "/type/grass": 2.0,
+            "/type/ice": 2.0,
+            "/type/fighting": 1.0,
+            "/type/poison": 0.5,
+            "/type/ground": 1.0,
+            "/type/flying": 2.0,
+            "/type/psychic": 2.0,
+            "/type/bug": 0.5,
+            "/type/rock": 0.25,
+            "/type/ghost": 1.0,
+            "/type/dragon": 1.0,
+            "/type/dark": 0.5,
+            "/type/steel": 1.0,
+            "/type/fairy": 2.0
+        },
+        "url": "https://pokemondb.net/pokedex/great-tusk",
+        "abilities": [
+            "/ability/protosynthesis"
+        ]
     },
     {
         "id": 983,
+        "variant": 0,
         "name": "Kingambit",
+        "types": [
+            "/egg-group/human-like"
+        ],
         "height_cm": 200.0,
-        "weight_kg": 120.0
+        "weight_kg": 120.0,
+        "effectiveness": {
+            "/type/normal": 0.5,
+            "/type/fire": 2.0,
+            "/type/water": 1.0,
+            "/type/electric": 1.0,
+            "/type/grass": 0.5,
+            "/type/ice": 0.5,
+            "/type/fighting": 4.0,
+            "/type/poison": 0.0,
+            "/type/ground": 2.0,
+            "/type/flying": 0.5,
+            "/type/psychic": 0.0,
+            "/type/bug": 1.0,
+            "/type/rock": 0.5,
+            "/type/ghost": 0.5,
+            "/type/dragon": 0.5,
+            "/type/dark": 0.5,
+            "/type/steel": 0.5,
+            "/type/fairy": 1.0
+        },
+        "url": "https://pokemondb.net/pokedex/kingambit",
+        "abilities": [
+            "/ability/defiant",
+            "/ability/supreme-overlord",
+            "/ability/pressure"
+        ]
     },
     {
         "id": 982,
+        "variant": 0,
         "name": "Dudunsparce",
+        "types": [
+            "/egg-group/field",
+            "/egg-group/field"
+        ],
         "height_cm": 360.0,
-        "weight_kg": 39.2
+        "weight_kg": 39.2,
+        "effectiveness": {
+            "/type/normal": 1.0,
+            "/type/fire": 1.0,
+            "/type/water": 1.0,
+            "/type/electric": 1.0,
+            "/type/grass": 1.0,
+            "/type/ice": 1.0,
+            "/type/fighting": 2.0,
+            "/type/poison": 1.0,
+            "/type/ground": 1.0,
+            "/type/flying": 1.0,
+            "/type/psychic": 1.0,
+            "/type/bug": 1.0,
+            "/type/rock": 1.0,
+            "/type/ghost": 0.0,
+            "/type/dragon": 1.0,
+            "/type/dark": 1.0,
+            "/type/steel": 1.0,
+            "/type/fairy": 1.0
+        },
+        "url": "https://pokemondb.net/pokedex/dudunsparce",
+        "abilities": [
+            "/ability/serene-grace",
+            "/ability/run-away",
+            "/ability/rattled",
+            "/ability/serene-grace",
+            "/ability/run-away",
+            "/ability/rattled"
+        ]
     },
     {
         "id": 981,
+        "variant": 0,
         "name": "Farigiraf",
+        "types": [
+            "/egg-group/field"
+        ],
         "height_cm": 320.0,
-        "weight_kg": 160.0
+        "weight_kg": 160.0,
+        "effectiveness": {
+            "/type/normal": 1.0,
+            "/type/fire": 1.0,
+            "/type/water": 1.0,
+            "/type/electric": 1.0,
+            "/type/grass": 0.0,
+            "/type/ice": 1.0,
+            "/type/fighting": 1.0,
+            "/type/poison": 1.0,
+            "/type/ground": 1.0,
+            "/type/flying": 1.0,
+            "/type/psychic": 0.5,
+            "/type/bug": 2.0,
+            "/type/rock": 1.0,
+            "/type/ghost": 0.0,
+            "/type/dragon": 1.0,
+            "/type/dark": 2.0,
+            "/type/steel": 1.0,
+            "/type/fairy": 1.0
+        },
+        "url": "https://pokemondb.net/pokedex/farigiraf",
+        "abilities": [
+            "/ability/cud-chew",
+            "/ability/armor-tail",
+            "/ability/sap-sipper"
+        ]
     },
     {
         "id": 980,
+        "variant": 0,
         "name": "Clodsire",
+        "types": [
+            "/egg-group/field",
+            "/egg-group/water-1"
+        ],
         "height_cm": 180.0,
-        "weight_kg": 223.0
+        "weight_kg": 223.0,
+        "effectiveness": {
+            "/type/normal": 1.0,
+            "/type/fire": 1.0,
+            "/type/water": 2.0,
+            "/type/electric": 0.0,
+            "/type/grass": 1.0,
+            "/type/ice": 2.0,
+            "/type/fighting": 0.5,
+            "/type/poison": 0.25,
+            "/type/ground": 2.0,
+            "/type/flying": 1.0,
+            "/type/psychic": 2.0,
+            "/type/bug": 0.5,
+            "/type/rock": 0.5,
+            "/type/ghost": 1.0,
+            "/type/dragon": 1.0,
+            "/type/dark": 1.0,
+            "/type/steel": 1.0,
+            "/type/fairy": 0.5
+        },
+        "url": "https://pokemondb.net/pokedex/clodsire",
+        "abilities": [
+            "/ability/poison-point",
+            "/ability/water-absorb",
+            "/ability/unaware"
+        ]
     },
     {
         "id": 979,
+        "variant": 0,
         "name": "Annihilape",
+        "types": [
+            "/egg-group/field"
+        ],
         "height_cm": 120.0,
-        "weight_kg": 56.0
+        "weight_kg": 56.0,
+        "effectiveness": {
+            "/type/normal": 0.0,
+            "/type/fire": 1.0,
+            "/type/water": 1.0,
+            "/type/electric": 1.0,
+            "/type/grass": 1.0,
+            "/type/ice": 1.0,
+            "/type/fighting": 0.0,
+            "/type/poison": 0.5,
+            "/type/ground": 1.0,
+            "/type/flying": 2.0,
+            "/type/psychic": 2.0,
+            "/type/bug": 0.25,
+            "/type/rock": 0.5,
+            "/type/ghost": 2.0,
+            "/type/dragon": 1.0,
+            "/type/dark": 1.0,
+            "/type/steel": 1.0,
+            "/type/fairy": 2.0
+        },
+        "url": "https://pokemondb.net/pokedex/annihilape",
+        "abilities": [
+            "/ability/vital-spirit",
+            "/ability/inner-focus",
+            "/ability/defiant"
+        ]
     },
     {
         "id": 978,
+        "variant": 0,
         "name": "Tatsugiri",
+        "types": [
+            "/egg-group/water-2"
+        ],
         "height_cm": 30.0,
-        "weight_kg": 8.0
+        "weight_kg": 8.0,
+        "effectiveness": {
+            "/type/normal": 1.0,
+            "/type/fire": 0.25,
+            "/type/water": 0.25,
+            "/type/electric": 1.0,
+            "/type/grass": 1.0,
+            "/type/ice": 1.0,
+            "/type/fighting": 1.0,
+            "/type/poison": 1.0,
+            "/type/ground": 1.0,
+            "/type/flying": 1.0,
+            "/type/psychic": 1.0,
+            "/type/bug": 1.0,
+            "/type/rock": 1.0,
+            "/type/ghost": 1.0,
+            "/type/dragon": 2.0,
+            "/type/dark": 1.0,
+            "/type/steel": 0.5,
+            "/type/fairy": 2.0
+        },
+        "url": "https://pokemondb.net/pokedex/tatsugiri",
+        "abilities": [
+            "/ability/commander",
+            "/ability/storm-drain"
+        ]
     },
     {
         "id": 977,
+        "variant": 0,
         "name": "Dondozo",
+        "types": [
+            "/egg-group/water-2"
+        ],
         "height_cm": 1200.0,
-        "weight_kg": 220.0
+        "weight_kg": 220.0,
+        "effectiveness": {
+            "/type/normal": 1.0,
+            "/type/fire": 0.5,
+            "/type/water": 0.5,
+            "/type/electric": 2.0,
+            "/type/grass": 2.0,
+            "/type/ice": 0.5,
+            "/type/fighting": 1.0,
+            "/type/poison": 1.0,
+            "/type/ground": 1.0,
+            "/type/flying": 1.0,
+            "/type/psychic": 1.0,
+            "/type/bug": 1.0,
+            "/type/rock": 1.0,
+            "/type/ghost": 1.0,
+            "/type/dragon": 1.0,
+            "/type/dark": 1.0,
+            "/type/steel": 0.5,
+            "/type/fairy": 1.0
+        },
+        "url": "https://pokemondb.net/pokedex/dondozo",
+        "abilities": [
+            "/ability/unaware",
+            "/ability/oblivious",
+            "/ability/water-veil"
+        ]
     },
     {
         "id": 976,
+        "variant": 0,
         "name": "Veluza",
+        "types": [
+            "/egg-group/water-2"
+        ],
         "height_cm": 250.0,
-        "weight_kg": 90.0
+        "weight_kg": 90.0,
+        "effectiveness": {
+            "/type/normal": 1.0,
+            "/type/fire": 0.5,
+            "/type/water": 0.5,
+            "/type/electric": 2.0,
+            "/type/grass": 2.0,
+            "/type/ice": 0.5,
+            "/type/fighting": 0.5,
+            "/type/poison": 1.0,
+            "/type/ground": 1.0,
+            "/type/flying": 1.0,
+            "/type/psychic": 0.5,
+            "/type/bug": 2.0,
+            "/type/rock": 1.0,
+            "/type/ghost": 2.0,
+            "/type/dragon": 1.0,
+            "/type/dark": 2.0,
+            "/type/steel": 0.5,
+            "/type/fairy": 1.0
+        },
+        "url": "https://pokemondb.net/pokedex/veluza",
+        "abilities": [
+            "/ability/mold-breaker",
+            "/ability/sharpness"
+        ]
     },
     {
         "id": 975,
+        "variant": 0,
         "name": "Cetitan",
+        "types": [
+            "/egg-group/field"
+        ],
         "height_cm": 450.0,
-        "weight_kg": 700.0
+        "weight_kg": 700.0,
+        "effectiveness": {
+            "/type/normal": 1.0,
+            "/type/fire": 2.0,
+            "/type/water": 1.0,
+            "/type/electric": 1.0,
+            "/type/grass": 1.0,
+            "/type/ice": 0.5,
+            "/type/fighting": 2.0,
+            "/type/poison": 1.0,
+            "/type/ground": 1.0,
+            "/type/flying": 1.0,
+            "/type/psychic": 1.0,
+            "/type/bug": 1.0,
+            "/type/rock": 2.0,
+            "/type/ghost": 1.0,
+            "/type/dragon": 1.0,
+            "/type/dark": 1.0,
+            "/type/steel": 2.0,
+            "/type/fairy": 1.0
+        },
+        "url": "https://pokemondb.net/pokedex/cetitan",
+        "abilities": [
+            "/ability/thick-fat",
+            "/ability/slush-rush",
+            "/ability/sheer-force"
+        ]
     },
     {
         "id": 974,
+        "variant": 0,
         "name": "Cetoddle",
+        "types": [
+            "/egg-group/field"
+        ],
         "height_cm": 120.0,
-        "weight_kg": 45.0
+        "weight_kg": 45.0,
+        "effectiveness": {
+            "/type/normal": 1.0,
+            "/type/fire": 2.0,
+            "/type/water": 1.0,
+            "/type/electric": 1.0,
+            "/type/grass": 1.0,
+            "/type/ice": 0.5,
+            "/type/fighting": 2.0,
+            "/type/poison": 1.0,
+            "/type/ground": 1.0,
+            "/type/flying": 1.0,
+            "/type/psychic": 1.0,
+            "/type/bug": 1.0,
+            "/type/rock": 2.0,
+            "/type/ghost": 1.0,
+            "/type/dragon": 1.0,
+            "/type/dark": 1.0,
+            "/type/steel": 2.0,
+            "/type/fairy": 1.0
+        },
+        "url": "https://pokemondb.net/pokedex/cetoddle",
+        "abilities": [
+            "/ability/thick-fat",
+            "/ability/snow-cloak",
+            "/ability/sheer-force"
+        ]
     },
     {
         "id": 973,
+        "variant": 0,
         "name": "Flamigo",
+        "types": [
+            "/egg-group/flying"
+        ],
         "height_cm": 160.0,
-        "weight_kg": 37.0
+        "weight_kg": 37.0,
+        "effectiveness": {
+            "/type/normal": 1.0,
+            "/type/fire": 1.0,
+            "/type/water": 1.0,
+            "/type/electric": 2.0,
+            "/type/grass": 0.5,
+            "/type/ice": 2.0,
+            "/type/fighting": 0.5,
+            "/type/poison": 1.0,
+            "/type/ground": 0.0,
+            "/type/flying": 2.0,
+            "/type/psychic": 2.0,
+            "/type/bug": 0.25,
+            "/type/rock": 1.0,
+            "/type/ghost": 1.0,
+            "/type/dragon": 1.0,
+            "/type/dark": 0.5,
+            "/type/steel": 1.0,
+            "/type/fairy": 2.0
+        },
+        "url": "https://pokemondb.net/pokedex/flamigo",
+        "abilities": [
+            "/ability/scrappy",
+            "/ability/tangled-feet",
+            "/ability/costar"
+        ]
     },
     {
         "id": 972,
+        "variant": 0,
         "name": "Houndstone",
+        "types": [
+            "/egg-group/field"
+        ],
         "height_cm": 200.0,
-        "weight_kg": 15.0
+        "weight_kg": 15.0,
+        "effectiveness": {
+            "/type/normal": 0.0,
+            "/type/fire": 2.0,
+            "/type/water": 1.0,
+            "/type/electric": 1.0,
+            "/type/grass": 1.0,
+            "/type/ice": 1.0,
+            "/type/fighting": 0.0,
+            "/type/poison": 0.5,
+            "/type/ground": 1.0,
+            "/type/flying": 1.0,
+            "/type/psychic": 1.0,
+            "/type/bug": 0.5,
+            "/type/rock": 1.0,
+            "/type/ghost": 2.0,
+            "/type/dragon": 1.0,
+            "/type/dark": 2.0,
+            "/type/steel": 1.0,
+            "/type/fairy": 1.0
+        },
+        "url": "https://pokemondb.net/pokedex/houndstone",
+        "abilities": [
+            "/ability/sand-rush",
+            "/ability/fluffy"
+        ]
     },
     {
         "id": 971,
+        "variant": 0,
         "name": "Greavard",
+        "types": [
+            "/egg-group/field"
+        ],
         "height_cm": 60.0,
-        "weight_kg": 35.0
+        "weight_kg": 35.0,
+        "effectiveness": {
+            "/type/normal": 0.0,
+            "/type/fire": 2.0,
+            "/type/water": 1.0,
+            "/type/electric": 1.0,
+            "/type/grass": 1.0,
+            "/type/ice": 1.0,
+            "/type/fighting": 0.0,
+            "/type/poison": 0.5,
+            "/type/ground": 1.0,
+            "/type/flying": 1.0,
+            "/type/psychic": 1.0,
+            "/type/bug": 0.5,
+            "/type/rock": 1.0,
+            "/type/ghost": 2.0,
+            "/type/dragon": 1.0,
+            "/type/dark": 2.0,
+            "/type/steel": 1.0,
+            "/type/fairy": 1.0
+        },
+        "url": "https://pokemondb.net/pokedex/greavard",
+        "abilities": [
+            "/ability/pickup",
+            "/ability/fluffy"
+        ]
     },
     {
         "id": 970,
+        "variant": 0,
         "name": "Glimmora",
+        "types": [
+            "/egg-group/mineral"
+        ],
         "height_cm": 150.0,
-        "weight_kg": 45.0
+        "weight_kg": 45.0,
+        "effectiveness": {
+            "/type/normal": 0.5,
+            "/type/fire": 0.5,
+            "/type/water": 2.0,
+            "/type/electric": 1.0,
+            "/type/grass": 1.0,
+            "/type/ice": 1.0,
+            "/type/fighting": 1.0,
+            "/type/poison": 0.25,
+            "/type/ground": 4.0,
+            "/type/flying": 0.5,
+            "/type/psychic": 2.0,
+            "/type/bug": 0.5,
+            "/type/rock": 1.0,
+            "/type/ghost": 1.0,
+            "/type/dragon": 1.0,
+            "/type/dark": 1.0,
+            "/type/steel": 2.0,
+            "/type/fairy": 0.5
+        },
+        "url": "https://pokemondb.net/pokedex/glimmora",
+        "abilities": [
+            "/ability/toxic-debris",
+            "/ability/corrosion"
+        ]
     },
     {
         "id": 969,
+        "variant": 0,
         "name": "Glimmet",
+        "types": [
+            "/egg-group/mineral"
+        ],
         "height_cm": 70.0,
-        "weight_kg": 8.0
+        "weight_kg": 8.0,
+        "effectiveness": {
+            "/type/normal": 0.5,
+            "/type/fire": 0.5,
+            "/type/water": 2.0,
+            "/type/electric": 1.0,
+            "/type/grass": 1.0,
+            "/type/ice": 1.0,
+            "/type/fighting": 1.0,
+            "/type/poison": 0.25,
+            "/type/ground": 4.0,
+            "/type/flying": 0.5,
+            "/type/psychic": 2.0,
+            "/type/bug": 0.5,
+            "/type/rock": 1.0,
+            "/type/ghost": 1.0,
+            "/type/dragon": 1.0,
+            "/type/dark": 1.0,
+            "/type/steel": 2.0,
+            "/type/fairy": 0.5
+        },
+        "url": "https://pokemondb.net/pokedex/glimmet",
+        "abilities": [
+            "/ability/toxic-debris",
+            "/ability/corrosion"
+        ]
     },
     {
         "id": 968,
+        "variant": 0,
         "name": "Orthworm",
+        "types": [
+            "/egg-group/field"
+        ],
         "height_cm": 250.0,
-        "weight_kg": 310.0
+        "weight_kg": 310.0,
+        "effectiveness": {
+            "/type/normal": 0.5,
+            "/type/fire": 2.0,
+            "/type/water": 1.0,
+            "/type/electric": 1.0,
+            "/type/grass": 0.5,
+            "/type/ice": 0.5,
+            "/type/fighting": 2.0,
+            "/type/poison": 0.0,
+            "/type/ground": 2.0,
+            "/type/flying": 0.5,
+            "/type/psychic": 0.5,
+            "/type/bug": 0.5,
+            "/type/rock": 0.5,
+            "/type/ghost": 1.0,
+            "/type/dragon": 0.5,
+            "/type/dark": 1.0,
+            "/type/steel": 0.5,
+            "/type/fairy": 0.5
+        },
+        "url": "https://pokemondb.net/pokedex/orthworm",
+        "abilities": [
+            "/ability/earth-eater",
+            "/ability/sand-veil"
+        ]
     },
     {
         "id": 967,
+        "variant": 0,
         "name": "Cyclizar",
+        "types": [
+            "/egg-group/field"
+        ],
         "height_cm": 160.0,
-        "weight_kg": 63.0
+        "weight_kg": 63.0,
+        "effectiveness": {
+            "/type/normal": 1.0,
+            "/type/fire": 0.5,
+            "/type/water": 0.5,
+            "/type/electric": 0.5,
+            "/type/grass": 0.5,
+            "/type/ice": 2.0,
+            "/type/fighting": 2.0,
+            "/type/poison": 1.0,
+            "/type/ground": 1.0,
+            "/type/flying": 1.0,
+            "/type/psychic": 1.0,
+            "/type/bug": 1.0,
+            "/type/rock": 1.0,
+            "/type/ghost": 0.0,
+            "/type/dragon": 2.0,
+            "/type/dark": 1.0,
+            "/type/steel": 1.0,
+            "/type/fairy": 2.0
+        },
+        "url": "https://pokemondb.net/pokedex/cyclizar",
+        "abilities": [
+            "/ability/shed-skin",
+            "/ability/regenerator"
+        ]
     },
     {
         "id": 966,
+        "variant": 0,
         "name": "Revavroom",
+        "types": [
+            "/egg-group/mineral"
+        ],
         "height_cm": 180.0,
-        "weight_kg": 120.0
+        "weight_kg": 120.0,
+        "effectiveness": {
+            "/type/normal": 0.5,
+            "/type/fire": 2.0,
+            "/type/water": 1.0,
+            "/type/electric": 1.0,
+            "/type/grass": 0.25,
+            "/type/ice": 0.5,
+            "/type/fighting": 1.0,
+            "/type/poison": 0.0,
+            "/type/ground": 4.0,
+            "/type/flying": 0.5,
+            "/type/psychic": 1.0,
+            "/type/bug": 0.25,
+            "/type/rock": 0.5,
+            "/type/ghost": 1.0,
+            "/type/dragon": 0.5,
+            "/type/dark": 1.0,
+            "/type/steel": 0.5,
+            "/type/fairy": 0.25
+        },
+        "url": "https://pokemondb.net/pokedex/revavroom",
+        "abilities": [
+            "/ability/overcoat",
+            "/ability/filter"
+        ]
     },
     {
         "id": 965,
+        "variant": 0,
         "name": "Varoom",
+        "types": [
+            "/egg-group/mineral"
+        ],
         "height_cm": 100.0,
-        "weight_kg": 35.0
+        "weight_kg": 35.0,
+        "effectiveness": {
+            "/type/normal": 0.5,
+            "/type/fire": 2.0,
+            "/type/water": 1.0,
+            "/type/electric": 1.0,
+            "/type/grass": 0.25,
+            "/type/ice": 0.5,
+            "/type/fighting": 1.0,
+            "/type/poison": 0.0,
+            "/type/ground": 4.0,
+            "/type/flying": 0.5,
+            "/type/psychic": 1.0,
+            "/type/bug": 0.25,
+            "/type/rock": 0.5,
+            "/type/ghost": 1.0,
+            "/type/dragon": 0.5,
+            "/type/dark": 1.0,
+            "/type/steel": 0.5,
+            "/type/fairy": 0.25
+        },
+        "url": "https://pokemondb.net/pokedex/varoom",
+        "abilities": [
+            "/ability/overcoat",
+            "/ability/slow-start"
+        ]
     },
     {
         "id": 964,
+        "variant": 0,
         "name": "Palafin",
+        "types": [
+            "/egg-group/field",
+            "/egg-group/water-2",
+            "/egg-group/field",
+            "/egg-group/water-2"
+        ],
         "height_cm": 130.0,
-        "weight_kg": 60.2
+        "weight_kg": 60.2,
+        "effectiveness": {
+            "/type/normal": 1.0,
+            "/type/fire": 0.5,
+            "/type/water": 0.5,
+            "/type/electric": 2.0,
+            "/type/grass": 2.0,
+            "/type/ice": 0.5,
+            "/type/fighting": 1.0,
+            "/type/poison": 1.0,
+            "/type/ground": 1.0,
+            "/type/flying": 1.0,
+            "/type/psychic": 1.0,
+            "/type/bug": 1.0,
+            "/type/rock": 1.0,
+            "/type/ghost": 1.0,
+            "/type/dragon": 1.0,
+            "/type/dark": 1.0,
+            "/type/steel": 0.5,
+            "/type/fairy": 1.0
+        },
+        "url": "https://pokemondb.net/pokedex/palafin",
+        "abilities": [
+            "/ability/zero-to-hero",
+            "/ability/zero-to-hero"
+        ]
     },
     {
         "id": 963,
+        "variant": 0,
         "name": "Finizen",
+        "types": [
+            "/egg-group/field",
+            "/egg-group/water-2"
+        ],
         "height_cm": 130.0,
-        "weight_kg": 60.2
+        "weight_kg": 60.2,
+        "effectiveness": {
+            "/type/normal": 1.0,
+            "/type/fire": 0.5,
+            "/type/water": 0.5,
+            "/type/electric": 2.0,
+            "/type/grass": 2.0,
+            "/type/ice": 0.5,
+            "/type/fighting": 1.0,
+            "/type/poison": 1.0,
+            "/type/ground": 1.0,
+            "/type/flying": 1.0,
+            "/type/psychic": 1.0,
+            "/type/bug": 1.0,
+            "/type/rock": 1.0,
+            "/type/ghost": 1.0,
+            "/type/dragon": 1.0,
+            "/type/dark": 1.0,
+            "/type/steel": 0.5,
+            "/type/fairy": 1.0
+        },
+        "url": "https://pokemondb.net/pokedex/finizen",
+        "abilities": [
+            "/ability/water-veil"
+        ]
     },
     {
         "id": 962,
+        "variant": 0,
         "name": "Bombirdier",
+        "types": [
+            "/egg-group/flying"
+        ],
         "height_cm": 150.0,
-        "weight_kg": 42.9
+        "weight_kg": 42.9,
+        "effectiveness": {
+            "/type/normal": 1.0,
+            "/type/fire": 1.0,
+            "/type/water": 1.0,
+            "/type/electric": 2.0,
+            "/type/grass": 0.5,
+            "/type/ice": 2.0,
+            "/type/fighting": 1.0,
+            "/type/poison": 1.0,
+            "/type/ground": 0.0,
+            "/type/flying": 1.0,
+            "/type/psychic": 0.0,
+            "/type/bug": 1.0,
+            "/type/rock": 2.0,
+            "/type/ghost": 0.5,
+            "/type/dragon": 1.0,
+            "/type/dark": 0.5,
+            "/type/steel": 1.0,
+            "/type/fairy": 2.0
+        },
+        "url": "https://pokemondb.net/pokedex/bombirdier",
+        "abilities": [
+            "/ability/big-pecks",
+            "/ability/keen-eye",
+            "/ability/rocky-payload"
+        ]
     },
     {
         "id": 961,
+        "variant": 0,
         "name": "Wugtrio",
+        "types": [
+            "/egg-group/water-3"
+        ],
         "height_cm": 120.0,
-        "weight_kg": 5.4
+        "weight_kg": 5.4,
+        "effectiveness": {
+            "/type/normal": 1.0,
+            "/type/fire": 0.5,
+            "/type/water": 0.5,
+            "/type/electric": 2.0,
+            "/type/grass": 2.0,
+            "/type/ice": 0.5,
+            "/type/fighting": 1.0,
+            "/type/poison": 1.0,
+            "/type/ground": 1.0,
+            "/type/flying": 1.0,
+            "/type/psychic": 1.0,
+            "/type/bug": 1.0,
+            "/type/rock": 1.0,
+            "/type/ghost": 1.0,
+            "/type/dragon": 1.0,
+            "/type/dark": 1.0,
+            "/type/steel": 0.5,
+            "/type/fairy": 1.0
+        },
+        "url": "https://pokemondb.net/pokedex/wugtrio",
+        "abilities": [
+            "/ability/gooey",
+            "/ability/rattled",
+            "/ability/sand-veil"
+        ]
     },
     {
         "id": 960,
+        "variant": 0,
         "name": "Wiglett",
+        "types": [
+            "/egg-group/water-3"
+        ],
         "height_cm": 120.0,
-        "weight_kg": 1.8
+        "weight_kg": 1.8,
+        "effectiveness": {
+            "/type/normal": 1.0,
+            "/type/fire": 0.5,
+            "/type/water": 0.5,
+            "/type/electric": 2.0,
+            "/type/grass": 2.0,
+            "/type/ice": 0.5,
+            "/type/fighting": 1.0,
+            "/type/poison": 1.0,
+            "/type/ground": 1.0,
+            "/type/flying": 1.0,
+            "/type/psychic": 1.0,
+            "/type/bug": 1.0,
+            "/type/rock": 1.0,
+            "/type/ghost": 1.0,
+            "/type/dragon": 1.0,
+            "/type/dark": 1.0,
+            "/type/steel": 0.5,
+            "/type/fairy": 1.0
+        },
+        "url": "https://pokemondb.net/pokedex/wiglett",
+        "abilities": [
+            "/ability/gooey",
+            "/ability/rattled",
+            "/ability/sand-veil"
+        ]
     },
     {
         "id": 959,
+        "variant": 0,
         "name": "Tinkaton",
+        "types": [
+            "/egg-group/fairy"
+        ],
         "height_cm": 70.0,
-        "weight_kg": 112.8
+        "weight_kg": 112.8,
+        "effectiveness": {
+            "/type/normal": 0.5,
+            "/type/fire": 2.0,
+            "/type/water": 1.0,
+            "/type/electric": 1.0,
+            "/type/grass": 0.5,
+            "/type/ice": 0.5,
+            "/type/fighting": 1.0,
+            "/type/poison": 0.0,
+            "/type/ground": 2.0,
+            "/type/flying": 0.5,
+            "/type/psychic": 0.5,
+            "/type/bug": 0.25,
+            "/type/rock": 0.5,
+            "/type/ghost": 1.0,
+            "/type/dragon": 0.0,
+            "/type/dark": 0.5,
+            "/type/steel": 1.0,
+            "/type/fairy": 0.5
+        },
+        "url": "https://pokemondb.net/pokedex/tinkaton",
+        "abilities": [
+            "/ability/mold-breaker",
+            "/ability/own-tempo",
+            "/ability/pickpocket"
+        ]
     },
     {
         "id": 958,
+        "variant": 0,
         "name": "Tinkatuff",
+        "types": [
+            "/egg-group/fairy"
+        ],
         "height_cm": 70.0,
-        "weight_kg": 59.1
+        "weight_kg": 59.1,
+        "effectiveness": {
+            "/type/normal": 0.5,
+            "/type/fire": 2.0,
+            "/type/water": 1.0,
+            "/type/electric": 1.0,
+            "/type/grass": 0.5,
+            "/type/ice": 0.5,
+            "/type/fighting": 1.0,
+            "/type/poison": 0.0,
+            "/type/ground": 2.0,
+            "/type/flying": 0.5,
+            "/type/psychic": 0.5,
+            "/type/bug": 0.25,
+            "/type/rock": 0.5,
+            "/type/ghost": 1.0,
+            "/type/dragon": 0.0,
+            "/type/dark": 0.5,
+            "/type/steel": 1.0,
+            "/type/fairy": 0.5
+        },
+        "url": "https://pokemondb.net/pokedex/tinkatuff",
+        "abilities": [
+            "/ability/mold-breaker",
+            "/ability/own-tempo",
+            "/ability/pickpocket"
+        ]
     },
     {
         "id": 957,
+        "variant": 0,
         "name": "Tinkatink",
+        "types": [
+            "/egg-group/fairy"
+        ],
         "height_cm": 40.0,
-        "weight_kg": 8.9
+        "weight_kg": 8.9,
+        "effectiveness": {
+            "/type/normal": 0.5,
+            "/type/fire": 2.0,
+            "/type/water": 1.0,
+            "/type/electric": 1.0,
+            "/type/grass": 0.5,
+            "/type/ice": 0.5,
+            "/type/fighting": 1.0,
+            "/type/poison": 0.0,
+            "/type/ground": 2.0,
+            "/type/flying": 0.5,
+            "/type/psychic": 0.5,
+            "/type/bug": 0.25,
+            "/type/rock": 0.5,
+            "/type/ghost": 1.0,
+            "/type/dragon": 0.0,
+            "/type/dark": 0.5,
+            "/type/steel": 1.0,
+            "/type/fairy": 0.5
+        },
+        "url": "https://pokemondb.net/pokedex/tinkatink",
+        "abilities": [
+            "/ability/mold-breaker",
+            "/ability/own-tempo",
+            "/ability/pickpocket"
+        ]
     },
     {
         "id": 956,
+        "variant": 0,
         "name": "Espathra",
+        "types": [
+            "/egg-group/flying"
+        ],
         "height_cm": 190.0,
-        "weight_kg": 90.0
+        "weight_kg": 90.0,
+        "effectiveness": {
+            "/type/normal": 1.0,
+            "/type/fire": 1.0,
+            "/type/water": 1.0,
+            "/type/electric": 1.0,
+            "/type/grass": 1.0,
+            "/type/ice": 1.0,
+            "/type/fighting": 0.5,
+            "/type/poison": 1.0,
+            "/type/ground": 1.0,
+            "/type/flying": 1.0,
+            "/type/psychic": 0.5,
+            "/type/bug": 2.0,
+            "/type/rock": 1.0,
+            "/type/ghost": 2.0,
+            "/type/dragon": 1.0,
+            "/type/dark": 2.0,
+            "/type/steel": 1.0,
+            "/type/fairy": 1.0
+        },
+        "url": "https://pokemondb.net/pokedex/espathra",
+        "abilities": [
+            "/ability/opportunist",
+            "/ability/frisk",
+            "/ability/speed-boost"
+        ]
     },
     {
         "id": 955,
+        "variant": 0,
         "name": "Flittle",
+        "types": [
+            "/egg-group/flying"
+        ],
         "height_cm": 20.0,
-        "weight_kg": 1.5
+        "weight_kg": 1.5,
+        "effectiveness": {
+            "/type/normal": 1.0,
+            "/type/fire": 1.0,
+            "/type/water": 1.0,
+            "/type/electric": 1.0,
+            "/type/grass": 1.0,
+            "/type/ice": 1.0,
+            "/type/fighting": 0.5,
+            "/type/poison": 1.0,
+            "/type/ground": 1.0,
+            "/type/flying": 1.0,
+            "/type/psychic": 0.5,
+            "/type/bug": 2.0,
+            "/type/rock": 1.0,
+            "/type/ghost": 2.0,
+            "/type/dragon": 1.0,
+            "/type/dark": 2.0,
+            "/type/steel": 1.0,
+            "/type/fairy": 1.0
+        },
+        "url": "https://pokemondb.net/pokedex/flittle",
+        "abilities": [
+            "/ability/anticipation",
+            "/ability/frisk",
+            "/ability/speed-boost"
+        ]
     },
     {
         "id": 954,
+        "variant": 0,
         "name": "Rabsca",
+        "types": [
+            "/egg-group/bug"
+        ],
         "height_cm": 30.0,
-        "weight_kg": 3.5
+        "weight_kg": 3.5,
+        "effectiveness": {
+            "/type/normal": 1.0,
+            "/type/fire": 2.0,
+            "/type/water": 1.0,
+            "/type/electric": 1.0,
+            "/type/grass": 0.5,
+            "/type/ice": 1.0,
+            "/type/fighting": 0.25,
+            "/type/poison": 1.0,
+            "/type/ground": 0.5,
+            "/type/flying": 2.0,
+            "/type/psychic": 0.5,
+            "/type/bug": 2.0,
+            "/type/rock": 2.0,
+            "/type/ghost": 2.0,
+            "/type/dragon": 1.0,
+            "/type/dark": 2.0,
+            "/type/steel": 1.0,
+            "/type/fairy": 1.0
+        },
+        "url": "https://pokemondb.net/pokedex/rabsca",
+        "abilities": [
+            "/ability/synchronize",
+            "/ability/telepathy"
+        ]
     },
     {
         "id": 953,
+        "variant": 0,
         "name": "Rellor",
+        "types": [
+            "/egg-group/bug"
+        ],
         "height_cm": 20.0,
-        "weight_kg": 1.0
+        "weight_kg": 1.0,
+        "effectiveness": {
+            "/type/normal": 1.0,
+            "/type/fire": 2.0,
+            "/type/water": 1.0,
+            "/type/electric": 1.0,
+            "/type/grass": 0.5,
+            "/type/ice": 1.0,
+            "/type/fighting": 0.5,
+            "/type/poison": 1.0,
+            "/type/ground": 0.5,
+            "/type/flying": 2.0,
+            "/type/psychic": 1.0,
+            "/type/bug": 1.0,
+            "/type/rock": 2.0,
+            "/type/ghost": 1.0,
+            "/type/dragon": 1.0,
+            "/type/dark": 1.0,
+            "/type/steel": 1.0,
+            "/type/fairy": 1.0
+        },
+        "url": "https://pokemondb.net/pokedex/rellor",
+        "abilities": [
+            "/ability/compound-eyes",
+            "/ability/shed-skin"
+        ]
     },
     {
         "id": 952,
+        "variant": 0,
         "name": "Scovillain",
+        "types": [
+            "/egg-group/grass"
+        ],
         "height_cm": 90.0,
-        "weight_kg": 15.0
+        "weight_kg": 15.0,
+        "effectiveness": {
+            "/type/normal": 1.0,
+            "/type/fire": 1.0,
+            "/type/water": 1.0,
+            "/type/electric": 0.5,
+            "/type/grass": 0.25,
+            "/type/ice": 1.0,
+            "/type/fighting": 1.0,
+            "/type/poison": 2.0,
+            "/type/ground": 1.0,
+            "/type/flying": 2.0,
+            "/type/psychic": 1.0,
+            "/type/bug": 1.0,
+            "/type/rock": 2.0,
+            "/type/ghost": 1.0,
+            "/type/dragon": 1.0,
+            "/type/dark": 1.0,
+            "/type/steel": 0.5,
+            "/type/fairy": 0.5
+        },
+        "url": "https://pokemondb.net/pokedex/scovillain",
+        "abilities": [
+            "/ability/chlorophyll",
+            "/ability/insomnia",
+            "/ability/moody"
+        ]
     },
     {
         "id": 951,
+        "variant": 0,
         "name": "Capsakid",
+        "types": [
+            "/egg-group/grass"
+        ],
         "height_cm": 30.0,
-        "weight_kg": 3.0
+        "weight_kg": 3.0,
+        "effectiveness": {
+            "/type/normal": 1.0,
+            "/type/fire": 2.0,
+            "/type/water": 0.5,
+            "/type/electric": 0.5,
+            "/type/grass": 0.5,
+            "/type/ice": 2.0,
+            "/type/fighting": 1.0,
+            "/type/poison": 2.0,
+            "/type/ground": 0.5,
+            "/type/flying": 2.0,
+            "/type/psychic": 1.0,
+            "/type/bug": 2.0,
+            "/type/rock": 1.0,
+            "/type/ghost": 1.0,
+            "/type/dragon": 1.0,
+            "/type/dark": 1.0,
+            "/type/steel": 1.0,
+            "/type/fairy": 1.0
+        },
+        "url": "https://pokemondb.net/pokedex/capsakid",
+        "abilities": [
+            "/ability/chlorophyll",
+            "/ability/insomnia",
+            "/ability/klutz"
+        ]
     },
     {
         "id": 950,
+        "variant": 0,
         "name": "Klawf",
+        "types": [
+            "/egg-group/water-3"
+        ],
         "height_cm": 130.0,
-        "weight_kg": 79.0
+        "weight_kg": 79.0,
+        "effectiveness": {
+            "/type/normal": 0.5,
+            "/type/fire": 0.5,
+            "/type/water": 2.0,
+            "/type/electric": 1.0,
+            "/type/grass": 2.0,
+            "/type/ice": 1.0,
+            "/type/fighting": 2.0,
+            "/type/poison": 0.5,
+            "/type/ground": 2.0,
+            "/type/flying": 0.5,
+            "/type/psychic": 1.0,
+            "/type/bug": 1.0,
+            "/type/rock": 1.0,
+            "/type/ghost": 1.0,
+            "/type/dragon": 1.0,
+            "/type/dark": 1.0,
+            "/type/steel": 2.0,
+            "/type/fairy": 1.0
+        },
+        "url": "https://pokemondb.net/pokedex/klawf",
+        "abilities": [
+            "/ability/anger-shell",
+            "/ability/shell-armor",
+            "/ability/regenerator"
+        ]
     },
     {
         "id": 949,
+        "variant": 0,
         "name": "Toedscruel",
+        "types": [
+            "/egg-group/grass"
+        ],
         "height_cm": 190.0,
-        "weight_kg": 58.0
+        "weight_kg": 58.0,
+        "effectiveness": {
+            "/type/normal": 1.0,
+            "/type/fire": 2.0,
+            "/type/water": 1.0,
+            "/type/electric": 0.0,
+            "/type/grass": 1.0,
+            "/type/ice": 4.0,
+            "/type/fighting": 1.0,
+            "/type/poison": 1.0,
+            "/type/ground": 0.5,
+            "/type/flying": 2.0,
+            "/type/psychic": 1.0,
+            "/type/bug": 2.0,
+            "/type/rock": 0.5,
+            "/type/ghost": 1.0,
+            "/type/dragon": 1.0,
+            "/type/dark": 1.0,
+            "/type/steel": 1.0,
+            "/type/fairy": 1.0
+        },
+        "url": "https://pokemondb.net/pokedex/toedscruel",
+        "abilities": [
+            "/ability/mycelium-might"
+        ]
     },
     {
         "id": 948,
+        "variant": 0,
         "name": "Toedscool",
+        "types": [
+            "/egg-group/grass"
+        ],
         "height_cm": 90.0,
-        "weight_kg": 33.0
+        "weight_kg": 33.0,
+        "effectiveness": {
+            "/type/normal": 1.0,
+            "/type/fire": 2.0,
+            "/type/water": 1.0,
+            "/type/electric": 0.0,
+            "/type/grass": 1.0,
+            "/type/ice": 4.0,
+            "/type/fighting": 1.0,
+            "/type/poison": 1.0,
+            "/type/ground": 0.5,
+            "/type/flying": 2.0,
+            "/type/psychic": 1.0,
+            "/type/bug": 2.0,
+            "/type/rock": 0.5,
+            "/type/ghost": 1.0,
+            "/type/dragon": 1.0,
+            "/type/dark": 1.0,
+            "/type/steel": 1.0,
+            "/type/fairy": 1.0
+        },
+        "url": "https://pokemondb.net/pokedex/toedscool",
+        "abilities": [
+            "/ability/mycelium-might"
+        ]
     },
     {
         "id": 947,
+        "variant": 0,
         "name": "Brambleghast",
+        "types": [
+            "/egg-group/grass"
+        ],
         "height_cm": 120.0,
-        "weight_kg": 6.0
+        "weight_kg": 6.0,
+        "effectiveness": {
+            "/type/normal": 0.0,
+            "/type/fire": 2.0,
+            "/type/water": 0.5,
+            "/type/electric": 0.5,
+            "/type/grass": 0.5,
+            "/type/ice": 2.0,
+            "/type/fighting": 0.0,
+            "/type/poison": 1.0,
+            "/type/ground": 0.5,
+            "/type/flying": 2.0,
+            "/type/psychic": 1.0,
+            "/type/bug": 1.0,
+            "/type/rock": 1.0,
+            "/type/ghost": 2.0,
+            "/type/dragon": 1.0,
+            "/type/dark": 2.0,
+            "/type/steel": 1.0,
+            "/type/fairy": 1.0
+        },
+        "url": "https://pokemondb.net/pokedex/brambleghast",
+        "abilities": [
+            "/ability/wind-rider",
+            "/ability/infiltrator"
+        ]
     },
     {
         "id": 946,
+        "variant": 0,
         "name": "Bramblin",
+        "types": [
+            "/egg-group/grass"
+        ],
         "height_cm": 60.0,
-        "weight_kg": 0.6
+        "weight_kg": 0.6,
+        "effectiveness": {
+            "/type/normal": 0.0,
+            "/type/fire": 2.0,
+            "/type/water": 0.5,
+            "/type/electric": 0.5,
+            "/type/grass": 0.5,
+            "/type/ice": 2.0,
+            "/type/fighting": 0.0,
+            "/type/poison": 1.0,
+            "/type/ground": 0.5,
+            "/type/flying": 2.0,
+            "/type/psychic": 1.0,
+            "/type/bug": 1.0,
+            "/type/rock": 1.0,
+            "/type/ghost": 2.0,
+            "/type/dragon": 1.0,
+            "/type/dark": 2.0,
+            "/type/steel": 1.0,
+            "/type/fairy": 1.0
+        },
+        "url": "https://pokemondb.net/pokedex/bramblin",
+        "abilities": [
+            "/ability/wind-rider",
+            "/ability/infiltrator"
+        ]
     },
     {
         "id": 945,
+        "variant": 0,
         "name": "Grafaiai",
+        "types": [
+            "/egg-group/field"
+        ],
         "height_cm": 70.0,
-        "weight_kg": 27.2
+        "weight_kg": 27.2,
+        "effectiveness": {
+            "/type/normal": 1.0,
+            "/type/fire": 1.0,
+            "/type/water": 1.0,
+            "/type/electric": 1.0,
+            "/type/grass": 0.5,
+            "/type/ice": 1.0,
+            "/type/fighting": 1.0,
+            "/type/poison": 0.5,
+            "/type/ground": 2.0,
+            "/type/flying": 1.0,
+            "/type/psychic": 2.0,
+            "/type/bug": 0.5,
+            "/type/rock": 1.0,
+            "/type/ghost": 0.0,
+            "/type/dragon": 1.0,
+            "/type/dark": 1.0,
+            "/type/steel": 1.0,
+            "/type/fairy": 0.5
+        },
+        "url": "https://pokemondb.net/pokedex/grafaiai",
+        "abilities": [
+            "/ability/unburden",
+            "/ability/poison-touch",
+            "/ability/prankster"
+        ]
     },
     {
         "id": 944,
+        "variant": 0,
         "name": "Shroodle",
+        "types": [
+            "/egg-group/field"
+        ],
         "height_cm": 20.0,
-        "weight_kg": 0.7
+        "weight_kg": 0.7,
+        "effectiveness": {
+            "/type/normal": 1.0,
+            "/type/fire": 1.0,
+            "/type/water": 1.0,
+            "/type/electric": 1.0,
+            "/type/grass": 0.5,
+            "/type/ice": 1.0,
+            "/type/fighting": 1.0,
+            "/type/poison": 0.5,
+            "/type/ground": 2.0,
+            "/type/flying": 1.0,
+            "/type/psychic": 2.0,
+            "/type/bug": 0.5,
+            "/type/rock": 1.0,
+            "/type/ghost": 0.0,
+            "/type/dragon": 1.0,
+            "/type/dark": 1.0,
+            "/type/steel": 1.0,
+            "/type/fairy": 0.5
+        },
+        "url": "https://pokemondb.net/pokedex/shroodle",
+        "abilities": [
+            "/ability/unburden",
+            "/ability/pickpocket",
+            "/ability/prankster"
+        ]
     },
     {
         "id": 943,
+        "variant": 0,
         "name": "Mabosstiff",
+        "types": [
+            "/egg-group/field"
+        ],
         "height_cm": 110.0,
-        "weight_kg": 61.0
+        "weight_kg": 61.0,
+        "effectiveness": {
+            "/type/normal": 1.0,
+            "/type/fire": 1.0,
+            "/type/water": 1.0,
+            "/type/electric": 1.0,
+            "/type/grass": 1.0,
+            "/type/ice": 1.0,
+            "/type/fighting": 2.0,
+            "/type/poison": 1.0,
+            "/type/ground": 1.0,
+            "/type/flying": 1.0,
+            "/type/psychic": 0.0,
+            "/type/bug": 2.0,
+            "/type/rock": 1.0,
+            "/type/ghost": 0.5,
+            "/type/dragon": 1.0,
+            "/type/dark": 0.5,
+            "/type/steel": 1.0,
+            "/type/fairy": 2.0
+        },
+        "url": "https://pokemondb.net/pokedex/mabosstiff",
+        "abilities": [
+            "/ability/intimidate",
+            "/ability/guard-dog",
+            "/ability/stakeout"
+        ]
     },
     {
         "id": 942,
+        "variant": 0,
         "name": "Maschiff",
+        "types": [
+            "/egg-group/field"
+        ],
         "height_cm": 50.0,
-        "weight_kg": 16.0
+        "weight_kg": 16.0,
+        "effectiveness": {
+            "/type/normal": 1.0,
+            "/type/fire": 1.0,
+            "/type/water": 1.0,
+            "/type/electric": 1.0,
+            "/type/grass": 1.0,
+            "/type/ice": 1.0,
+            "/type/fighting": 2.0,
+            "/type/poison": 1.0,
+            "/type/ground": 1.0,
+            "/type/flying": 1.0,
+            "/type/psychic": 0.0,
+            "/type/bug": 2.0,
+            "/type/rock": 1.0,
+            "/type/ghost": 0.5,
+            "/type/dragon": 1.0,
+            "/type/dark": 0.5,
+            "/type/steel": 1.0,
+            "/type/fairy": 2.0
+        },
+        "url": "https://pokemondb.net/pokedex/maschiff",
+        "abilities": [
+            "/ability/intimidate",
+            "/ability/run-away",
+            "/ability/stakeout"
+        ]
     },
     {
         "id": 941,
+        "variant": 0,
         "name": "Kilowattrel",
+        "types": [
+            "/egg-group/flying",
+            "/egg-group/water-1"
+        ],
         "height_cm": 140.0,
-        "weight_kg": 38.6
+        "weight_kg": 38.6,
+        "effectiveness": {
+            "/type/normal": 1.0,
+            "/type/fire": 1.0,
+            "/type/water": 1.0,
+            "/type/electric": 1.0,
+            "/type/grass": 0.5,
+            "/type/ice": 2.0,
+            "/type/fighting": 0.5,
+            "/type/poison": 1.0,
+            "/type/ground": 0.0,
+            "/type/flying": 0.5,
+            "/type/psychic": 1.0,
+            "/type/bug": 0.5,
+            "/type/rock": 2.0,
+            "/type/ghost": 1.0,
+            "/type/dragon": 1.0,
+            "/type/dark": 1.0,
+            "/type/steel": 0.5,
+            "/type/fairy": 1.0
+        },
+        "url": "https://pokemondb.net/pokedex/kilowattrel",
+        "abilities": [
+            "/ability/wind-power",
+            "/ability/volt-absorb",
+            "/ability/competitive"
+        ]
     },
     {
         "id": 940,
+        "variant": 0,
         "name": "Wattrel",
+        "types": [
+            "/egg-group/flying",
+            "/egg-group/water-1"
+        ],
         "height_cm": 40.0,
-        "weight_kg": 3.6
+        "weight_kg": 3.6,
+        "effectiveness": {
+            "/type/normal": 1.0,
+            "/type/fire": 1.0,
+            "/type/water": 1.0,
+            "/type/electric": 1.0,
+            "/type/grass": 0.5,
+            "/type/ice": 2.0,
+            "/type/fighting": 0.5,
+            "/type/poison": 1.0,
+            "/type/ground": 0.0,
+            "/type/flying": 0.5,
+            "/type/psychic": 1.0,
+            "/type/bug": 0.5,
+            "/type/rock": 2.0,
+            "/type/ghost": 1.0,
+            "/type/dragon": 1.0,
+            "/type/dark": 1.0,
+            "/type/steel": 0.5,
+            "/type/fairy": 1.0
+        },
+        "url": "https://pokemondb.net/pokedex/wattrel",
+        "abilities": [
+            "/ability/wind-power",
+            "/ability/volt-absorb",
+            "/ability/competitive"
+        ]
     },
     {
         "id": 939,
+        "variant": 0,
         "name": "Bellibolt",
+        "types": [
+            "/egg-group/water-1"
+        ],
         "height_cm": 120.0,
-        "weight_kg": 113.0
+        "weight_kg": 113.0,
+        "effectiveness": {
+            "/type/normal": 1.0,
+            "/type/fire": 1.0,
+            "/type/water": 1.0,
+            "/type/electric": 0.5,
+            "/type/grass": 1.0,
+            "/type/ice": 1.0,
+            "/type/fighting": 1.0,
+            "/type/poison": 1.0,
+            "/type/ground": 2.0,
+            "/type/flying": 0.5,
+            "/type/psychic": 1.0,
+            "/type/bug": 1.0,
+            "/type/rock": 1.0,
+            "/type/ghost": 1.0,
+            "/type/dragon": 1.0,
+            "/type/dark": 1.0,
+            "/type/steel": 0.5,
+            "/type/fairy": 1.0
+        },
+        "url": "https://pokemondb.net/pokedex/bellibolt",
+        "abilities": [
+            "/ability/electromorphosis",
+            "/ability/static",
+            "/ability/damp"
+        ]
     },
     {
         "id": 938,
+        "variant": 0,
         "name": "Tadbulb",
+        "types": [
+            "/egg-group/water-1"
+        ],
         "height_cm": 30.0,
-        "weight_kg": 0.4
+        "weight_kg": 0.4,
+        "effectiveness": {
+            "/type/normal": 1.0,
+            "/type/fire": 1.0,
+            "/type/water": 1.0,
+            "/type/electric": 0.5,
+            "/type/grass": 1.0,
+            "/type/ice": 1.0,
+            "/type/fighting": 1.0,
+            "/type/poison": 1.0,
+            "/type/ground": 2.0,
+            "/type/flying": 0.5,
+            "/type/psychic": 1.0,
+            "/type/bug": 1.0,
+            "/type/rock": 1.0,
+            "/type/ghost": 1.0,
+            "/type/dragon": 1.0,
+            "/type/dark": 1.0,
+            "/type/steel": 0.5,
+            "/type/fairy": 1.0
+        },
+        "url": "https://pokemondb.net/pokedex/tadbulb",
+        "abilities": [
+            "/ability/own-tempo",
+            "/ability/static",
+            "/ability/damp"
+        ]
     },
     {
         "id": 937,
+        "variant": 0,
         "name": "Ceruledge",
+        "types": [
+            "/egg-group/human-like"
+        ],
         "height_cm": 160.0,
-        "weight_kg": 62.0
+        "weight_kg": 62.0,
+        "effectiveness": {
+            "/type/normal": 0.0,
+            "/type/fire": 0.5,
+            "/type/water": 2.0,
+            "/type/electric": 1.0,
+            "/type/grass": 0.5,
+            "/type/ice": 0.5,
+            "/type/fighting": 0.0,
+            "/type/poison": 0.5,
+            "/type/ground": 2.0,
+            "/type/flying": 1.0,
+            "/type/psychic": 1.0,
+            "/type/bug": 0.25,
+            "/type/rock": 2.0,
+            "/type/ghost": 2.0,
+            "/type/dragon": 1.0,
+            "/type/dark": 2.0,
+            "/type/steel": 0.5,
+            "/type/fairy": 0.5
+        },
+        "url": "https://pokemondb.net/pokedex/ceruledge",
+        "abilities": [
+            "/ability/flash-fire",
+            "/ability/weak-armor"
+        ]
     },
     {
         "id": 936,
+        "variant": 0,
         "name": "Armarouge",
+        "types": [
+            "/egg-group/human-like"
+        ],
         "height_cm": 150.0,
-        "weight_kg": 85.0
+        "weight_kg": 85.0,
+        "effectiveness": {
+            "/type/normal": 1.0,
+            "/type/fire": 0.5,
+            "/type/water": 2.0,
+            "/type/electric": 1.0,
+            "/type/grass": 0.5,
+            "/type/ice": 0.5,
+            "/type/fighting": 0.5,
+            "/type/poison": 1.0,
+            "/type/ground": 2.0,
+            "/type/flying": 1.0,
+            "/type/psychic": 0.5,
+            "/type/bug": 1.0,
+            "/type/rock": 2.0,
+            "/type/ghost": 2.0,
+            "/type/dragon": 1.0,
+            "/type/dark": 2.0,
+            "/type/steel": 0.5,
+            "/type/fairy": 0.5
+        },
+        "url": "https://pokemondb.net/pokedex/armarouge",
+        "abilities": [
+            "/ability/flash-fire",
+            "/ability/weak-armor"
+        ]
     },
     {
         "id": 935,
+        "variant": 0,
         "name": "Charcadet",
+        "types": [
+            "/egg-group/human-like"
+        ],
         "height_cm": 60.0,
-        "weight_kg": 10.5
+        "weight_kg": 10.5,
+        "effectiveness": {
+            "/type/normal": 1.0,
+            "/type/fire": 0.5,
+            "/type/water": 2.0,
+            "/type/electric": 1.0,
+            "/type/grass": 0.5,
+            "/type/ice": 0.5,
+            "/type/fighting": 1.0,
+            "/type/poison": 1.0,
+            "/type/ground": 2.0,
+            "/type/flying": 1.0,
+            "/type/psychic": 1.0,
+            "/type/bug": 0.5,
+            "/type/rock": 2.0,
+            "/type/ghost": 1.0,
+            "/type/dragon": 1.0,
+            "/type/dark": 1.0,
+            "/type/steel": 0.5,
+            "/type/fairy": 0.5
+        },
+        "url": "https://pokemondb.net/pokedex/charcadet",
+        "abilities": [
+            "/ability/flash-fire",
+            "/ability/flame-body"
+        ]
     },
     {
         "id": 934,
+        "variant": 0,
         "name": "Garganacl",
+        "types": [
+            "/egg-group/mineral"
+        ],
         "height_cm": 230.0,
-        "weight_kg": 240.0
+        "weight_kg": 240.0,
+        "effectiveness": {
+            "/type/normal": 0.5,
+            "/type/fire": 0.5,
+            "/type/water": 2.0,
+            "/type/electric": 1.0,
+            "/type/grass": 2.0,
+            "/type/ice": 1.0,
+            "/type/fighting": 2.0,
+            "/type/poison": 0.5,
+            "/type/ground": 2.0,
+            "/type/flying": 0.5,
+            "/type/psychic": 1.0,
+            "/type/bug": 1.0,
+            "/type/rock": 1.0,
+            "/type/ghost": 1.0,
+            "/type/dragon": 1.0,
+            "/type/dark": 1.0,
+            "/type/steel": 2.0,
+            "/type/fairy": 1.0
+        },
+        "url": "https://pokemondb.net/pokedex/garganacl",
+        "abilities": [
+            "/ability/purifying-salt",
+            "/ability/sturdy",
+            "/ability/clear-body"
+        ]
     },
     {
         "id": 933,
+        "variant": 0,
         "name": "Naclstack",
+        "types": [
+            "/egg-group/mineral"
+        ],
         "height_cm": 60.0,
-        "weight_kg": 105.0
+        "weight_kg": 105.0,
+        "effectiveness": {
+            "/type/normal": 0.5,
+            "/type/fire": 0.5,
+            "/type/water": 2.0,
+            "/type/electric": 1.0,
+            "/type/grass": 2.0,
+            "/type/ice": 1.0,
+            "/type/fighting": 2.0,
+            "/type/poison": 0.5,
+            "/type/ground": 2.0,
+            "/type/flying": 0.5,
+            "/type/psychic": 1.0,
+            "/type/bug": 1.0,
+            "/type/rock": 1.0,
+            "/type/ghost": 1.0,
+            "/type/dragon": 1.0,
+            "/type/dark": 1.0,
+            "/type/steel": 2.0,
+            "/type/fairy": 1.0
+        },
+        "url": "https://pokemondb.net/pokedex/naclstack",
+        "abilities": [
+            "/ability/purifying-salt",
+            "/ability/sturdy",
+            "/ability/clear-body"
+        ]
     },
     {
         "id": 932,
+        "variant": 0,
         "name": "Nacli",
+        "types": [
+            "/egg-group/mineral"
+        ],
         "height_cm": 40.0,
-        "weight_kg": 16.0
+        "weight_kg": 16.0,
+        "effectiveness": {
+            "/type/normal": 0.5,
+            "/type/fire": 0.5,
+            "/type/water": 2.0,
+            "/type/electric": 1.0,
+            "/type/grass": 2.0,
+            "/type/ice": 1.0,
+            "/type/fighting": 2.0,
+            "/type/poison": 0.5,
+            "/type/ground": 2.0,
+            "/type/flying": 0.5,
+            "/type/psychic": 1.0,
+            "/type/bug": 1.0,
+            "/type/rock": 1.0,
+            "/type/ghost": 1.0,
+            "/type/dragon": 1.0,
+            "/type/dark": 1.0,
+            "/type/steel": 2.0,
+            "/type/fairy": 1.0
+        },
+        "url": "https://pokemondb.net/pokedex/nacli",
+        "abilities": [
+            "/ability/purifying-salt",
+            "/ability/sturdy",
+            "/ability/clear-body"
+        ]
     },
     {
         "id": 931,
+        "variant": 0,
         "name": "Squawkabilly",
+        "types": [
+            "/egg-group/flying",
+            "/egg-group/flying",
+            "/egg-group/flying",
+            "/egg-group/flying"
+        ],
         "height_cm": 60.0,
-        "weight_kg": 2.4
+        "weight_kg": 2.4,
+        "effectiveness": {
+            "/type/normal": 1.0,
+            "/type/fire": 1.0,
+            "/type/water": 1.0,
+            "/type/electric": 2.0,
+            "/type/grass": 0.5,
+            "/type/ice": 2.0,
+            "/type/fighting": 1.0,
+            "/type/poison": 1.0,
+            "/type/ground": 0.0,
+            "/type/flying": 1.0,
+            "/type/psychic": 1.0,
+            "/type/bug": 0.5,
+            "/type/rock": 2.0,
+            "/type/ghost": 0.0,
+            "/type/dragon": 1.0,
+            "/type/dark": 1.0,
+            "/type/steel": 1.0,
+            "/type/fairy": 1.0
+        },
+        "url": "https://pokemondb.net/pokedex/squawkabilly",
+        "abilities": [
+            "/ability/intimidate",
+            "/ability/hustle",
+            "/ability/guts",
+            "/ability/intimidate",
+            "/ability/hustle",
+            "/ability/guts",
+            "/ability/intimidate",
+            "/ability/hustle",
+            "/ability/sheer-force",
+            "/ability/intimidate",
+            "/ability/hustle",
+            "/ability/sheer-force"
+        ]
     },
     {
         "id": 930,
+        "variant": 0,
         "name": "Arboliva",
+        "types": [
+            "/egg-group/grass"
+        ],
         "height_cm": 140.0,
-        "weight_kg": 48.2
+        "weight_kg": 48.2,
+        "effectiveness": {
+            "/type/normal": 1.0,
+            "/type/fire": 2.0,
+            "/type/water": 0.5,
+            "/type/electric": 0.5,
+            "/type/grass": 0.5,
+            "/type/ice": 2.0,
+            "/type/fighting": 2.0,
+            "/type/poison": 2.0,
+            "/type/ground": 0.5,
+            "/type/flying": 2.0,
+            "/type/psychic": 1.0,
+            "/type/bug": 2.0,
+            "/type/rock": 1.0,
+            "/type/ghost": 0.0,
+            "/type/dragon": 1.0,
+            "/type/dark": 1.0,
+            "/type/steel": 1.0,
+            "/type/fairy": 1.0
+        },
+        "url": "https://pokemondb.net/pokedex/arboliva",
+        "abilities": [
+            "/ability/seed-sower",
+            "/ability/harvest"
+        ]
     },
     {
         "id": 929,
+        "variant": 0,
         "name": "Dolliv",
+        "types": [
+            "/egg-group/grass"
+        ],
         "height_cm": 60.0,
-        "weight_kg": 11.9
+        "weight_kg": 11.9,
+        "effectiveness": {
+            "/type/normal": 1.0,
+            "/type/fire": 2.0,
+            "/type/water": 0.5,
+            "/type/electric": 0.5,
+            "/type/grass": 0.5,
+            "/type/ice": 2.0,
+            "/type/fighting": 2.0,
+            "/type/poison": 2.0,
+            "/type/ground": 0.5,
+            "/type/flying": 2.0,
+            "/type/psychic": 1.0,
+            "/type/bug": 2.0,
+            "/type/rock": 1.0,
+            "/type/ghost": 0.0,
+            "/type/dragon": 1.0,
+            "/type/dark": 1.0,
+            "/type/steel": 1.0,
+            "/type/fairy": 1.0
+        },
+        "url": "https://pokemondb.net/pokedex/dolliv",
+        "abilities": [
+            "/ability/early-bird",
+            "/ability/harvest"
+        ]
     },
     {
         "id": 928,
+        "variant": 0,
         "name": "Smoliv",
+        "types": [
+            "/egg-group/grass"
+        ],
         "height_cm": 30.0,
-        "weight_kg": 6.5
+        "weight_kg": 6.5,
+        "effectiveness": {
+            "/type/normal": 1.0,
+            "/type/fire": 2.0,
+            "/type/water": 0.5,
+            "/type/electric": 0.5,
+            "/type/grass": 0.5,
+            "/type/ice": 2.0,
+            "/type/fighting": 2.0,
+            "/type/poison": 2.0,
+            "/type/ground": 0.5,
+            "/type/flying": 2.0,
+            "/type/psychic": 1.0,
+            "/type/bug": 2.0,
+            "/type/rock": 1.0,
+            "/type/ghost": 0.0,
+            "/type/dragon": 1.0,
+            "/type/dark": 1.0,
+            "/type/steel": 1.0,
+            "/type/fairy": 1.0
+        },
+        "url": "https://pokemondb.net/pokedex/smoliv",
+        "abilities": [
+            "/ability/early-bird",
+            "/ability/harvest"
+        ]
     },
     {
         "id": 927,
+        "variant": 0,
         "name": "Dachsbun",
+        "types": [
+            "/egg-group/field",
+            "/egg-group/mineral"
+        ],
         "height_cm": 50.0,
-        "weight_kg": 14.9
+        "weight_kg": 14.9,
+        "effectiveness": {
+            "/type/normal": 1.0,
+            "/type/fire": 1.0,
+            "/type/water": 1.0,
+            "/type/electric": 1.0,
+            "/type/grass": 1.0,
+            "/type/ice": 1.0,
+            "/type/fighting": 0.5,
+            "/type/poison": 2.0,
+            "/type/ground": 1.0,
+            "/type/flying": 1.0,
+            "/type/psychic": 1.0,
+            "/type/bug": 0.5,
+            "/type/rock": 1.0,
+            "/type/ghost": 1.0,
+            "/type/dragon": 0.0,
+            "/type/dark": 0.5,
+            "/type/steel": 2.0,
+            "/type/fairy": 1.0
+        },
+        "url": "https://pokemondb.net/pokedex/dachsbun",
+        "abilities": [
+            "/ability/well-baked-body",
+            "/ability/aroma-veil"
+        ]
     },
     {
         "id": 926,
+        "variant": 0,
         "name": "Fidough",
+        "types": [
+            "/egg-group/field",
+            "/egg-group/mineral"
+        ],
         "height_cm": 30.0,
-        "weight_kg": 10.9
+        "weight_kg": 10.9,
+        "effectiveness": {
+            "/type/normal": 1.0,
+            "/type/fire": 1.0,
+            "/type/water": 1.0,
+            "/type/electric": 1.0,
+            "/type/grass": 1.0,
+            "/type/ice": 1.0,
+            "/type/fighting": 0.5,
+            "/type/poison": 2.0,
+            "/type/ground": 1.0,
+            "/type/flying": 1.0,
+            "/type/psychic": 1.0,
+            "/type/bug": 0.5,
+            "/type/rock": 1.0,
+            "/type/ghost": 1.0,
+            "/type/dragon": 0.0,
+            "/type/dark": 0.5,
+            "/type/steel": 2.0,
+            "/type/fairy": 1.0
+        },
+        "url": "https://pokemondb.net/pokedex/fidough",
+        "abilities": [
+            "/ability/own-tempo",
+            "/ability/klutz"
+        ]
     },
     {
         "id": 925,
+        "variant": 0,
         "name": "Maushold",
+        "types": [
+            "/egg-group/fairy",
+            "/egg-group/field",
+            "/egg-group/fairy",
+            "/egg-group/field"
+        ],
         "height_cm": 30.0,
-        "weight_kg": 2.8
+        "weight_kg": 2.8,
+        "effectiveness": {
+            "/type/normal": 1.0,
+            "/type/fire": 1.0,
+            "/type/water": 1.0,
+            "/type/electric": 1.0,
+            "/type/grass": 1.0,
+            "/type/ice": 1.0,
+            "/type/fighting": 2.0,
+            "/type/poison": 1.0,
+            "/type/ground": 1.0,
+            "/type/flying": 1.0,
+            "/type/psychic": 1.0,
+            "/type/bug": 1.0,
+            "/type/rock": 1.0,
+            "/type/ghost": 0.0,
+            "/type/dragon": 1.0,
+            "/type/dark": 1.0,
+            "/type/steel": 1.0,
+            "/type/fairy": 1.0
+        },
+        "url": "https://pokemondb.net/pokedex/maushold",
+        "abilities": [
+            "/ability/friend-guard",
+            "/ability/cheek-pouch",
+            "/ability/technician",
+            "/ability/friend-guard",
+            "/ability/cheek-pouch",
+            "/ability/technician"
+        ]
     },
     {
         "id": 924,
+        "variant": 0,
         "name": "Tandemaus",
+        "types": [
+            "/egg-group/fairy",
+            "/egg-group/field"
+        ],
         "height_cm": 30.0,
-        "weight_kg": 1.8
+        "weight_kg": 1.8,
+        "effectiveness": {
+            "/type/normal": 1.0,
+            "/type/fire": 1.0,
+            "/type/water": 1.0,
+            "/type/electric": 1.0,
+            "/type/grass": 1.0,
+            "/type/ice": 1.0,
+            "/type/fighting": 2.0,
+            "/type/poison": 1.0,
+            "/type/ground": 1.0,
+            "/type/flying": 1.0,
+            "/type/psychic": 1.0,
+            "/type/bug": 1.0,
+            "/type/rock": 1.0,
+            "/type/ghost": 0.0,
+            "/type/dragon": 1.0,
+            "/type/dark": 1.0,
+            "/type/steel": 1.0,
+            "/type/fairy": 1.0
+        },
+        "url": "https://pokemondb.net/pokedex/tandemaus",
+        "abilities": [
+            "/ability/run-away",
+            "/ability/pickup",
+            "/ability/own-tempo"
+        ]
+    },
+    {
+        "id": 923,
+        "variant": 0,
+        "name": "Pawmot",
+        "types": [
+            "/egg-group/field"
+        ],
+        "height_cm": 90.0,
+        "weight_kg": 41.0,
+        "effectiveness": {
+            "/type/normal": 1.0,
+            "/type/fire": 1.0,
+            "/type/water": 1.0,
+            "/type/electric": 0.5,
+            "/type/grass": 1.0,
+            "/type/ice": 1.0,
+            "/type/fighting": 1.0,
+            "/type/poison": 1.0,
+            "/type/ground": 2.0,
+            "/type/flying": 1.0,
+            "/type/psychic": 2.0,
+            "/type/bug": 0.5,
+            "/type/rock": 0.5,
+            "/type/ghost": 1.0,
+            "/type/dragon": 1.0,
+            "/type/dark": 0.5,
+            "/type/steel": 0.5,
+            "/type/fairy": 2.0
+        },
+        "url": "https://pokemondb.net/pokedex/pawmot",
+        "abilities": [
+            "/ability/volt-absorb",
+            "/ability/natural-cure",
+            "/ability/iron-fist"
+        ]
+    },
+    {
+        "id": 922,
+        "variant": 0,
+        "name": "Pawmo",
+        "types": [
+            "/egg-group/field"
+        ],
+        "height_cm": 40.0,
+        "weight_kg": 6.5,
+        "effectiveness": {
+            "/type/normal": 1.0,
+            "/type/fire": 1.0,
+            "/type/water": 1.0,
+            "/type/electric": 0.5,
+            "/type/grass": 1.0,
+            "/type/ice": 1.0,
+            "/type/fighting": 1.0,
+            "/type/poison": 1.0,
+            "/type/ground": 2.0,
+            "/type/flying": 1.0,
+            "/type/psychic": 2.0,
+            "/type/bug": 0.5,
+            "/type/rock": 0.5,
+            "/type/ghost": 1.0,
+            "/type/dragon": 1.0,
+            "/type/dark": 0.5,
+            "/type/steel": 0.5,
+            "/type/fairy": 2.0
+        },
+        "url": "https://pokemondb.net/pokedex/pawmo",
+        "abilities": [
+            "/ability/volt-absorb",
+            "/ability/natural-cure",
+            "/ability/iron-fist"
+        ]
+    },
+    {
+        "id": 921,
+        "variant": 0,
+        "name": "Pawmi",
+        "types": [
+            "/egg-group/field"
+        ],
+        "height_cm": 30.0,
+        "weight_kg": 2.5,
+        "effectiveness": {
+            "/type/normal": 1.0,
+            "/type/fire": 1.0,
+            "/type/water": 1.0,
+            "/type/electric": 0.5,
+            "/type/grass": 1.0,
+            "/type/ice": 1.0,
+            "/type/fighting": 1.0,
+            "/type/poison": 1.0,
+            "/type/ground": 2.0,
+            "/type/flying": 0.5,
+            "/type/psychic": 1.0,
+            "/type/bug": 1.0,
+            "/type/rock": 1.0,
+            "/type/ghost": 1.0,
+            "/type/dragon": 1.0,
+            "/type/dark": 1.0,
+            "/type/steel": 0.5,
+            "/type/fairy": 1.0
+        },
+        "url": "https://pokemondb.net/pokedex/pawmi",
+        "abilities": [
+            "/ability/static",
+            "/ability/natural-cure",
+            "/ability/iron-fist"
+        ]
+    },
+    {
+        "id": 920,
+        "variant": 0,
+        "name": "Lokix",
+        "types": [
+            "/egg-group/bug"
+        ],
+        "height_cm": 100.0,
+        "weight_kg": 17.5,
+        "effectiveness": {
+            "/type/normal": 1.0,
+            "/type/fire": 2.0,
+            "/type/water": 1.0,
+            "/type/electric": 1.0,
+            "/type/grass": 0.5,
+            "/type/ice": 1.0,
+            "/type/fighting": 1.0,
+            "/type/poison": 1.0,
+            "/type/ground": 0.5,
+            "/type/flying": 2.0,
+            "/type/psychic": 0.0,
+            "/type/bug": 2.0,
+            "/type/rock": 2.0,
+            "/type/ghost": 0.5,
+            "/type/dragon": 1.0,
+            "/type/dark": 0.5,
+            "/type/steel": 1.0,
+            "/type/fairy": 2.0
+        },
+        "url": "https://pokemondb.net/pokedex/lokix",
+        "abilities": [
+            "/ability/swarm",
+            "/ability/tinted-lens"
+        ]
+    },
+    {
+        "id": 919,
+        "variant": 0,
+        "name": "Nymble",
+        "types": [
+            "/egg-group/bug"
+        ],
+        "height_cm": 20.0,
+        "weight_kg": 1.0,
+        "effectiveness": {
+            "/type/normal": 1.0,
+            "/type/fire": 2.0,
+            "/type/water": 1.0,
+            "/type/electric": 1.0,
+            "/type/grass": 0.5,
+            "/type/ice": 1.0,
+            "/type/fighting": 0.5,
+            "/type/poison": 1.0,
+            "/type/ground": 0.5,
+            "/type/flying": 2.0,
+            "/type/psychic": 1.0,
+            "/type/bug": 1.0,
+            "/type/rock": 2.0,
+            "/type/ghost": 1.0,
+            "/type/dragon": 1.0,
+            "/type/dark": 1.0,
+            "/type/steel": 1.0,
+            "/type/fairy": 1.0
+        },
+        "url": "https://pokemondb.net/pokedex/nymble",
+        "abilities": [
+            "/ability/swarm",
+            "/ability/tinted-lens"
+        ]
+    },
+    {
+        "id": 918,
+        "variant": 0,
+        "name": "Spidops",
+        "types": [
+            "/egg-group/bug"
+        ],
+        "height_cm": 100.0,
+        "weight_kg": 16.5,
+        "effectiveness": {
+            "/type/normal": 1.0,
+            "/type/fire": 2.0,
+            "/type/water": 1.0,
+            "/type/electric": 1.0,
+            "/type/grass": 0.5,
+            "/type/ice": 1.0,
+            "/type/fighting": 0.5,
+            "/type/poison": 1.0,
+            "/type/ground": 0.5,
+            "/type/flying": 2.0,
+            "/type/psychic": 1.0,
+            "/type/bug": 1.0,
+            "/type/rock": 2.0,
+            "/type/ghost": 1.0,
+            "/type/dragon": 1.0,
+            "/type/dark": 1.0,
+            "/type/steel": 1.0,
+            "/type/fairy": 1.0
+        },
+        "url": "https://pokemondb.net/pokedex/spidops",
+        "abilities": [
+            "/ability/insomnia",
+            "/ability/stakeout"
+        ]
+    },
+    {
+        "id": 917,
+        "variant": 0,
+        "name": "Tarountula",
+        "types": [
+            "/egg-group/bug"
+        ],
+        "height_cm": 30.0,
+        "weight_kg": 4.0,
+        "effectiveness": {
+            "/type/normal": 1.0,
+            "/type/fire": 2.0,
+            "/type/water": 1.0,
+            "/type/electric": 1.0,
+            "/type/grass": 0.5,
+            "/type/ice": 1.0,
+            "/type/fighting": 0.5,
+            "/type/poison": 1.0,
+            "/type/ground": 0.5,
+            "/type/flying": 2.0,
+            "/type/psychic": 1.0,
+            "/type/bug": 1.0,
+            "/type/rock": 2.0,
+            "/type/ghost": 1.0,
+            "/type/dragon": 1.0,
+            "/type/dark": 1.0,
+            "/type/steel": 1.0,
+            "/type/fairy": 1.0
+        },
+        "url": "https://pokemondb.net/pokedex/tarountula",
+        "abilities": [
+            "/ability/insomnia",
+            "/ability/stakeout"
+        ]
+    },
+    {
+        "id": 916,
+        "variant": 0,
+        "name": "Oinkologne",
+        "types": [
+            "/egg-group/field",
+            "/egg-group/field"
+        ],
+        "height_cm": 100.0,
+        "weight_kg": 120.0,
+        "effectiveness": {
+            "/type/normal": 1.0,
+            "/type/fire": 0.5,
+            "/type/water": 1.0,
+            "/type/electric": 1.0,
+            "/type/grass": 1.0,
+            "/type/ice": 0.5,
+            "/type/fighting": 2.0,
+            "/type/poison": 1.0,
+            "/type/ground": 1.0,
+            "/type/flying": 1.0,
+            "/type/psychic": 1.0,
+            "/type/bug": 1.0,
+            "/type/rock": 1.0,
+            "/type/ghost": 0.0,
+            "/type/dragon": 1.0,
+            "/type/dark": 1.0,
+            "/type/steel": 1.0,
+            "/type/fairy": 1.0
+        },
+        "url": "https://pokemondb.net/pokedex/oinkologne",
+        "abilities": [
+            "/ability/lingering-aroma",
+            "/ability/gluttony",
+            "/ability/thick-fat",
+            "/ability/aroma-veil",
+            "/ability/gluttony",
+            "/ability/thick-fat"
+        ]
+    },
+    {
+        "id": 915,
+        "variant": 0,
+        "name": "Lechonk",
+        "types": [
+            "/egg-group/field"
+        ],
+        "height_cm": 50.0,
+        "weight_kg": 10.2,
+        "effectiveness": {
+            "/type/normal": 1.0,
+            "/type/fire": 0.5,
+            "/type/water": 1.0,
+            "/type/electric": 1.0,
+            "/type/grass": 1.0,
+            "/type/ice": 0.5,
+            "/type/fighting": 2.0,
+            "/type/poison": 1.0,
+            "/type/ground": 1.0,
+            "/type/flying": 1.0,
+            "/type/psychic": 1.0,
+            "/type/bug": 1.0,
+            "/type/rock": 1.0,
+            "/type/ghost": 0.0,
+            "/type/dragon": 1.0,
+            "/type/dark": 1.0,
+            "/type/steel": 1.0,
+            "/type/fairy": 1.0
+        },
+        "url": "https://pokemondb.net/pokedex/lechonk",
+        "abilities": [
+            "/ability/aroma-veil",
+            "/ability/gluttony",
+            "/ability/thick-fat"
+        ]
+    },
+    {
+        "id": 914,
+        "variant": 0,
+        "name": "Quaquaval",
+        "types": [
+            "/egg-group/flying",
+            "/egg-group/water-1"
+        ],
+        "height_cm": 180.0,
+        "weight_kg": 61.9,
+        "effectiveness": {
+            "/type/normal": 1.0,
+            "/type/fire": 0.5,
+            "/type/water": 0.5,
+            "/type/electric": 2.0,
+            "/type/grass": 2.0,
+            "/type/ice": 0.5,
+            "/type/fighting": 1.0,
+            "/type/poison": 1.0,
+            "/type/ground": 1.0,
+            "/type/flying": 2.0,
+            "/type/psychic": 2.0,
+            "/type/bug": 0.5,
+            "/type/rock": 0.5,
+            "/type/ghost": 1.0,
+            "/type/dragon": 1.0,
+            "/type/dark": 0.5,
+            "/type/steel": 0.5,
+            "/type/fairy": 2.0
+        },
+        "url": "https://pokemondb.net/pokedex/quaquaval",
+        "abilities": [
+            "/ability/torrent",
+            "/ability/moxie"
+        ]
+    },
+    {
+        "id": 913,
+        "variant": 0,
+        "name": "Quaxwell",
+        "types": [
+            "/egg-group/flying",
+            "/egg-group/water-1"
+        ],
+        "height_cm": 120.0,
+        "weight_kg": 21.5,
+        "effectiveness": {
+            "/type/normal": 1.0,
+            "/type/fire": 0.5,
+            "/type/water": 0.5,
+            "/type/electric": 2.0,
+            "/type/grass": 2.0,
+            "/type/ice": 0.5,
+            "/type/fighting": 1.0,
+            "/type/poison": 1.0,
+            "/type/ground": 1.0,
+            "/type/flying": 1.0,
+            "/type/psychic": 1.0,
+            "/type/bug": 1.0,
+            "/type/rock": 1.0,
+            "/type/ghost": 1.0,
+            "/type/dragon": 1.0,
+            "/type/dark": 1.0,
+            "/type/steel": 0.5,
+            "/type/fairy": 1.0
+        },
+        "url": "https://pokemondb.net/pokedex/quaxwell",
+        "abilities": [
+            "/ability/torrent",
+            "/ability/moxie"
+        ]
+    },
+    {
+        "id": 912,
+        "variant": 0,
+        "name": "Quaxly",
+        "types": [
+            "/egg-group/flying",
+            "/egg-group/water-1"
+        ],
+        "height_cm": 50.0,
+        "weight_kg": 6.1,
+        "effectiveness": {
+            "/type/normal": 1.0,
+            "/type/fire": 0.5,
+            "/type/water": 0.5,
+            "/type/electric": 2.0,
+            "/type/grass": 2.0,
+            "/type/ice": 0.5,
+            "/type/fighting": 1.0,
+            "/type/poison": 1.0,
+            "/type/ground": 1.0,
+            "/type/flying": 1.0,
+            "/type/psychic": 1.0,
+            "/type/bug": 1.0,
+            "/type/rock": 1.0,
+            "/type/ghost": 1.0,
+            "/type/dragon": 1.0,
+            "/type/dark": 1.0,
+            "/type/steel": 0.5,
+            "/type/fairy": 1.0
+        },
+        "url": "https://pokemondb.net/pokedex/quaxly",
+        "abilities": [
+            "/ability/torrent",
+            "/ability/moxie"
+        ]
+    },
+    {
+        "id": 911,
+        "variant": 0,
+        "name": "Skeledirge",
+        "types": [
+            "/egg-group/field"
+        ],
+        "height_cm": 160.0,
+        "weight_kg": 326.5,
+        "effectiveness": {
+            "/type/normal": 0.0,
+            "/type/fire": 0.5,
+            "/type/water": 2.0,
+            "/type/electric": 1.0,
+            "/type/grass": 0.5,
+            "/type/ice": 0.5,
+            "/type/fighting": 0.0,
+            "/type/poison": 0.5,
+            "/type/ground": 2.0,
+            "/type/flying": 1.0,
+            "/type/psychic": 1.0,
+            "/type/bug": 0.25,
+            "/type/rock": 2.0,
+            "/type/ghost": 2.0,
+            "/type/dragon": 1.0,
+            "/type/dark": 2.0,
+            "/type/steel": 0.5,
+            "/type/fairy": 0.5
+        },
+        "url": "https://pokemondb.net/pokedex/skeledirge",
+        "abilities": [
+            "/ability/blaze",
+            "/ability/unaware"
+        ]
+    },
+    {
+        "id": 910,
+        "variant": 0,
+        "name": "Crocalor",
+        "types": [
+            "/egg-group/field"
+        ],
+        "height_cm": 100.0,
+        "weight_kg": 30.7,
+        "effectiveness": {
+            "/type/normal": 1.0,
+            "/type/fire": 0.5,
+            "/type/water": 2.0,
+            "/type/electric": 1.0,
+            "/type/grass": 0.5,
+            "/type/ice": 0.5,
+            "/type/fighting": 1.0,
+            "/type/poison": 1.0,
+            "/type/ground": 2.0,
+            "/type/flying": 1.0,
+            "/type/psychic": 1.0,
+            "/type/bug": 0.5,
+            "/type/rock": 2.0,
+            "/type/ghost": 1.0,
+            "/type/dragon": 1.0,
+            "/type/dark": 1.0,
+            "/type/steel": 0.5,
+            "/type/fairy": 0.5
+        },
+        "url": "https://pokemondb.net/pokedex/crocalor",
+        "abilities": [
+            "/ability/blaze",
+            "/ability/unaware"
+        ]
+    },
+    {
+        "id": 909,
+        "variant": 0,
+        "name": "Fuecoco",
+        "types": [
+            "/egg-group/field"
+        ],
+        "height_cm": 40.0,
+        "weight_kg": 9.8,
+        "effectiveness": {
+            "/type/normal": 1.0,
+            "/type/fire": 0.5,
+            "/type/water": 2.0,
+            "/type/electric": 1.0,
+            "/type/grass": 0.5,
+            "/type/ice": 0.5,
+            "/type/fighting": 1.0,
+            "/type/poison": 1.0,
+            "/type/ground": 2.0,
+            "/type/flying": 1.0,
+            "/type/psychic": 1.0,
+            "/type/bug": 0.5,
+            "/type/rock": 2.0,
+            "/type/ghost": 1.0,
+            "/type/dragon": 1.0,
+            "/type/dark": 1.0,
+            "/type/steel": 0.5,
+            "/type/fairy": 0.5
+        },
+        "url": "https://pokemondb.net/pokedex/fuecoco",
+        "abilities": [
+            "/ability/blaze",
+            "/ability/unaware"
+        ]
+    },
+    {
+        "id": 908,
+        "variant": 0,
+        "name": "Meowscarada",
+        "types": [
+            "/egg-group/field",
+            "/egg-group/grass"
+        ],
+        "height_cm": 150.0,
+        "weight_kg": 31.2,
+        "effectiveness": {
+            "/type/normal": 1.0,
+            "/type/fire": 2.0,
+            "/type/water": 0.5,
+            "/type/electric": 0.5,
+            "/type/grass": 0.5,
+            "/type/ice": 2.0,
+            "/type/fighting": 2.0,
+            "/type/poison": 2.0,
+            "/type/ground": 0.5,
+            "/type/flying": 2.0,
+            "/type/psychic": 0.0,
+            "/type/bug": 4.0,
+            "/type/rock": 1.0,
+            "/type/ghost": 0.5,
+            "/type/dragon": 1.0,
+            "/type/dark": 0.5,
+            "/type/steel": 1.0,
+            "/type/fairy": 2.0
+        },
+        "url": "https://pokemondb.net/pokedex/meowscarada",
+        "abilities": [
+            "/ability/overgrow",
+            "/ability/protean"
+        ]
+    },
+    {
+        "id": 907,
+        "variant": 0,
+        "name": "Floragato",
+        "types": [
+            "/egg-group/field",
+            "/egg-group/grass"
+        ],
+        "height_cm": 90.0,
+        "weight_kg": 12.2,
+        "effectiveness": {
+            "/type/normal": 1.0,
+            "/type/fire": 2.0,
+            "/type/water": 0.5,
+            "/type/electric": 0.5,
+            "/type/grass": 0.5,
+            "/type/ice": 2.0,
+            "/type/fighting": 1.0,
+            "/type/poison": 2.0,
+            "/type/ground": 0.5,
+            "/type/flying": 2.0,
+            "/type/psychic": 1.0,
+            "/type/bug": 2.0,
+            "/type/rock": 1.0,
+            "/type/ghost": 1.0,
+            "/type/dragon": 1.0,
+            "/type/dark": 1.0,
+            "/type/steel": 1.0,
+            "/type/fairy": 1.0
+        },
+        "url": "https://pokemondb.net/pokedex/floragato",
+        "abilities": [
+            "/ability/overgrow",
+            "/ability/protean"
+        ]
+    },
+    {
+        "id": 906,
+        "variant": 0,
+        "name": "Sprigatito",
+        "types": [
+            "/egg-group/field",
+            "/egg-group/grass"
+        ],
+        "height_cm": 40.0,
+        "weight_kg": 4.1,
+        "effectiveness": {
+            "/type/normal": 1.0,
+            "/type/fire": 2.0,
+            "/type/water": 0.5,
+            "/type/electric": 0.5,
+            "/type/grass": 0.5,
+            "/type/ice": 2.0,
+            "/type/fighting": 1.0,
+            "/type/poison": 2.0,
+            "/type/ground": 0.5,
+            "/type/flying": 2.0,
+            "/type/psychic": 1.0,
+            "/type/bug": 2.0,
+            "/type/rock": 1.0,
+            "/type/ghost": 1.0,
+            "/type/dragon": 1.0,
+            "/type/dark": 1.0,
+            "/type/steel": 1.0,
+            "/type/fairy": 1.0
+        },
+        "url": "https://pokemondb.net/pokedex/sprigatito",
+        "abilities": [
+            "/ability/overgrow",
+            "/ability/protean"
+        ]
+    },
+    {
+        "id": 905,
+        "variant": 0,
+        "name": "Enamorus",
+        "types": [
+            "/egg-group/undiscovered",
+            "/egg-group/undiscovered"
+        ],
+        "height_cm": 160.0,
+        "weight_kg": 48.0,
+        "effectiveness": {
+            "/type/normal": 1.0,
+            "/type/fire": 1.0,
+            "/type/water": 1.0,
+            "/type/electric": 2.0,
+            "/type/grass": 0.5,
+            "/type/ice": 2.0,
+            "/type/fighting": 0.25,
+            "/type/poison": 2.0,
+            "/type/ground": 0.0,
+            "/type/flying": 1.0,
+            "/type/psychic": 1.0,
+            "/type/bug": 0.25,
+            "/type/rock": 2.0,
+            "/type/ghost": 1.0,
+            "/type/dragon": 0.0,
+            "/type/dark": 0.5,
+            "/type/steel": 2.0,
+            "/type/fairy": 1.0
+        },
+        "url": "https://pokemondb.net/pokedex/enamorus",
+        "abilities": [
+            "/ability/cute-charm",
+            "/ability/contrary",
+            "/ability/overcoat"
+        ]
+    },
+    {
+        "id": 904,
+        "variant": 0,
+        "name": "Overqwil",
+        "types": [
+            "/egg-group/water-2"
+        ],
+        "height_cm": 250.0,
+        "weight_kg": 60.5,
+        "effectiveness": {
+            "/type/normal": 1.0,
+            "/type/fire": 1.0,
+            "/type/water": 1.0,
+            "/type/electric": 1.0,
+            "/type/grass": 0.5,
+            "/type/ice": 1.0,
+            "/type/fighting": 1.0,
+            "/type/poison": 0.5,
+            "/type/ground": 2.0,
+            "/type/flying": 1.0,
+            "/type/psychic": 0.0,
+            "/type/bug": 1.0,
+            "/type/rock": 1.0,
+            "/type/ghost": 0.5,
+            "/type/dragon": 1.0,
+            "/type/dark": 0.5,
+            "/type/steel": 1.0,
+            "/type/fairy": 1.0
+        },
+        "url": "https://pokemondb.net/pokedex/overqwil",
+        "abilities": [
+            "/ability/poison-point",
+            "/ability/swift-swim",
+            "/ability/intimidate"
+        ]
+    },
+    {
+        "id": 903,
+        "variant": 0,
+        "name": "Sneasler",
+        "types": [
+            "/egg-group/field"
+        ],
+        "height_cm": 130.0,
+        "weight_kg": 43.0,
+        "effectiveness": {
+            "/type/normal": 1.0,
+            "/type/fire": 1.0,
+            "/type/water": 1.0,
+            "/type/electric": 1.0,
+            "/type/grass": 0.5,
+            "/type/ice": 1.0,
+            "/type/fighting": 0.5,
+            "/type/poison": 0.5,
+            "/type/ground": 2.0,
+            "/type/flying": 2.0,
+            "/type/psychic": 4.0,
+            "/type/bug": 0.25,
+            "/type/rock": 0.5,
+            "/type/ghost": 1.0,
+            "/type/dragon": 1.0,
+            "/type/dark": 0.5,
+            "/type/steel": 1.0,
+            "/type/fairy": 1.0
+        },
+        "url": "https://pokemondb.net/pokedex/sneasler",
+        "abilities": [
+            "/ability/pressure",
+            "/ability/unburden",
+            "/ability/poison-touch"
+        ]
+    },
+    {
+        "id": 902,
+        "variant": 0,
+        "name": "Basculegion",
+        "types": [
+            "/egg-group/water-2",
+            "/egg-group/water-2"
+        ],
+        "height_cm": 300.0,
+        "weight_kg": 110.0,
+        "effectiveness": {
+            "/type/normal": 0.0,
+            "/type/fire": 0.5,
+            "/type/water": 0.5,
+            "/type/electric": 2.0,
+            "/type/grass": 2.0,
+            "/type/ice": 0.5,
+            "/type/fighting": 0.0,
+            "/type/poison": 0.5,
+            "/type/ground": 1.0,
+            "/type/flying": 1.0,
+            "/type/psychic": 1.0,
+            "/type/bug": 0.5,
+            "/type/rock": 1.0,
+            "/type/ghost": 2.0,
+            "/type/dragon": 1.0,
+            "/type/dark": 2.0,
+            "/type/steel": 0.5,
+            "/type/fairy": 1.0
+        },
+        "url": "https://pokemondb.net/pokedex/basculegion",
+        "abilities": [
+            "/ability/swift-swim",
+            "/ability/adaptability",
+            "/ability/mold-breaker",
+            "/ability/swift-swim",
+            "/ability/adaptability",
+            "/ability/mold-breaker"
+        ]
+    },
+    {
+        "id": 901,
+        "variant": 0,
+        "name": "Ursaluna",
+        "types": [
+            "/egg-group/field",
+            "/egg-group/field"
+        ],
+        "height_cm": 240.0,
+        "weight_kg": 290.0,
+        "effectiveness": {
+            "/type/normal": 1.0,
+            "/type/fire": 1.0,
+            "/type/water": 2.0,
+            "/type/electric": 0.0,
+            "/type/grass": 2.0,
+            "/type/ice": 2.0,
+            "/type/fighting": 2.0,
+            "/type/poison": 0.5,
+            "/type/ground": 1.0,
+            "/type/flying": 1.0,
+            "/type/psychic": 1.0,
+            "/type/bug": 1.0,
+            "/type/rock": 0.5,
+            "/type/ghost": 0.0,
+            "/type/dragon": 1.0,
+            "/type/dark": 1.0,
+            "/type/steel": 1.0,
+            "/type/fairy": 1.0
+        },
+        "url": "https://pokemondb.net/pokedex/ursaluna",
+        "abilities": [
+            "/ability/guts",
+            "/ability/bulletproof",
+            "/ability/unnerve",
+            "/ability/minds-eye"
+        ]
+    },
+    {
+        "id": 900,
+        "variant": 0,
+        "name": "Kleavor",
+        "types": [
+            "/egg-group/bug"
+        ],
+        "height_cm": 180.0,
+        "weight_kg": 89.0,
+        "effectiveness": {
+            "/type/normal": 0.5,
+            "/type/fire": 1.0,
+            "/type/water": 2.0,
+            "/type/electric": 1.0,
+            "/type/grass": 1.0,
+            "/type/ice": 1.0,
+            "/type/fighting": 1.0,
+            "/type/poison": 0.5,
+            "/type/ground": 1.0,
+            "/type/flying": 1.0,
+            "/type/psychic": 1.0,
+            "/type/bug": 1.0,
+            "/type/rock": 2.0,
+            "/type/ghost": 1.0,
+            "/type/dragon": 1.0,
+            "/type/dark": 1.0,
+            "/type/steel": 2.0,
+            "/type/fairy": 1.0
+        },
+        "url": "https://pokemondb.net/pokedex/kleavor",
+        "abilities": [
+            "/ability/swarm",
+            "/ability/sheer-force",
+            "/ability/sharpness"
+        ]
+    },
+    {
+        "id": 899,
+        "variant": 0,
+        "name": "Wyrdeer",
+        "types": [
+            "/egg-group/field"
+        ],
+        "height_cm": 180.0,
+        "weight_kg": 95.1,
+        "effectiveness": {
+            "/type/normal": 1.0,
+            "/type/fire": 1.0,
+            "/type/water": 1.0,
+            "/type/electric": 1.0,
+            "/type/grass": 0.0,
+            "/type/ice": 1.0,
+            "/type/fighting": 1.0,
+            "/type/poison": 1.0,
+            "/type/ground": 1.0,
+            "/type/flying": 1.0,
+            "/type/psychic": 0.5,
+            "/type/bug": 2.0,
+            "/type/rock": 1.0,
+            "/type/ghost": 0.0,
+            "/type/dragon": 1.0,
+            "/type/dark": 2.0,
+            "/type/steel": 1.0,
+            "/type/fairy": 1.0
+        },
+        "url": "https://pokemondb.net/pokedex/wyrdeer",
+        "abilities": [
+            "/ability/intimidate",
+            "/ability/frisk",
+            "/ability/sap-sipper"
+        ]
+    },
+    {
+        "id": 898,
+        "variant": 0,
+        "name": "Calyrex",
+        "types": [
+            "/egg-group/undiscovered",
+            "/egg-group/undiscovered",
+            "/egg-group/undiscovered"
+        ],
+        "height_cm": 110.0,
+        "weight_kg": 7.7,
+        "effectiveness": {
+            "/type/normal": 0.0,
+            "/type/fire": 1.0,
+            "/type/water": 1.0,
+            "/type/electric": 1.0,
+            "/type/grass": 1.0,
+            "/type/ice": 1.0,
+            "/type/fighting": 0.0,
+            "/type/poison": 0.5,
+            "/type/ground": 1.0,
+            "/type/flying": 1.0,
+            "/type/psychic": 0.5,
+            "/type/bug": 1.0,
+            "/type/rock": 1.0,
+            "/type/ghost": 4.0,
+            "/type/dragon": 1.0,
+            "/type/dark": 4.0,
+            "/type/steel": 1.0,
+            "/type/fairy": 1.0
+        },
+        "url": "https://pokemondb.net/pokedex/calyrex",
+        "abilities": [
+            "/ability/unnerve",
+            "/ability/as-one",
+            "/ability/as-one"
+        ]
+    },
+    {
+        "id": 897,
+        "variant": 0,
+        "name": "Spectrier",
+        "types": [
+            "/egg-group/undiscovered"
+        ],
+        "height_cm": 200.0,
+        "weight_kg": 44.5,
+        "effectiveness": {
+            "/type/normal": 0.0,
+            "/type/fire": 1.0,
+            "/type/water": 1.0,
+            "/type/electric": 1.0,
+            "/type/grass": 1.0,
+            "/type/ice": 1.0,
+            "/type/fighting": 0.0,
+            "/type/poison": 0.5,
+            "/type/ground": 1.0,
+            "/type/flying": 1.0,
+            "/type/psychic": 1.0,
+            "/type/bug": 0.5,
+            "/type/rock": 1.0,
+            "/type/ghost": 2.0,
+            "/type/dragon": 1.0,
+            "/type/dark": 2.0,
+            "/type/steel": 1.0,
+            "/type/fairy": 1.0
+        },
+        "url": "https://pokemondb.net/pokedex/spectrier",
+        "abilities": [
+            "/ability/grim-neigh"
+        ]
     }
 ]

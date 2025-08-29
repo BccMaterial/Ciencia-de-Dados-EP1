@@ -3,14 +3,16 @@ import re
 
 # Data to get:
 # ID x
-# URL
+# URL x
 # Name x
 # Evolutions
 # Size in cm x
 # Weight in kg x
-# Types
-# Abilities
+# Types x
+# Abilities x
 # Effectivity
+
+# Effectiviness: Dict with each type
 
 class PokeSpider(scrapy.Spider):
     name = 'pokespider'
@@ -28,16 +30,38 @@ class PokeSpider(scrapy.Spider):
 
         pokemon_id = response.css("table:nth-child(2) tr:nth-child(1) td strong::text").get()
 
+
         pokemon_height = response.css("table:nth-child(2) tr:nth-child(4) td::text").get()
         pokemon_height = float(re.search(r'\d+\.\d+', pokemon_height).group(0)) * 100
 
         pokemon_weight = response.css("table:nth-child(2) tr:nth-child(5) td::text").get()
         pokemon_weight = float(re.search(r'\d+\.\d+', pokemon_weight).group(0))
 
+        abilities_urls = response.css("table.vitals-table tr:contains('Abilities') td a::attr(href)").getall()
+
+        pokemon_types = response.css("table:nth-child(2) tr:nth-child(1) td a::attr(href)").getall()
+
+        effectiveness = self.parse_effectiveness(response)
 
         yield {
             "id": int(pokemon_id),
+            "variant": 0,
             "name": pokemon_name,
+            "types": pokemon_types,
             "height_cm": round(pokemon_height, 2),
             "weight_kg": round(pokemon_weight, 2),
+            "effectiveness": effectiveness,
+            "url": response.request.url,
+            "abilities": abilities_urls,
         }
+
+    def parse_effectiveness(self, response):
+        effectiveness_keys = response.css("table.type-table.type-table-pokedex th a::attr(href)").getall()
+        value_regex = r'type-fx-cell\stype-fx-(\d+)'
+        effectiveness_values = [
+            float(re.search(value_regex, value).group(1)) / 100 for value 
+            in response.css("table.type-table.type-table-pokedex td").xpath("@class").extract()
+        ]
+        print(effectiveness_values)
+        return dict(zip(effectiveness_keys, effectiveness_values))
+
