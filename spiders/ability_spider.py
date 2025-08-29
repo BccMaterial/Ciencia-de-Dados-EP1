@@ -1,5 +1,4 @@
 import scrapy
-import re
 
 class PokeSpider(scrapy.Spider):
     name = 'ability_spider'
