@@ -39,7 +39,7 @@ class PokeSpider(scrapy.Spider):
 
         abilities_urls = response.css("table.vitals-table tr:contains('Abilities') td a::attr(href)").getall()
 
-        pokemon_types = response.css("table:nth-child(2) tr:nth-child(1) td a::attr(href)").getall()
+        pokemon_types = response.css("table:nth-child(2) tr:nth-child(2) td a::attr(href)").getall()
 
         effectiveness = self.parse_effectiveness(response)
 
@@ -62,6 +62,5 @@ class PokeSpider(scrapy.Spider):
             float(re.search(value_regex, value).group(1)) / 100 for value 
             in response.css("table.type-table.type-table-pokedex td").xpath("@class").extract()
         ]
-        print(effectiveness_values)
         return dict(zip(effectiveness_keys, effectiveness_values))
 
