@@ -1,1 +1,1 @@
-scrapy crawl pokespider -o ./output/pokemons.json
+scrapy crawl pokemon_spider -o ./output/pokemons.json

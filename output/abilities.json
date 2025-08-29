@@ -1,0 +1,2144 @@
+[
+    {
+        "url": "/ability/adaptability",
+        "name": "Adaptability",
+        "pokemon_count": 16,
+        "description": "Powers up moves of the same type.",
+        "gen": 4
+    },
+    {
+        "url": "/ability/aerilate",
+        "name": "Aerilate",
+        "pokemon_count": 2,
+        "description": "Turns Normal-type moves into Flying-type moves.",
+        "gen": 6
+    },
+    {
+        "url": "/ability/aftermath",
+        "name": "Aftermath",
+        "pokemon_count": 10,
+        "description": "Damages the attacker landing the finishing hit.",
+        "gen": 4
+    },
+    {
+        "url": "/ability/air-lock",
+        "name": "Air Lock",
+        "pokemon_count": 1,
+        "description": "Eliminates the effects of weather.",
+        "gen": 3
+    },
+    {
+        "url": "/ability/analytic",
+        "name": "Analytic",
+        "pokemon_count": 12,
+        "description": "Boosts move power when the Pokémon moves last.",
+        "gen": 5
+    },
+    {
+        "url": "/ability/anger-point",
+        "name": "Anger Point",
+        "pokemon_count": 12,
+        "description": "Maxes Attack after taking a critical hit.",
+        "gen": 4
+    },
+    {
+        "url": "/ability/anger-shell",
+        "name": "Anger Shell",
+        "pokemon_count": 1,
+        "description": "Lowers Defense/Sp. Def and raises Attack/Sp. Atk/Speed when HP drops below half.",
+        "gen": 9
+    },
+    {
+        "url": "/ability/anticipation",
+        "name": "Anticipation",
+        "pokemon_count": 15,
+        "description": "Senses a foe's dangerous moves.",
+        "gen": 4
+    },
+    {
+        "url": "/ability/arena-trap",
+        "name": "Arena Trap",
+        "pokemon_count": 3,
+        "description": "Prevents the foe from fleeing.",
+        "gen": 3
+    },
+    {
+        "url": "/ability/armor-tail",
+        "name": "Armor Tail",
+        "pokemon_count": 1,
+        "description": "Prevents opponent using priority moves.",
+        "gen": 9
+    },
+    {
+        "url": "/ability/aroma-veil",
+        "name": "Aroma Veil",
+        "pokemon_count": 7,
+        "description": "Protects allies from attacks that limit their move choices.",
+        "gen": 6
+    },
+    {
+        "url": "/ability/as-one",
+        "name": "As One",
+        "pokemon_count": 2,
+        "description": "Combines Unnerve and Chilling Neigh/Grim Neigh",
+        "gen": 8
+    },
+    {
+        "url": "/ability/aura-break",
+        "name": "Aura Break",
+        "pokemon_count": 2,
+        "description": "Reduces power of Dark- and Fairy-type moves.",
+        "gen": 6
+    },
+    {
+        "url": "/ability/bad-dreams",
+        "name": "Bad Dreams",
+        "pokemon_count": 1,
+        "description": "Reduces a sleeping foe's HP.",
+        "gen": 4
+    },
+    {
+        "url": "/ability/ball-fetch",
+        "name": "Ball Fetch",
+        "pokemon_count": 1,
+        "description": "Retrieves a Poké Ball from a failed throw.",
+        "gen": 8
+    },
+    {
+        "url": "/ability/battery",
+        "name": "Battery",
+        "pokemon_count": 1,
+        "description": "Raises power of teammates' Special moves.",
+        "gen": 7
+    },
+    {
+        "url": "/ability/battle-armor",
+        "name": "Battle Armor",
+        "pokemon_count": 11,
+        "description": "The Pokémon is protected against critical hits.",
+        "gen": 3
+    },
+    {
+        "url": "/ability/battle-bond",
+        "name": "Battle Bond",
+        "pokemon_count": 1,
+        "description": "Transform into Ash-Greninja after causing opponent to faint.",
+        "gen": 7
+    },
+    {
+        "url": "/ability/beads-of-ruin",
+        "name": "Beads of Ruin",
+        "pokemon_count": 1,
+        "description": "Lowers Special Defense of all Pokémon except itself.",
+        "gen": 9
+    },
+    {
+        "url": "/ability/beast-boost",
+        "name": "Beast Boost",
+        "pokemon_count": 11,
+        "description": "The Pokémon boosts its most proficient stat each time it knocks out a Pokémon.",
+        "gen": 7
+    },
+    {
+        "url": "/ability/berserk",
+        "name": "Berserk",
+        "pokemon_count": 2,
+        "description": "Raises Special Attack when HP drops below half.",
+        "gen": 7
+    },
+    {
+        "url": "/ability/big-pecks",
+        "name": "Big Pecks",
+        "pokemon_count": 15,
+        "description": "Protects the Pokémon from Defense-lowering attacks.",
+        "gen": 5
+    },
+    {
+        "url": "/ability/blaze",
+        "name": "Blaze",
+        "pokemon_count": 30,
+        "description": "Powers up Fire-type moves in a pinch.",
+        "gen": 3
+    },
+    {
+        "url": "/ability/bulletproof",
+        "name": "Bulletproof",
+        "pokemon_count": 10,
+        "description": "Protects the Pokémon from ball and bomb moves.",
+        "gen": 6
+    },
+    {
+        "url": "/ability/cheek-pouch",
+        "name": "Cheek Pouch",
+        "pokemon_count": 7,
+        "description": "Restores additional HP when a Berry is consumed.",
+        "gen": 6
+    },
+    {
+        "url": "/ability/chilling-neigh",
+        "name": "Chilling Neigh",
+        "pokemon_count": 1,
+        "description": "Boosts Attack after knocking out a Pokémon.",
+        "gen": 8
+    },
+    {
+        "url": "/ability/chlorophyll",
+        "name": "Chlorophyll",
+        "pokemon_count": 38,
+        "description": "Boosts the Pokémon's Speed in sunshine.",
+        "gen": 3
+    },
+    {
+        "url": "/ability/clear-body",
+        "name": "Clear Body",
+        "pokemon_count": 19,
+        "description": "Prevents other Pokémon from lowering its stats.",
+        "gen": 3
+    },
+    {
+        "url": "/ability/cloud-nine",
+        "name": "Cloud Nine",
+        "pokemon_count": 7,
+        "description": "Eliminates the effects of weather.",
+        "gen": 3
+    },
+    {
+        "url": "/ability/color-change",
+        "name": "Color Change",
+        "pokemon_count": 1,
+        "description": "Changes the Pokémon's type to the foe's move.",
+        "gen": 3
+    },
+    {
+        "url": "/ability/comatose",
+        "name": "Comatose",
+        "pokemon_count": 1,
+        "description": "The Pokémon is always asleep but can still attack.",
+        "gen": 7
+    },
+    {
+        "url": "/ability/commander",
+        "name": "Commander",
+        "pokemon_count": 1,
+        "description": "Goes inside the mouth of an ally Dondozo if one is on the field.",
+        "gen": 9
+    },
+    {
+        "url": "/ability/competitive",
+        "name": "Competitive",
+        "pokemon_count": 15,
+        "description": "Sharply raises Special Attack when the Pokémon's stats are lowered.",
+        "gen": 6
+    },
+    {
+        "url": "/ability/compound-eyes",
+        "name": "Compound Eyes",
+        "pokemon_count": 12,
+        "description": "The Pokémon's accuracy is boosted.",
+        "gen": 3
+    },
+    {
+        "url": "/ability/contrary",
+        "name": "Contrary",
+        "pokemon_count": 10,
+        "description": "Makes stat changes have an opposite effect.",
+        "gen": 5
+    },
+    {
+        "url": "/ability/corrosion",
+        "name": "Corrosion",
+        "pokemon_count": 4,
+        "description": "The Pokémon can poison Steel and Poison types.",
+        "gen": 7
+    },
+    {
+        "url": "/ability/costar",
+        "name": "Costar",
+        "pokemon_count": 1,
+        "description": "Copies ally's stat changes on entering battle.",
+        "gen": 9
+    },
+    {
+        "url": "/ability/cotton-down",
+        "name": "Cotton Down",
+        "pokemon_count": 2,
+        "description": "Lowers foe's Speed when hit.",
+        "gen": 8
+    },
+    {
+        "url": "/ability/cud-chew",
+        "name": "Cud Chew",
+        "pokemon_count": 4,
+        "description": "Can eat the same Berry twice.",
+        "gen": 9
+    },
+    {
+        "url": "/ability/curious-medicine",
+        "name": "Curious Medicine",
+        "pokemon_count": 1,
+        "description": "Resets all stat changes upon entering battlefield.",
+        "gen": 8
+    },
+    {
+        "url": "/ability/cursed-body",
+        "name": "Cursed Body",
+        "pokemon_count": 13,
+        "description": "May disable a move used on the Pokémon.",
+        "gen": 5
+    },
+    {
+        "url": "/ability/cute-charm",
+        "name": "Cute Charm",
+        "pokemon_count": 15,
+        "description": "Contact with the Pokémon may cause infatuation.",
+        "gen": 3
+    },
+    {
+        "url": "/ability/damp",
+        "name": "Damp",
+        "pokemon_count": 20,
+        "description": "Prevents the use of self-destructing moves.",
+        "gen": 3
+    },
+    {
+        "url": "/ability/dancer",
+        "name": "Dancer",
+        "pokemon_count": 4,
+        "description": "Copies the foe's Dance moves.",
+        "gen": 7
+    },
+    {
+        "url": "/ability/dark-aura",
+        "name": "Dark Aura",
+        "pokemon_count": 1,
+        "description": "Raises power of Dark type moves for all Pokémon in battle.",
+        "gen": 6
+    },
+    {
+        "url": "/ability/dauntless-shield",
+        "name": "Dauntless Shield",
+        "pokemon_count": 2,
+        "description": "Boosts Defense in battle.",
+        "gen": 8
+    },
+    {
+        "url": "/ability/dazzling",
+        "name": "Dazzling",
+        "pokemon_count": 1,
+        "description": "Protects the Pokémon from high-priority moves.",
+        "gen": 7
+    },
+    {
+        "url": "/ability/defeatist",
+        "name": "Defeatist",
+        "pokemon_count": 2,
+        "description": "Lowers stats when HP drops below half.",
+        "gen": 5
+    },
+    {
+        "url": "/ability/defiant",
+        "name": "Defiant",
+        "pokemon_count": 16,
+        "description": "Sharply raises Attack when the Pokémon's stats are lowered.",
+        "gen": 5
+    },
+    {
+        "url": "/ability/delta-stream",
+        "name": "Delta Stream",
+        "pokemon_count": 1,
+        "description": "Creates strong winds when the ability activates.",
+        "gen": 6
+    },
+    {
+        "url": "/ability/desolate-land",
+        "name": "Desolate Land",
+        "pokemon_count": 1,
+        "description": "Turns the sunlight extremely harsh when the ability activates.",
+        "gen": 6
+    },
+    {
+        "url": "/ability/disguise",
+        "name": "Disguise",
+        "pokemon_count": 1,
+        "description": "Avoids damage for one turn.",
+        "gen": 7
+    },
+    {
+        "url": "/ability/download",
+        "name": "Download",
+        "pokemon_count": 4,
+        "description": "Adjusts power according to a foe's defenses.",
+        "gen": 4
+    },
+    {
+        "url": "/ability/dragons-maw",
+        "name": "Dragon's Maw",
+        "pokemon_count": 1,
+        "description": "Powers up Dragon-type moves.",
+        "gen": 8
+    },
+    {
+        "url": "/ability/drizzle",
+        "name": "Drizzle",
+        "pokemon_count": 3,
+        "description": "The Pokémon makes it rain when it enters a battle.",
+        "gen": 3
+    },
+    {
+        "url": "/ability/drought",
+        "name": "Drought",
+        "pokemon_count": 5,
+        "description": "Turns the sunlight harsh when the Pokémon enters a battle.",
+        "gen": 3
+    },
+    {
+        "url": "/ability/dry-skin",
+        "name": "Dry Skin",
+        "pokemon_count": 7,
+        "description": "Reduces HP if it is hot. Water restores HP.",
+        "gen": 4
+    },
+    {
+        "url": "/ability/early-bird",
+        "name": "Early Bird",
+        "pokemon_count": 16,
+        "description": "The Pokémon awakens quickly from sleep.",
+        "gen": 3
+    },
+    {
+        "url": "/ability/earth-eater",
+        "name": "Earth Eater",
+        "pokemon_count": 1,
+        "description": "Restores HP when hit by a Ground-type move.",
+        "gen": 9
+    },
+    {
+        "url": "/ability/effect-spore",
+        "name": "Effect Spore",
+        "pokemon_count": 11,
+        "description": "Contact may poison or cause paralysis or sleep.",
+        "gen": 3
+    },
+    {
+        "url": "/ability/electric-surge",
+        "name": "Electric Surge",
+        "pokemon_count": 2,
+        "description": "The Pokémon creates an Electric Terrain when it enters a battle.",
+        "gen": 7
+    },
+    {
+        "url": "/ability/electromorphosis",
+        "name": "Electromorphosis",
+        "pokemon_count": 1,
+        "description": "Doubles power of the next Electric-type move when hit by an attack.",
+        "gen": 9
+    },
+    {
+        "url": "/ability/embody-aspect",
+        "name": "Embody Aspect",
+        "pokemon_count": 4,
+        "description": "Boosts Attack/Defense/Sp. Def/Speed depending on the form.",
+        "gen": 9
+    },
+    {
+        "url": "/ability/emergency-exit",
+        "name": "Emergency Exit",
+        "pokemon_count": 1,
+        "description": "Switches out when HP falls below 50%.",
+        "gen": 7
+    },
+    {
+        "url": "/ability/fairy-aura",
+        "name": "Fairy Aura",
+        "pokemon_count": 1,
+        "description": "Raises power of Fairy type moves for all Pokémon in battle.",
+        "gen": 6
+    },
+    {
+        "url": "/ability/filter",
+        "name": "Filter",
+        "pokemon_count": 4,
+        "description": "Reduces damage from super-effective attacks.",
+        "gen": 4
+    },
+    {
+        "url": "/ability/flame-body",
+        "name": "Flame Body",
+        "pokemon_count": 21,
+        "description": "Contact with the Pokémon may burn the attacker.",
+        "gen": 3
+    },
+    {
+        "url": "/ability/flare-boost",
+        "name": "Flare Boost",
+        "pokemon_count": 2,
+        "description": "Powers up special attacks when burned.",
+        "gen": 5
+    },
+    {
+        "url": "/ability/flash-fire",
+        "name": "Flash Fire",
+        "pokemon_count": 27,
+        "description": "It powers up Fire-type moves if it's hit by one.",
+        "gen": 3
+    },
+    {
+        "url": "/ability/flower-gift",
+        "name": "Flower Gift",
+        "pokemon_count": 1,
+        "description": "Powers up party Pokémon when it is sunny.",
+        "gen": 4
+    },
+    {
+        "url": "/ability/flower-veil",
+        "name": "Flower Veil",
+        "pokemon_count": 4,
+        "description": "Prevents lowering of ally Grass-type Pokémon's stats.",
+        "gen": 6
+    },
+    {
+        "url": "/ability/fluffy",
+        "name": "Fluffy",
+        "pokemon_count": 6,
+        "description": "Halves damage from contact moves, but doubles damage from Fire-type moves.",
+        "gen": 7
+    },
+    {
+        "url": "/ability/forecast",
+        "name": "Forecast",
+        "pokemon_count": 4,
+        "description": "Castform transforms with the weather.",
+        "gen": 3
+    },
+    {
+        "url": "/ability/forewarn",
+        "name": "Forewarn",
+        "pokemon_count": 6,
+        "description": "Determines what moves a foe has.",
+        "gen": 4
+    },
+    {
+        "url": "/ability/friend-guard",
+        "name": "Friend Guard",
+        "pokemon_count": 10,
+        "description": "Reduces damage done to allies.",
+        "gen": 5
+    },
+    {
+        "url": "/ability/frisk",
+        "name": "Frisk",
+        "pokemon_count": 36,
+        "description": "The Pokémon can check a foe's held item.",
+        "gen": 4
+    },
+    {
+        "url": "/ability/full-metal-body",
+        "name": "Full Metal Body",
+        "pokemon_count": 1,
+        "description": "Prevents other Pokémon from lowering its stats.",
+        "gen": 7
+    },
+    {
+        "url": "/ability/fur-coat",
+        "name": "Fur Coat",
+        "pokemon_count": 2,
+        "description": "Reduces damage from physical moves.",
+        "gen": 6
+    },
+    {
+        "url": "/ability/gale-wings",
+        "name": "Gale Wings",
+        "pokemon_count": 3,
+        "description": "Gives priority to Flying-type moves.",
+        "gen": 6
+    },
+    {
+        "url": "/ability/galvanize",
+        "name": "Galvanize",
+        "pokemon_count": 3,
+        "description": "Normal-type moves become Electric-type moves and their power boosted.",
+        "gen": 7
+    },
+    {
+        "url": "/ability/gluttony",
+        "name": "Gluttony",
+        "pokemon_count": 35,
+        "description": "Encourages the early use of a held Berry.",
+        "gen": 4
+    },
+    {
+        "url": "/ability/good-as-gold",
+        "name": "Good as Gold",
+        "pokemon_count": 1,
+        "description": "Gives immunity to status moves.",
+        "gen": 9
+    },
+    {
+        "url": "/ability/gooey",
+        "name": "Gooey",
+        "pokemon_count": 7,
+        "description": "Contact with the Pokémon lowers the attacker's Speed stat.",
+        "gen": 6
+    },
+    {
+        "url": "/ability/gorilla-tactics",
+        "name": "Gorilla Tactics",
+        "pokemon_count": 2,
+        "description": "Boosts the Pokémon's Attack stat but only allows the use of the first selected move.",
+        "gen": 8
+    },
+    {
+        "url": "/ability/grass-pelt",
+        "name": "Grass Pelt",
+        "pokemon_count": 2,
+        "description": "Boosts the Defense stat in Grassy Terrain.",
+        "gen": 6
+    },
+    {
+        "url": "/ability/grassy-surge",
+        "name": "Grassy Surge",
+        "pokemon_count": 4,
+        "description": "The Pokémon creates a Grassy Terrain when it enters a battle.",
+        "gen": 7
+    },
+    {
+        "url": "/ability/grim-neigh",
+        "name": "Grim Neigh",
+        "pokemon_count": 1,
+        "description": "Boosts Special Attack after knocking out a Pokémon.",
+        "gen": 8
+    },
+    {
+        "url": "/ability/guard-dog",
+        "name": "Guard Dog",
+        "pokemon_count": 2,
+        "description": "Boosts Attack if intimidated, and prevents being forced to switch out.",
+        "gen": 9
+    },
+    {
+        "url": "/ability/gulp-missile",
+        "name": "Gulp Missile",
+        "pokemon_count": 1,
+        "description": "Returns with a catch in its mouth after using Surf or Dive.",
+        "gen": 8
+    },
+    {
+        "url": "/ability/guts",
+        "name": "Guts",
+        "pokemon_count": 25,
+        "description": "Boosts Attack if there is a status problem.",
+        "gen": 3
+    },
+    {
+        "url": "/ability/hadron-engine",
+        "name": "Hadron Engine",
+        "pokemon_count": 1,
+        "description": "Creates an Electric Terrain when entering battle, and boosts Special Attack while active.",
+        "gen": 9
+    },
+    {
+        "url": "/ability/harvest",
+        "name": "Harvest",
+        "pokemon_count": 9,
+        "description": "May create another Berry after one is used.",
+        "gen": 5
+    },
+    {
+        "url": "/ability/healer",
+        "name": "Healer",
+        "pokemon_count": 11,
+        "description": "May heal an ally's status conditions.",
+        "gen": 5
+    },
+    {
+        "url": "/ability/heatproof",
+        "name": "Heatproof",
+        "pokemon_count": 5,
+        "description": "Weakens the power of Fire-type moves.",
+        "gen": 4
+    },
+    {
+        "url": "/ability/heavy-metal",
+        "name": "Heavy Metal",
+        "pokemon_count": 8,
+        "description": "Doubles the Pokémon's weight.",
+        "gen": 5
+    },
+    {
+        "url": "/ability/honey-gather",
+        "name": "Honey Gather",
+        "pokemon_count": 4,
+        "description": "The Pokémon may gather Honey from somewhere.",
+        "gen": 4
+    },
+    {
+        "url": "/ability/hospitality",
+        "name": "Hospitality",
+        "pokemon_count": 2,
+        "description": "Partially restores an ally's HP when it enters a battle.",
+        "gen": 9
+    },
+    {
+        "url": "/ability/huge-power",
+        "name": "Huge Power",
+        "pokemon_count": 6,
+        "description": "Raises the Pokémon's Attack stat.",
+        "gen": 3
+    },
+    {
+        "url": "/ability/hunger-switch",
+        "name": "Hunger Switch",
+        "pokemon_count": 2,
+        "description": "Changes forms each turn.",
+        "gen": 8
+    },
+    {
+        "url": "/ability/hustle",
+        "name": "Hustle",
+        "pokemon_count": 28,
+        "description": "Boosts the Attack stat, but lowers accuracy.",
+        "gen": 3
+    },
+    {
+        "url": "/ability/hydration",
+        "name": "Hydration",
+        "pokemon_count": 22,
+        "description": "Heals status problems if it is raining.",
+        "gen": 4
+    },
+    {
+        "url": "/ability/hyper-cutter",
+        "name": "Hyper Cutter",
+        "pokemon_count": 11,
+        "description": "Prevents other Pokémon from lowering Attack stat.",
+        "gen": 3
+    },
+    {
+        "url": "/ability/ice-body",
+        "name": "Ice Body",
+        "pokemon_count": 21,
+        "description": "The Pokémon gradually regains HP in a hailstorm.",
+        "gen": 4
+    },
+    {
+        "url": "/ability/ice-face",
+        "name": "Ice Face",
+        "pokemon_count": 2,
+        "description": "Avoids damage from Physical moves for one turn.",
+        "gen": 8
+    },
+    {
+        "url": "/ability/ice-scales",
+        "name": "Ice Scales",
+        "pokemon_count": 2,
+        "description": "Halves damage from Special moves.",
+        "gen": 8
+    },
+    {
+        "url": "/ability/illuminate",
+        "name": "Illuminate",
+        "pokemon_count": 8,
+        "description": "Raises the likelihood of meeting wild Pokémon.",
+        "gen": 3
+    },
+    {
+        "url": "/ability/illusion",
+        "name": "Illusion",
+        "pokemon_count": 4,
+        "description": "Enters battle disguised as the last Pokémon in the party.",
+        "gen": 5
+    },
+    {
+        "url": "/ability/immunity",
+        "name": "Immunity",
+        "pokemon_count": 3,
+        "description": "Prevents the Pokémon from getting poisoned.",
+        "gen": 3
+    },
+    {
+        "url": "/ability/imposter",
+        "name": "Imposter",
+        "pokemon_count": 1,
+        "description": "It transforms itself into the Pokémon it is facing.",
+        "gen": 5
+    },
+    {
+        "url": "/ability/infiltrator",
+        "name": "Infiltrator",
+        "pokemon_count": 26,
+        "description": "Passes through the foe's barrier and strikes.",
+        "gen": 5
+    },
+    {
+        "url": "/ability/innards-out",
+        "name": "Innards Out",
+        "pokemon_count": 1,
+        "description": "Deals damage upon fainting.",
+        "gen": 7
+    },
+    {
+        "url": "/ability/inner-focus",
+        "name": "Inner Focus",
+        "pokemon_count": 38,
+        "description": "The Pokémon is protected from flinching.",
+        "gen": 3
+    },
+    {
+        "url": "/ability/insomnia",
+        "name": "Insomnia",
+        "pokemon_count": 24,
+        "description": "Prevents the Pokémon from falling asleep.",
+        "gen": 3
+    },
+    {
+        "url": "/ability/intimidate",
+        "name": "Intimidate",
+        "pokemon_count": 46,
+        "description": "Lowers the foe's Attack stat.",
+        "gen": 3
+    },
+    {
+        "url": "/ability/intrepid-sword",
+        "name": "Intrepid Sword",
+        "pokemon_count": 2,
+        "description": "Boosts Attack in battle.",
+        "gen": 8
+    },
+    {
+        "url": "/ability/iron-barbs",
+        "name": "Iron Barbs",
+        "pokemon_count": 3,
+        "description": "Inflicts damage to the Pokémon on contact.",
+        "gen": 5
+    },
+    {
+        "url": "/ability/iron-fist",
+        "name": "Iron Fist",
+        "pokemon_count": 18,
+        "description": "Boosts the power of punching moves.",
+        "gen": 4
+    },
+    {
+        "url": "/ability/justified",
+        "name": "Justified",
+        "pokemon_count": 10,
+        "description": "Raises Attack when hit by a Dark-type move.",
+        "gen": 5
+    },
+    {
+        "url": "/ability/keen-eye",
+        "name": "Keen Eye",
+        "pokemon_count": 43,
+        "description": "Prevents other Pokémon from lowering accuracy.",
+        "gen": 3
+    },
+    {
+        "url": "/ability/klutz",
+        "name": "Klutz",
+        "pokemon_count": 12,
+        "description": "The Pokémon can't use any held items.",
+        "gen": 4
+    },
+    {
+        "url": "/ability/leaf-guard",
+        "name": "Leaf Guard",
+        "pokemon_count": 21,
+        "description": "Prevents problems with status in sunny weather.",
+        "gen": 4
+    },
+    {
+        "url": "/ability/levitate",
+        "name": "Levitate",
+        "pokemon_count": 41,
+        "description": "Gives immunity to Ground type moves.",
+        "gen": 3
+    },
+    {
+        "url": "/ability/libero",
+        "name": "Libero",
+        "pokemon_count": 3,
+        "description": "Changes the Pokémon's type to its last used move.",
+        "gen": 8
+    },
+    {
+        "url": "/ability/light-metal",
+        "name": "Light Metal",
+        "pokemon_count": 6,
+        "description": "Halves the Pokémon's weight.",
+        "gen": 5
+    },
+    {
+        "url": "/ability/lightning-rod",
+        "name": "Lightning Rod",
+        "pokemon_count": 19,
+        "description": "Draws in all Electric-type moves to up Sp. Attack.",
+        "gen": 3
+    },
+    {
+        "url": "/ability/limber",
+        "name": "Limber",
+        "pokemon_count": 14,
+        "description": "The Pokémon is protected from paralysis.",
+        "gen": 3
+    },
+    {
+        "url": "/ability/lingering-aroma",
+        "name": "Lingering Aroma",
+        "pokemon_count": 1,
+        "description": "Contact changes the attacker's Ability to Lingering Aroma.",
+        "gen": 9
+    },
+    {
+        "url": "/ability/liquid-ooze",
+        "name": "Liquid Ooze",
+        "pokemon_count": 4,
+        "description": "Damages attackers using any draining move.",
+        "gen": 3
+    },
+    {
+        "url": "/ability/liquid-voice",
+        "name": "Liquid Voice",
+        "pokemon_count": 3,
+        "description": "All sound-based moves become Water-type moves.",
+        "gen": 7
+    },
+    {
+        "url": "/ability/long-reach",
+        "name": "Long Reach",
+        "pokemon_count": 3,
+        "description": "The Pokémon uses its moves without making contact with the target.",
+        "gen": 7
+    },
+    {
+        "url": "/ability/magic-bounce",
+        "name": "Magic Bounce",
+        "pokemon_count": 9,
+        "description": "Reflects status- changing moves.",
+        "gen": 5
+    },
+    {
+        "url": "/ability/magic-guard",
+        "name": "Magic Guard",
+        "pokemon_count": 10,
+        "description": "Protects the Pokémon from indirect damage.",
+        "gen": 4
+    },
+    {
+        "url": "/ability/magician",
+        "name": "Magician",
+        "pokemon_count": 6,
+        "description": "The Pokémon steals the held item of a Pokémon it hits with a move.",
+        "gen": 6
+    },
+    {
+        "url": "/ability/magma-armor",
+        "name": "Magma Armor",
+        "pokemon_count": 3,
+        "description": "Prevents the Pokémon from becoming frozen.",
+        "gen": 3
+    },
+    {
+        "url": "/ability/magnet-pull",
+        "name": "Magnet Pull",
+        "pokemon_count": 9,
+        "description": "Prevents Steel-type Pokémon from escaping.",
+        "gen": 3
+    },
+    {
+        "url": "/ability/marvel-scale",
+        "name": "Marvel Scale",
+        "pokemon_count": 3,
+        "description": "Ups Defense if there is a status problem.",
+        "gen": 3
+    },
+    {
+        "url": "/ability/mega-launcher",
+        "name": "Mega Launcher",
+        "pokemon_count": 3,
+        "description": "Boosts the power of aura and pulse moves.",
+        "gen": 6
+    },
+    {
+        "url": "/ability/merciless",
+        "name": "Merciless",
+        "pokemon_count": 2,
+        "description": "The Pokémon's attacks become critical hits if the target is poisoned.",
+        "gen": 7
+    },
+    {
+        "url": "/ability/mimicry",
+        "name": "Mimicry",
+        "pokemon_count": 1,
+        "description": "Changes type depending on the terrain.",
+        "gen": 8
+    },
+    {
+        "url": "/ability/minds-eye",
+        "name": "Mind's Eye",
+        "pokemon_count": 1,
+        "description": "Ignores opponent's Evasiveness, and allows Normal- and Fighting-type attacks to hit Ghosts.",
+        "gen": 9
+    },
+    {
+        "url": "/ability/minus",
+        "name": "Minus",
+        "pokemon_count": 7,
+        "description": "Ups Sp. Atk if another Pokémon has Plus or Minus.",
+        "gen": 3
+    },
+    {
+        "url": "/ability/mirror-armor",
+        "name": "Mirror Armor",
+        "pokemon_count": 1,
+        "description": "Reflects any stat-lowering effects.",
+        "gen": 8
+    },
+    {
+        "url": "/ability/misty-surge",
+        "name": "Misty Surge",
+        "pokemon_count": 2,
+        "description": "The Pokémon creates a Misty Terrain when it enters a battle.",
+        "gen": 7
+    },
+    {
+        "url": "/ability/mold-breaker",
+        "name": "Mold Breaker",
+        "pokemon_count": 26,
+        "description": "Moves can be used regardless of Abilities.",
+        "gen": 4
+    },
+    {
+        "url": "/ability/moody",
+        "name": "Moody",
+        "pokemon_count": 8,
+        "description": "Raises one stat and lowers another.",
+        "gen": 5
+    },
+    {
+        "url": "/ability/motor-drive",
+        "name": "Motor Drive",
+        "pokemon_count": 4,
+        "description": "Raises Speed if hit by an Electric-type move.",
+        "gen": 4
+    },
+    {
+        "url": "/ability/moxie",
+        "name": "Moxie",
+        "pokemon_count": 16,
+        "description": "Boosts Attack after knocking out any Pokémon.",
+        "gen": 5
+    },
+    {
+        "url": "/ability/multiscale",
+        "name": "Multiscale",
+        "pokemon_count": 2,
+        "description": "Reduces damage when HP is full.",
+        "gen": 5
+    },
+    {
+        "url": "/ability/multitype",
+        "name": "Multitype",
+        "pokemon_count": 1,
+        "description": "Changes type to match the held Plate.",
+        "gen": 4
+    },
+    {
+        "url": "/ability/mummy",
+        "name": "Mummy",
+        "pokemon_count": 2,
+        "description": "Contact with this Pokémon spreads this Ability.",
+        "gen": 5
+    },
+    {
+        "url": "/ability/mycelium-might",
+        "name": "Mycelium Might",
+        "pokemon_count": 2,
+        "description": "Status moves go last, but are not affected by the opponent's ability.",
+        "gen": 9
+    },
+    {
+        "url": "/ability/natural-cure",
+        "name": "Natural Cure",
+        "pokemon_count": 19,
+        "description": "All status problems heal when it switches out.",
+        "gen": 3
+    },
+    {
+        "url": "/ability/neuroforce",
+        "name": "Neuroforce",
+        "pokemon_count": 1,
+        "description": "Powers up moves that are super effective.",
+        "gen": 7
+    },
+    {
+        "url": "/ability/neutralizing-gas",
+        "name": "Neutralizing Gas",
+        "pokemon_count": 3,
+        "description": "Neutralizes abilities of all Pokémon in battle.",
+        "gen": 8
+    },
+    {
+        "url": "/ability/no-guard",
+        "name": "No Guard",
+        "pokemon_count": 10,
+        "description": "Ensures attacks by or against the Pokémon land.",
+        "gen": 4
+    },
+    {
+        "url": "/ability/normalize",
+        "name": "Normalize",
+        "pokemon_count": 2,
+        "description": "All the Pokémon's moves become the Normal type.",
+        "gen": 4
+    },
+    {
+        "url": "/ability/oblivious",
+        "name": "Oblivious",
+        "pokemon_count": 25,
+        "description": "Prevents it from becoming infatuated.",
+        "gen": 3
+    },
+    {
+        "url": "/ability/opportunist",
+        "name": "Opportunist",
+        "pokemon_count": 1,
+        "description": "Copies stat boosts by the opponent.",
+        "gen": 9
+    },
+    {
+        "url": "/ability/orichalcum-pulse",
+        "name": "Orichalcum Pulse",
+        "pokemon_count": 1,
+        "description": "Turns the sunlight harsh when entering battle, and boosts Attack while active.",
+        "gen": 9
+    },
+    {
+        "url": "/ability/overcoat",
+        "name": "Overcoat",
+        "pokemon_count": 27,
+        "description": "Protects the Pokémon from weather damage.",
+        "gen": 5
+    },
+    {
+        "url": "/ability/overgrow",
+        "name": "Overgrow",
+        "pokemon_count": 30,
+        "description": "Powers up Grass-type moves in a pinch.",
+        "gen": 3
+    },
+    {
+        "url": "/ability/own-tempo",
+        "name": "Own Tempo",
+        "pokemon_count": 33,
+        "description": "Prevents the Pokémon from becoming confused.",
+        "gen": 3
+    },
+    {
+        "url": "/ability/parental-bond",
+        "name": "Parental Bond",
+        "pokemon_count": 1,
+        "description": "Allows the Pokémon to attack twice.",
+        "gen": 6
+    },
+    {
+        "url": "/ability/pastel-veil",
+        "name": "Pastel Veil",
+        "pokemon_count": 2,
+        "description": "Prevents the Pokémon and its allies from being poisoned.",
+        "gen": 8
+    },
+    {
+        "url": "/ability/perish-body",
+        "name": "Perish Body",
+        "pokemon_count": 1,
+        "description": "When hit by a move that makes direct contact, the Pokémon and the attacker will faint after three turns unless they switch out of battle.",
+        "gen": 8
+    },
+    {
+        "url": "/ability/pickpocket",
+        "name": "Pickpocket",
+        "pokemon_count": 15,
+        "description": "Steals an item when hit by another Pokémon.",
+        "gen": 5
+    },
+    {
+        "url": "/ability/pickup",
+        "name": "Pickup",
+        "pokemon_count": 29,
+        "description": "The Pokémon may pick up items.",
+        "gen": 3
+    },
+    {
+        "url": "/ability/pixilate",
+        "name": "Pixilate",
+        "pokemon_count": 3,
+        "description": "Turns Normal-type moves into Fairy-type moves.",
+        "gen": 6
+    },
+    {
+        "url": "/ability/plus",
+        "name": "Plus",
+        "pokemon_count": 9,
+        "description": "Ups Sp. Atk if another Pokémon has Plus or Minus.",
+        "gen": 3
+    },
+    {
+        "url": "/ability/poison-heal",
+        "name": "Poison Heal",
+        "pokemon_count": 3,
+        "description": "Restores HP if the Pokémon is poisoned.",
+        "gen": 4
+    },
+    {
+        "url": "/ability/poison-point",
+        "name": "Poison Point",
+        "pokemon_count": 20,
+        "description": "Contact with the Pokémon may poison the attacker.",
+        "gen": 3
+    },
+    {
+        "url": "/ability/poison-puppeteer",
+        "name": "Poison Puppeteer",
+        "pokemon_count": 1,
+        "description": "Poisoned Pokémon also become confused.",
+        "gen": 9
+    },
+    {
+        "url": "/ability/poison-touch",
+        "name": "Poison Touch",
+        "pokemon_count": 11,
+        "description": "May poison targets when a Pokémon makes contact.",
+        "gen": 5
+    },
+    {
+        "url": "/ability/power-construct",
+        "name": "Power Construct",
+        "pokemon_count": 3,
+        "description": "Changes form when HP drops below half.",
+        "gen": 7
+    },
+    {
+        "url": "/ability/power-of-alchemy",
+        "name": "Power of Alchemy",
+        "pokemon_count": 2,
+        "description": "The Pokémon copies the Ability of a defeated ally.",
+        "gen": 7
+    },
+    {
+        "url": "/ability/power-spot",
+        "name": "Power Spot",
+        "pokemon_count": 1,
+        "description": "Just being next to the Pokémon powers up moves.",
+        "gen": 8
+    },
+    {
+        "url": "/ability/prankster",
+        "name": "Prankster",
+        "pokemon_count": 19,
+        "description": "Gives priority to a status move.",
+        "gen": 5
+    },
+    {
+        "url": "/ability/pressure",
+        "name": "Pressure",
+        "pokemon_count": 34,
+        "description": "The Pokémon raises the foe's PP usage.",
+        "gen": 3
+    },
+    {
+        "url": "/ability/primordial-sea",
+        "name": "Primordial Sea",
+        "pokemon_count": 1,
+        "description": "Makes it rain heavily when the ability activates.",
+        "gen": 6
+    },
+    {
+        "url": "/ability/prism-armor",
+        "name": "Prism Armor",
+        "pokemon_count": 3,
+        "description": "Reduces damage from super-effective attacks.",
+        "gen": 7
+    },
+    {
+        "url": "/ability/propeller-tail",
+        "name": "Propeller Tail",
+        "pokemon_count": 2,
+        "description": "Ignores moves and abilities that draw in moves.",
+        "gen": 8
+    },
+    {
+        "url": "/ability/protean",
+        "name": "Protean",
+        "pokemon_count": 7,
+        "description": "Changes the Pokémon's type to its last used move.",
+        "gen": 6
+    },
+    {
+        "url": "/ability/protosynthesis",
+        "name": "Protosynthesis",
+        "pokemon_count": 10,
+        "description": "Raises highest stat in harsh sunlight, or if holding Booster Energy.",
+        "gen": 9
+    },
+    {
+        "url": "/ability/psychic-surge",
+        "name": "Psychic Surge",
+        "pokemon_count": 3,
+        "description": "The Pokémon creates a Psychic Terrain when it enters a battle.",
+        "gen": 7
+    },
+    {
+        "url": "/ability/punk-rock",
+        "name": "Punk Rock",
+        "pokemon_count": 2,
+        "description": "Boosts sound-based moves and halves damage from the same moves.",
+        "gen": 8
+    },
+    {
+        "url": "/ability/pure-power",
+        "name": "Pure Power",
+        "pokemon_count": 3,
+        "description": "Raises the Pokémon's Attack stat.",
+        "gen": 3
+    },
+    {
+        "url": "/ability/purifying-salt",
+        "name": "Purifying Salt",
+        "pokemon_count": 3,
+        "description": "Protects from status conditions and halves damage from Ghost-type moves.",
+        "gen": 9
+    },
+    {
+        "url": "/ability/quark-drive",
+        "name": "Quark Drive",
+        "pokemon_count": 10,
+        "description": "Raises highest stat on Electric Terrain, or if holding Booster Energy.",
+        "gen": 9
+    },
+    {
+        "url": "/ability/queenly-majesty",
+        "name": "Queenly Majesty",
+        "pokemon_count": 1,
+        "description": "Prevents use of priority moves.",
+        "gen": 7
+    },
+    {
+        "url": "/ability/quick-draw",
+        "name": "Quick Draw",
+        "pokemon_count": 1,
+        "description": null,
+        "gen": 8
+    },
+    {
+        "url": "/ability/quick-feet",
+        "name": "Quick Feet",
+        "pokemon_count": 11,
+        "description": "Boosts Speed if there is a status problem.",
+        "gen": 4
+    },
+    {
+        "url": "/ability/rain-dish",
+        "name": "Rain Dish",
+        "pokemon_count": 13,
+        "description": "The Pokémon gradually regains HP in rain.",
+        "gen": 3
+    },
+    {
+        "url": "/ability/rattled",
+        "name": "Rattled",
+        "pokemon_count": 21,
+        "description": "Bug, Ghost or Dark type moves scare it and boost its Speed.",
+        "gen": 5
+    },
+    {
+        "url": "/ability/receiver",
+        "name": "Receiver",
+        "pokemon_count": 1,
+        "description": "Inherits an ally's ability when it faints.",
+        "gen": 7
+    },
+    {
+        "url": "/ability/reckless",
+        "name": "Reckless",
+        "pokemon_count": 13,
+        "description": "Powers up moves that have recoil damage.",
+        "gen": 4
+    },
+    {
+        "url": "/ability/refrigerate",
+        "name": "Refrigerate",
+        "pokemon_count": 3,
+        "description": "Turns Normal-type moves into Ice-type moves.",
+        "gen": 6
+    },
+    {
+        "url": "/ability/regenerator",
+        "name": "Regenerator",
+        "pokemon_count": 27,
+        "description": "Restores a little HP when withdrawn from battle.",
+        "gen": 5
+    },
+    {
+        "url": "/ability/ripen",
+        "name": "Ripen",
+        "pokemon_count": 3,
+        "description": "Doubles the effect of berries.",
+        "gen": 8
+    },
+    {
+        "url": "/ability/rivalry",
+        "name": "Rivalry",
+        "pokemon_count": 18,
+        "description": "Deals more damage to a Pokémon of same gender.",
+        "gen": 4
+    },
+    {
+        "url": "/ability/rks-system",
+        "name": "RKS System",
+        "pokemon_count": 1,
+        "description": "Changes type depending on held item.",
+        "gen": 7
+    },
+    {
+        "url": "/ability/rock-head",
+        "name": "Rock Head",
+        "pokemon_count": 23,
+        "description": "Protects the Pokémon from recoil damage.",
+        "gen": 3
+    },
+    {
+        "url": "/ability/rocky-payload",
+        "name": "Rocky Payload",
+        "pokemon_count": 1,
+        "description": "Powers up Rock-type moves.",
+        "gen": 9
+    },
+    {
+        "url": "/ability/rough-skin",
+        "name": "Rough Skin",
+        "pokemon_count": 6,
+        "description": "Inflicts damage to the attacker on contact.",
+        "gen": 3
+    },
+    {
+        "url": "/ability/run-away",
+        "name": "Run Away",
+        "pokemon_count": 34,
+        "description": "Enables a sure getaway from wild Pokémon.",
+        "gen": 3
+    },
+    {
+        "url": "/ability/sand-force",
+        "name": "Sand Force",
+        "pokemon_count": 18,
+        "description": "Boosts certain moves' power in a sandstorm.",
+        "gen": 5
+    },
+    {
+        "url": "/ability/sand-rush",
+        "name": "Sand Rush",
+        "pokemon_count": 10,
+        "description": "Boosts the Pokémon's Speed in a sandstorm.",
+        "gen": 5
+    },
+    {
+        "url": "/ability/sand-spit",
+        "name": "Sand Spit",
+        "pokemon_count": 2,
+        "description": "Creates a sandstorm when hit by an attack.",
+        "gen": 8
+    },
+    {
+        "url": "/ability/sand-stream",
+        "name": "Sand Stream",
+        "pokemon_count": 5,
+        "description": "The Pokémon summons a sandstorm in battle.",
+        "gen": 3
+    },
+    {
+        "url": "/ability/sand-veil",
+        "name": "Sand Veil",
+        "pokemon_count": 29,
+        "description": "Boosts the Pokémon's evasion in a sandstorm.",
+        "gen": 3
+    },
+    {
+        "url": "/ability/sap-sipper",
+        "name": "Sap Sipper",
+        "pokemon_count": 21,
+        "description": "Boosts Attack when hit by a Grass-type move.",
+        "gen": 5
+    },
+    {
+        "url": "/ability/schooling",
+        "name": "Schooling",
+        "pokemon_count": 2,
+        "description": "Changes Wishiwashi to School Form.",
+        "gen": 7
+    },
+    {
+        "url": "/ability/scrappy",
+        "name": "Scrappy",
+        "pokemon_count": 15,
+        "description": "Enables moves to hit Ghost-type Pokémon.",
+        "gen": 4
+    },
+    {
+        "url": "/ability/screen-cleaner",
+        "name": "Screen Cleaner",
+        "pokemon_count": 2,
+        "description": "Nullifies effects of Light Screen, Reflect, and Aurora Veil.",
+        "gen": 8
+    },
+    {
+        "url": "/ability/seed-sower",
+        "name": "Seed Sower",
+        "pokemon_count": 1,
+        "description": "Turns the ground into Grassy Terrain when the Pokémon is hit by an attack.",
+        "gen": 9
+    },
+    {
+        "url": "/ability/serene-grace",
+        "name": "Serene Grace",
+        "pokemon_count": 15,
+        "description": "Boosts the likelihood of added effects appearing.",
+        "gen": 3
+    },
+    {
+        "url": "/ability/shadow-shield",
+        "name": "Shadow Shield",
+        "pokemon_count": 1,
+        "description": "Reduces damage when HP is full.",
+        "gen": 7
+    },
+    {
+        "url": "/ability/shadow-tag",
+        "name": "Shadow Tag",
+        "pokemon_count": 6,
+        "description": "Prevents the foe from escaping.",
+        "gen": 3
+    },
+    {
+        "url": "/ability/sharpness",
+        "name": "Sharpness",
+        "pokemon_count": 4,
+        "description": "Boosts the power of slicing moves.",
+        "gen": 9
+    },
+    {
+        "url": "/ability/shed-skin",
+        "name": "Shed Skin",
+        "pokemon_count": 22,
+        "description": "The Pokémon may heal its own status problems.",
+        "gen": 3
+    },
+    {
+        "url": "/ability/sheer-force",
+        "name": "Sheer Force",
+        "pokemon_count": 35,
+        "description": "Removes added effects to increase move damage.",
+        "gen": 5
+    },
+    {
+        "url": "/ability/shell-armor",
+        "name": "Shell Armor",
+        "pokemon_count": 28,
+        "description": "The Pokémon is protected against critical hits.",
+        "gen": 3
+    },
+    {
+        "url": "/ability/shield-dust",
+        "name": "Shield Dust",
+        "pokemon_count": 11,
+        "description": "Blocks the added effects of attacks taken.",
+        "gen": 3
+    },
+    {
+        "url": "/ability/shields-down",
+        "name": "Shields Down",
+        "pokemon_count": 2,
+        "description": "Changes stats when HP drops below half.",
+        "gen": 7
+    },
+    {
+        "url": "/ability/simple",
+        "name": "Simple",
+        "pokemon_count": 5,
+        "description": "Doubles all stat changes.",
+        "gen": 4
+    },
+    {
+        "url": "/ability/skill-link",
+        "name": "Skill Link",
+        "pokemon_count": 10,
+        "description": "Increases the frequency of multi-strike moves.",
+        "gen": 4
+    },
+    {
+        "url": "/ability/slow-start",
+        "name": "Slow Start",
+        "pokemon_count": 2,
+        "description": "Temporarily halves Attack and Speed.",
+        "gen": 4
+    },
+    {
+        "url": "/ability/slush-rush",
+        "name": "Slush Rush",
+        "pokemon_count": 7,
+        "description": "Boosts the Pokémon's Speed stat in a hailstorm.",
+        "gen": 7
+    },
+    {
+        "url": "/ability/sniper",
+        "name": "Sniper",
+        "pokemon_count": 17,
+        "description": "Powers up moves if they become critical hits.",
+        "gen": 4
+    },
+    {
+        "url": "/ability/snow-cloak",
+        "name": "Snow Cloak",
+        "pokemon_count": 15,
+        "description": "Raises evasion in a hailstorm.",
+        "gen": 4
+    },
+    {
+        "url": "/ability/snow-warning",
+        "name": "Snow Warning",
+        "pokemon_count": 8,
+        "description": "The Pokémon summons a hailstorm in battle.",
+        "gen": 4
+    },
+    {
+        "url": "/ability/solar-power",
+        "name": "Solar Power",
+        "pokemon_count": 9,
+        "description": "In sunshine, Sp. Atk is boosted but HP decreases.",
+        "gen": 4
+    },
+    {
+        "url": "/ability/solid-rock",
+        "name": "Solid Rock",
+        "pokemon_count": 4,
+        "description": "Reduces damage from super-effective attacks.",
+        "gen": 4
+    },
+    {
+        "url": "/ability/soul-heart",
+        "name": "Soul-Heart",
+        "pokemon_count": 1,
+        "description": "Raises Special Attack when another Pokémon faints.",
+        "gen": 7
+    },
+    {
+        "url": "/ability/soundproof",
+        "name": "Soundproof",
+        "pokemon_count": 17,
+        "description": "Gives immunity to sound-based moves.",
+        "gen": 3
+    },
+    {
+        "url": "/ability/speed-boost",
+        "name": "Speed Boost",
+        "pokemon_count": 14,
+        "description": "Its Speed stat is gradually boosted.",
+        "gen": 3
+    },
+    {
+        "url": "/ability/stakeout",
+        "name": "Stakeout",
+        "pokemon_count": 8,
+        "description": "Deals double damage to Pokémon switching in.",
+        "gen": 7
+    },
+    {
+        "url": "/ability/stall",
+        "name": "Stall",
+        "pokemon_count": 1,
+        "description": "The Pokémon moves after all other Pokémon do.",
+        "gen": 4
+    },
+    {
+        "url": "/ability/stalwart",
+        "name": "Stalwart",
+        "pokemon_count": 2,
+        "description": "Ignores moves and abilities that draw in moves.",
+        "gen": 8
+    },
+    {
+        "url": "/ability/stamina",
+        "name": "Stamina",
+        "pokemon_count": 3,
+        "description": "Raises Defense when attacked.",
+        "gen": 7
+    },
+    {
+        "url": "/ability/stance-change",
+        "name": "Stance Change",
+        "pokemon_count": 2,
+        "description": "Changes form depending on moves used.",
+        "gen": 6
+    },
+    {
+        "url": "/ability/static",
+        "name": "Static",
+        "pokemon_count": 22,
+        "description": "Contact with the Pokémon may cause paralysis.",
+        "gen": 3
+    },
+    {
+        "url": "/ability/steadfast",
+        "name": "Steadfast",
+        "pokemon_count": 15,
+        "description": "Raises Speed each time the Pokémon flinches.",
+        "gen": 4
+    },
+    {
+        "url": "/ability/steam-engine",
+        "name": "Steam Engine",
+        "pokemon_count": 3,
+        "description": "Drastically raises Speed when hit by a Fire- or Water-type move.",
+        "gen": 8
+    },
+    {
+        "url": "/ability/steelworker",
+        "name": "Steelworker",
+        "pokemon_count": 1,
+        "description": "Powers up Steel-type moves.",
+        "gen": 7
+    },
+    {
+        "url": "/ability/steely-spirit",
+        "name": "Steely Spirit",
+        "pokemon_count": 1,
+        "description": "Powers up ally Pokémon's Steel-type moves.",
+        "gen": 8
+    },
+    {
+        "url": "/ability/stench",
+        "name": "Stench",
+        "pokemon_count": 9,
+        "description": "The stench may cause the target to flinch.",
+        "gen": 3
+    },
+    {
+        "url": "/ability/sticky-hold",
+        "name": "Sticky Hold",
+        "pokemon_count": 10,
+        "description": "Protects the Pokémon from item theft.",
+        "gen": 3
+    },
+    {
+        "url": "/ability/storm-drain",
+        "name": "Storm Drain",
+        "pokemon_count": 8,
+        "description": "Draws in all Water-type moves to up Sp. Attack.",
+        "gen": 4
+    },
+    {
+        "url": "/ability/strong-jaw",
+        "name": "Strong Jaw",
+        "pokemon_count": 11,
+        "description": "Boosts the power of biting moves.",
+        "gen": 6
+    },
+    {
+        "url": "/ability/sturdy",
+        "name": "Sturdy",
+        "pokemon_count": 47,
+        "description": "It cannot be knocked out with one hit.",
+        "gen": 3
+    },
+    {
+        "url": "/ability/suction-cups",
+        "name": "Suction Cups",
+        "pokemon_count": 5,
+        "description": "Negates all moves that force switching out.",
+        "gen": 3
+    },
+    {
+        "url": "/ability/super-luck",
+        "name": "Super Luck",
+        "pokemon_count": 9,
+        "description": "Heightens the critical-hit ratios of moves.",
+        "gen": 4
+    },
+    {
+        "url": "/ability/supersweet-syrup",
+        "name": "Supersweet Syrup",
+        "pokemon_count": 2,
+        "description": "Lowers opponent's Evasiveness when entering battle.",
+        "gen": 9
+    },
+    {
+        "url": "/ability/supreme-overlord",
+        "name": "Supreme Overlord",
+        "pokemon_count": 1,
+        "description": "Attack and Special Attack are boosted for each party Pokémon that has been defeated.",
+        "gen": 9
+    },
+    {
+        "url": "/ability/surge-surfer",
+        "name": "Surge Surfer",
+        "pokemon_count": 1,
+        "description": "Doubles Speed during Electric Terrain. ",
+        "gen": 7
+    },
+    {
+        "url": "/ability/swarm",
+        "name": "Swarm",
+        "pokemon_count": 31,
+        "description": "Powers up Bug-type moves in a pinch.",
+        "gen": 3
+    },
+    {
+        "url": "/ability/sweet-veil",
+        "name": "Sweet Veil",
+        "pokemon_count": 9,
+        "description": "Prevents the Pokémon and allies from falling asleep.",
+        "gen": 6
+    },
+    {
+        "url": "/ability/swift-swim",
+        "name": "Swift Swim",
+        "pokemon_count": 47,
+        "description": "Boosts the Pokémon's Speed in rain.",
+        "gen": 3
+    },
+    {
+        "url": "/ability/sword-of-ruin",
+        "name": "Sword of Ruin",
+        "pokemon_count": 1,
+        "description": "Lowers Defense of all Pokémon except itself.",
+        "gen": 9
+    },
+    {
+        "url": "/ability/symbiosis",
+        "name": "Symbiosis",
+        "pokemon_count": 4,
+        "description": "The Pokémon can pass an item to an ally.",
+        "gen": 6
+    },
+    {
+        "url": "/ability/synchronize",
+        "name": "Synchronize",
+        "pokemon_count": 18,
+        "description": "Passes a burn, poison, or paralysis to the foe.",
+        "gen": 3
+    },
+    {
+        "url": "/ability/tablets-of-ruin",
+        "name": "Tablets of Ruin",
+        "pokemon_count": 1,
+        "description": "Lowers Attack of all Pokémon except itself.",
+        "gen": 9
+    },
+    {
+        "url": "/ability/tangled-feet",
+        "name": "Tangled Feet",
+        "pokemon_count": 9,
+        "description": "Raises evasion if the Pokémon is confused.",
+        "gen": 4
+    },
+    {
+        "url": "/ability/tangling-hair",
+        "name": "Tangling Hair",
+        "pokemon_count": 2,
+        "description": "Contact with the Pokémon lowers the attacker's Speed stat.",
+        "gen": 7
+    },
+    {
+        "url": "/ability/technician",
+        "name": "Technician",
+        "pokemon_count": 25,
+        "description": "Powers up the Pokémon's weaker moves.",
+        "gen": 4
+    },
+    {
+        "url": "/ability/telepathy",
+        "name": "Telepathy",
+        "pokemon_count": 27,
+        "description": "Anticipates an ally's attack and dodges it.",
+        "gen": 5
+    },
+    {
+        "url": "/ability/tera-shell",
+        "name": "Tera Shell",
+        "pokemon_count": 1,
+        "description": "Moves are not very effective when HP is full.",
+        "gen": 9
+    },
+    {
+        "url": "/ability/tera-shift",
+        "name": "Tera Shift",
+        "pokemon_count": 1,
+        "description": "Transforms into Terastal Form in battle.",
+        "gen": 9
+    },
+    {
+        "url": "/ability/teraform-zero",
+        "name": "Teraform Zero",
+        "pokemon_count": 1,
+        "description": "Eliminates all effects of weather and terrain.",
+        "gen": 9
+    },
+    {
+        "url": "/ability/teravolt",
+        "name": "Teravolt",
+        "pokemon_count": 2,
+        "description": "Moves can be used regardless of Abilities.",
+        "gen": 5
+    },
+    {
+        "url": "/ability/thermal-exchange",
+        "name": "Thermal Exchange",
+        "pokemon_count": 3,
+        "description": "Raises Attack when hit by a Fire-type move. Cannot be burned.",
+        "gen": 9
+    },
+    {
+        "url": "/ability/thick-fat",
+        "name": "Thick Fat",
+        "pokemon_count": 30,
+        "description": "Ups resistance to Fire- and Ice-type moves.",
+        "gen": 3
+    },
+    {
+        "url": "/ability/tinted-lens",
+        "name": "Tinted Lens",
+        "pokemon_count": 12,
+        "description": "Powers up “not very effective” moves.",
+        "gen": 4
+    },
+    {
+        "url": "/ability/torrent",
+        "name": "Torrent",
+        "pokemon_count": 30,
+        "description": "Powers up Water-type moves in a pinch.",
+        "gen": 3
+    },
+    {
+        "url": "/ability/tough-claws",
+        "name": "Tough Claws",
+        "pokemon_count": 8,
+        "description": "Boosts the power of contact moves.",
+        "gen": 6
+    },
+    {
+        "url": "/ability/toxic-boost",
+        "name": "Toxic Boost",
+        "pokemon_count": 1,
+        "description": "Powers up physical attacks when poisoned.",
+        "gen": 5
+    },
+    {
+        "url": "/ability/toxic-chain",
+        "name": "Toxic Chain",
+        "pokemon_count": 3,
+        "description": "May cause bad poisoning.",
+        "gen": 9
+    },
+    {
+        "url": "/ability/toxic-debris",
+        "name": "Toxic Debris",
+        "pokemon_count": 2,
+        "description": "Scatters poison spikes at the feet of the opposing team when the Pokémon takes damage from physical moves.",
+        "gen": 9
+    },
+    {
+        "url": "/ability/trace",
+        "name": "Trace",
+        "pokemon_count": 6,
+        "description": "The Pokémon copies a foe's Ability.",
+        "gen": 3
+    },
+    {
+        "url": "/ability/transistor",
+        "name": "Transistor",
+        "pokemon_count": 1,
+        "description": "Powers up Electric-type moves.",
+        "gen": 8
+    },
+    {
+        "url": "/ability/triage",
+        "name": "Triage",
+        "pokemon_count": 1,
+        "description": "Gives priority to restorative moves.",
+        "gen": 7
+    },
+    {
+        "url": "/ability/truant",
+        "name": "Truant",
+        "pokemon_count": 3,
+        "description": "Pokémon can't attack on consecutive turns.",
+        "gen": 3
+    },
+    {
+        "url": "/ability/turboblaze",
+        "name": "Turboblaze",
+        "pokemon_count": 2,
+        "description": "Moves can be used regardless of Abilities.",
+        "gen": 5
+    },
+    {
+        "url": "/ability/unaware",
+        "name": "Unaware",
+        "pokemon_count": 15,
+        "description": "Ignores any stat changes in the Pokémon.",
+        "gen": 4
+    },
+    {
+        "url": "/ability/unburden",
+        "name": "Unburden",
+        "pokemon_count": 17,
+        "description": "Raises Speed if a held item is used.",
+        "gen": 4
+    },
+    {
+        "url": "/ability/unnerve",
+        "name": "Unnerve",
+        "pokemon_count": 26,
+        "description": "Makes the foe nervous and unable to eat Berries.",
+        "gen": 5
+    },
+    {
+        "url": "/ability/unseen-fist",
+        "name": "Unseen Fist",
+        "pokemon_count": 2,
+        "description": "Contact moves can strike through Protect/Detect.",
+        "gen": 8
+    },
+    {
+        "url": "/ability/vessel-of-ruin",
+        "name": "Vessel of Ruin",
+        "pokemon_count": 1,
+        "description": "Lowers Special Attack of all Pokémon except itself.",
+        "gen": 9
+    },
+    {
+        "url": "/ability/victory-star",
+        "name": "Victory Star",
+        "pokemon_count": 1,
+        "description": "Boosts the accuracy of its allies and itself.",
+        "gen": 5
+    },
+    {
+        "url": "/ability/vital-spirit",
+        "name": "Vital Spirit",
+        "pokemon_count": 16,
+        "description": "Prevents the Pokémon from falling asleep.",
+        "gen": 3
+    },
+    {
+        "url": "/ability/volt-absorb",
+        "name": "Volt Absorb",
+        "pokemon_count": 13,
+        "description": "Restores HP if hit by an Electric-type move.",
+        "gen": 3
+    },
+    {
+        "url": "/ability/wandering-spirit",
+        "name": "Wandering Spirit",
+        "pokemon_count": 2,
+        "description": "Swaps abilities with opponents on contact.",
+        "gen": 8
+    },
+    {
+        "url": "/ability/water-absorb",
+        "name": "Water Absorb",
+        "pokemon_count": 28,
+        "description": "Restores HP if hit by a Water-type move.",
+        "gen": 3
+    },
+    {
+        "url": "/ability/water-bubble",
+        "name": "Water Bubble",
+        "pokemon_count": 2,
+        "description": "Halves damage from Fire-type moves, doubles power of Water-type moves used, and prevents burns.",
+        "gen": 7
+    },
+    {
+        "url": "/ability/water-compaction",
+        "name": "Water Compaction",
+        "pokemon_count": 2,
+        "description": "Sharply raises Defense when hit by a Water-type move.",
+        "gen": 7
+    },
+    {
+        "url": "/ability/water-veil",
+        "name": "Water Veil",
+        "pokemon_count": 13,
+        "description": "Prevents the Pokémon from getting a burn.",
+        "gen": 3
+    },
+    {
+        "url": "/ability/weak-armor",
+        "name": "Weak Armor",
+        "pokemon_count": 24,
+        "description": "Physical attacks lower Defense and raise Speed.",
+        "gen": 5
+    },
+    {
+        "url": "/ability/well-baked-body",
+        "name": "Well-Baked Body",
+        "pokemon_count": 1,
+        "description": "Immune to Fire-type moves, and Defense is sharply boosted.",
+        "gen": 9
+    },
+    {
+        "url": "/ability/white-smoke",
+        "name": "White Smoke",
+        "pokemon_count": 4,
+        "description": "Prevents other Pokémon from lowering its stats.",
+        "gen": 3
+    },
+    {
+        "url": "/ability/wimp-out",
+        "name": "Wimp Out",
+        "pokemon_count": 1,
+        "description": "Switches out when HP drops below half.",
+        "gen": 7
+    },
+    {
+        "url": "/ability/wind-power",
+        "name": "Wind Power",
+        "pokemon_count": 2,
+        "description": "Doubles power of the next Electric-type move used, when hit by a wind move.",
+        "gen": 9
+    },
+    {
+        "url": "/ability/wind-rider",
+        "name": "Wind Rider",
+        "pokemon_count": 3,
+        "description": "Takes no damage from wind moves, and boosts Attack if hit by one.",
+        "gen": 9
+    },
+    {
+        "url": "/ability/wonder-guard",
+        "name": "Wonder Guard",
+        "pokemon_count": 1,
+        "description": "Only supereffective moves will hit.",
+        "gen": 3
+    },
+    {
+        "url": "/ability/wonder-skin",
+        "name": "Wonder Skin",
+        "pokemon_count": 5,
+        "description": "Makes status-changing moves more likely to miss.",
+        "gen": 5
+    },
+    {
+        "url": "/ability/zen-mode",
+        "name": "Zen Mode",
+        "pokemon_count": 4,
+        "description": "Changes form when HP drops below half.",
+        "gen": 5
+    },
+    {
+        "url": "/ability/zero-to-hero",
+        "name": "Zero to Hero",
+        "pokemon_count": 2,
+        "description": "Transforms into its Hero Form when switching out.",
+        "gen": 9
+    }
+]

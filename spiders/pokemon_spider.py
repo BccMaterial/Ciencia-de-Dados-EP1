@@ -1,21 +1,8 @@
 import scrapy
 import re
 
-# Data to get:
-# ID x
-# URL x
-# Name x
-# Evolutions
-# Size in cm x
-# Weight in kg x
-# Types x
-# Abilities x
-# Effectivity
-
-# Effectiviness: Dict with each type
-
 class PokeSpider(scrapy.Spider):
-    name = 'pokespider'
+    name = 'pokemon_spider'
     start_urls = ['https://pokemondb.net/pokedex/all']
 
     def parse(self, response):
@@ -63,4 +50,3 @@ class PokeSpider(scrapy.Spider):
             in response.css("table.type-table.type-table-pokedex td").xpath("@class").extract()
         ]
         return dict(zip(effectiveness_keys, effectiveness_values))
-
