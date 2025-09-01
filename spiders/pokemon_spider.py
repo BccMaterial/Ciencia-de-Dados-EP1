@@ -30,6 +30,8 @@ class PokeSpider(scrapy.Spider):
 
         effectiveness = self.parse_effectiveness(response)
 
+        evolutions = self.parse_evolution(response)
+
         yield {
             "id": int(pokemon_id),
             "variant": 0,
@@ -40,8 +42,13 @@ class PokeSpider(scrapy.Spider):
             "effectiveness": effectiveness,
             "url": response.request.url,
             "abilities": abilities_urls,
+            "evolution": evolutions
         }
 
+    def parse_evolution(self, response):
+        evolutions = response.css("div.infocard-list-evo > div.infocard a.ent-name::text").getall()
+        return evolutions
+    
     def parse_effectiveness(self, response):
         effectiveness_keys = response.css("table.type-table.type-table-pokedex th a::attr(href)").getall()
         value_regex = r'type-fx-cell\stype-fx-(\d+)'
@@ -50,3 +57,6 @@ class PokeSpider(scrapy.Spider):
             in response.css("table.type-table.type-table-pokedex td").xpath("@class").extract()
         ]
         return dict(zip(effectiveness_keys, effectiveness_values))
+    
+    
+    
