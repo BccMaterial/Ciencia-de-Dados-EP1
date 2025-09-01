@@ -47,23 +47,47 @@ class PokeSpider(scrapy.Spider):
 
     def parse_evolution(self, response):#Retorna uma lista de objetos
         evolutions_list = []
-        evolutions_names = response.css("div.infocard-list-evo a.ent-name::text").getall()[1:]
-        evolutions_requirements = response.css("span.infocard.infocard-arrow small").xpath("normalize-space()").getall()
-        print(evolutions_requirements)
+        evolutions_card_main = response.css("div.infocard-list-evo")
 
-        # for evolution in evolutions_requirements:
-        #     anchor_text = evolution.css("a::text").get()
-        #     if anchor_text is None:
-        #         anchor_text = ""
-        #     evolutions_requirements_list.append(evolution.css("::text").get() + anchor_text)
+        if len(evolutions_card_main.getall()) <= 1:
+            evolutions_names = response.css("div.infocard-list-evo a.ent-name::text").getall()[1:]
+            evolutions_requirements = response.css("span.infocard.infocard-arrow small").xpath("normalize-space()").getall()
+            print(evolutions_requirements)
 
-        for name, evolution in zip(evolutions_names, evolutions_requirements):
-            evolutions_list.append({
-                "name": name,
-                "requirement": evolution
-        })
-        return evolutions_list            
-            
+            # for evolution in evolutions_requirements:
+            #     anchor_text = evolution.css("a::text").get()
+            #     if anchor_text is None:
+            #         anchor_text = ""
+            #     evolutions_requirements_list.append(evolution.css("::text").get() + anchor_text)
+
+            for name, evolution in zip(evolutions_names, evolutions_requirements):
+                evolutions_list.append({
+                    "name": name,
+                    "requirement": evolution
+            })
+            return evolutions_list            
+        
+        evolutions_cards = evolutions_card_main.css("div.infocard-list-evo")
+
+        for evolution_card in evolutions_cards:
+            evolutions_names = evolution_card.css("div.infocard-list-evo a.ent-name::text").getall()[1:]
+            evolutions_requirements = evolution_card.css("span.infocard.infocard-arrow small").xpath("normalize-space()").getall()
+            print(evolutions_requirements)
+
+            # for evolution in evolutions_requirements:
+            #     anchor_text = evolution.css("a::text").get()
+            #     if anchor_text is None:
+            #         anchor_text = ""
+            #     evolutions_requirements_list.append(evolution.css("::text").get() + anchor_text)
+
+            for name, evolution in zip(evolutions_names, evolutions_requirements):
+                evolutions_list.append({
+                    "name": name,
+                    "requirement": evolution
+            })
+
+        return evolutions_list
+
     def parse_effectiveness(self, response):
         effectiveness_keys = response.css("table.type-table.type-table-pokedex th a::attr(href)").getall()
         value_regex = r'type-fx-cell\stype-fx-(\d+)'
