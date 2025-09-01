@@ -1,5 +1,20 @@
 import ijson
 from pymongo import MongoClient
+from decimal import Decimal
+from bson.decimal128 import Decimal128
+
+def convert_decimals_to_decimal128(obj):
+    """
+    Converte todos os valores Decimal para Decimal128 (suportado pelo MongoDB)
+    """
+    if isinstance(obj, Decimal):
+        return Decimal128(str(obj))  # Converter para string primeiro
+    elif isinstance(obj, dict):
+        return {k: convert_decimals_to_decimal128(v) for k, v in obj.items()}
+    elif isinstance(obj, list):
+        return [convert_decimals_to_decimal128(item) for item in obj]
+    else:
+        return obj
 
 def import_large_json(json_file_path, database_name, collection_name):
     """Processa JSONs muito grandes usando streaming"""
@@ -14,7 +29,8 @@ def import_large_json(json_file_path, database_name, collection_name):
         batch_size = 100
         
         for obj in objects:
-            batch.append(obj)
+            new_obj = convert_decimals_to_decimal128(obj)
+            batch.append(new_obj)
             
             if len(batch) >= batch_size:
                 collection.insert_many(batch)
