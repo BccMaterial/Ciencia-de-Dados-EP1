@@ -51,17 +51,13 @@ class PokeSpider(scrapy.Spider):
 
     def parse_evolution(self, response):#Retorna uma lista de objetos
         evolutions_list = []
-        evolutions_names = response.css("div.infocard-list-evo a.ent-name::text").getall()
-        evolutions_level_requirements = response.css("div.infocard-list-evo small::text").getall()
-        evolutions_item_requirements  = response.css("div.infocard-list-evo span.infocard-arrow a::text").getall()
+        evolutions_names = response.css("div.infocard-list-evo a.ent-name::text").getall()[1:]
+        evolutions_requirements = response.css("span.infocard.infocard-arrow small::text").getall()
 
-        for name, level, item in zip(evolutions_names, evolutions_level_requirements, evolutions_item_requirements ):
+        for name, evolution in zip(evolutions_names, evolutions_requirements):
             evolutions_list.append({
                 "name": name,
-                "requirements": {
-                    "Evolution level": level,
-                    "Evolution item": item
-            }
+                "requirement": evolution
         })
         return evolutions_list            
             
