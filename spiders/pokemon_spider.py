@@ -45,10 +45,26 @@ class PokeSpider(scrapy.Spider):
             "evolution": evolutions
         }
 
-    def parse_evolution(self, response):
-        evolutions = response.css("div.infocard-list-evo > div.infocard a.ent-name::text").getall()
-        return evolutions
-    
+    #def parse_evolution(self, response):
+        #evolutions_names = response.css("div.infocard-list-evo > div.infocard a.ent-name::text").getall()
+        #return evolutions_names
+
+    def parse_evolution(self, response):#Retorna uma lista de objetos
+        evolutions_list = []
+        evolutions_names = response.css("div.infocard-list-evo a.ent-name::text").getall()
+        evolutions_level_requirements = response.css("div.infocard-list-evo small::text").getall()
+        evolutions_item_requirements  = response.css("div.infocard-list-evo span.infocard-arrow a::text").getall()
+
+        for name, level, item in zip(evolutions_names, evolutions_level_requirements, evolutions_item_requirements ):
+            evolutions_list.append({
+                "name": name,
+                "requirements": {
+                    "Evolution level": level,
+                    "Evolution item": item
+            }
+        })
+        return evolutions_list            
+            
     def parse_effectiveness(self, response):
         effectiveness_keys = response.css("table.type-table.type-table-pokedex th a::attr(href)").getall()
         value_regex = r'type-fx-cell\stype-fx-(\d+)'
