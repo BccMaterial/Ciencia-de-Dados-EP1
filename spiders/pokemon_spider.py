@@ -45,14 +45,17 @@ class PokeSpider(scrapy.Spider):
             "evolution": evolutions
         }
 
-    #def parse_evolution(self, response):
-        #evolutions_names = response.css("div.infocard-list-evo > div.infocard a.ent-name::text").getall()
-        #return evolutions_names
-
     def parse_evolution(self, response):#Retorna uma lista de objetos
         evolutions_list = []
         evolutions_names = response.css("div.infocard-list-evo a.ent-name::text").getall()[1:]
-        evolutions_requirements = response.css("span.infocard.infocard-arrow small::text").getall()
+        evolutions_requirements = response.css("span.infocard.infocard-arrow small").xpath("normalize-space()").getall()
+        print(evolutions_requirements)
+
+        # for evolution in evolutions_requirements:
+        #     anchor_text = evolution.css("a::text").get()
+        #     if anchor_text is None:
+        #         anchor_text = ""
+        #     evolutions_requirements_list.append(evolution.css("::text").get() + anchor_text)
 
         for name, evolution in zip(evolutions_names, evolutions_requirements):
             evolutions_list.append({
