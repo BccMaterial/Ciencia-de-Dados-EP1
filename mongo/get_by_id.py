@@ -1,11 +1,12 @@
 from pymongo import MongoClient
 from pprint import pprint
 
+connection_string = "mongodb+srv://thiagopls1:CEzSRhFpkJnMK4yL@cluster-teste.wjaszlz.mongodb.net/"
+
 def find_document_by_field(database_name, collection_name, field, value):
-    client = MongoClient("mongodb+srv://thiagopls1:CEzSRhFpkJnMK4yL@cluster-teste.wjaszlz.mongodb.net/")
+    client = MongoClient(connection_string)
     collection = client[database_name][collection_name]
     return collection.find({field: value})    
-
 
 if __name__ == '__main__':
     db_name = "pokedb"
