@@ -8,7 +8,7 @@ df = pd.read_json("../output/pokemons.json")
 def clean_list(x):
     if isinstance(x, list): #isinstance verifica se evolutions é do tipo list
         seen = set() #Sets não permitem repetição de elementos e ajudam a fazer a checagem de duplicatas rapidamente
-        return [i for i in x if not (i in seen or seen.add(i))]
+        return [i for i in x if not (i in seen or seen.add(i))] #.add() sempre retorna None(None em um if é considerado falso)
     return x
 
 
@@ -38,4 +38,4 @@ df["evolution"] = df.apply(lambda row: clean_evolution(row["evolution"], row["na
 #Exporta de data frame para json novamente:
 df.to_json("./pokemons_clean.json", orient="records", indent=2, force_ascii=False)
 
-print("✅ Arquivo 'pokemons_clean.json' gerado com sucesso!")
+print("Arquivo gerado com sucesso")
